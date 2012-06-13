@@ -65,6 +65,7 @@
  */
 	if (!defined('WEBROOT_DIR')) {
 		define('WEBROOT_DIR', basename(dirname(__FILE__)));
+		//define('WEBROOT_DIR', 'iaw');
 	}
 	if (!defined('WWW_ROOT')) {
 		define('WWW_ROOT', dirname(__FILE__) . DS);
