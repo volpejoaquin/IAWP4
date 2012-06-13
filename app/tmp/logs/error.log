@@ -312,3 +312,248 @@
 2012-06-05 19:02:03 Error: [MissingControllerException] Controller class ImagesController could not be found.
 #0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-06-05 22:59:43 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-05 23:01:49 Error: [MissingControllerException] Controller class Contact-us.htmlController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-05 23:01:52 Error: [MissingControllerException] Controller class Sitemap.htmlController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-05 23:01:55 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-05 23:01:57 Error: [MissingControllerException] Controller class Contact-us.htmlController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-05 23:01:59 Error: [MissingControllerException] Controller class Sitemap.htmlController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-05 23:02:03 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-05 23:02:20 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-05 23:02:22 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-05 23:02:29 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-05 23:02:39 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-05 23:02:49 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-05 23:03:31 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-05 23:03:32 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-05 23:05:32 Error: [MissingControllerException] Controller class ContactoController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-05 23:07:26 Error: [MissingControllerException] Controller class ContactoController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-05 23:07:28 Error: [MissingControllerException] Controller class ContactoController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-05 23:07:51 Error: [MissingControllerException] Controller class ContactoController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-05 23:08:56 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Pages\js\script.js.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName('js/script.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render('js/script.js', NULL)
+#2 C:\wamp\www\IAWP4\app\Controller\PagesController.php(80): Controller->render('js/script.js')
+#3 [internal function]: PagesController->display('js', 'script.js')
+#4 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-06-05 23:08:56 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Pages\css\style.css.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName('css/style.css')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render('css/style.css', NULL)
+#2 C:\wamp\www\IAWP4\app\Controller\PagesController.php(80): Controller->render('css/style.css')
+#3 [internal function]: PagesController->display('css', 'style.css')
+#4 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-06-05 23:08:56 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Pages\js\cufon-replace.js.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName('js/cufon-replac...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render('js/cufon-replac...', NULL)
+#2 C:\wamp\www\IAWP4\app\Controller\PagesController.php(80): Controller->render('js/cufon-replac...')
+#3 [internal function]: PagesController->display('js', 'cufon-replace.j...')
+#4 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-06-05 23:08:56 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Pages\js\cufon-yui.js.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName('js/cufon-yui.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render('js/cufon-yui.js', NULL)
+#2 C:\wamp\www\IAWP4\app\Controller\PagesController.php(80): Controller->render('js/cufon-yui.js')
+#3 [internal function]: PagesController->display('js', 'cufon-yui.js')
+#4 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-06-05 23:08:56 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Pages\js\jquery-1.4.2.min.js.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName('js/jquery-1.4.2...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render('js/jquery-1.4.2...', NULL)
+#2 C:\wamp\www\IAWP4\app\Controller\PagesController.php(80): Controller->render('js/jquery-1.4.2...')
+#3 [internal function]: PagesController->display('js', 'jquery-1.4.2.mi...')
+#4 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-06-05 23:08:56 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Pages\js\Gill_Sans_400.font.js.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName('js/Gill_Sans_40...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render('js/Gill_Sans_40...', NULL)
+#2 C:\wamp\www\IAWP4\app\Controller\PagesController.php(80): Controller->render('js/Gill_Sans_40...')
+#3 [internal function]: PagesController->display('js', 'Gill_Sans_400.f...')
+#4 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-06-05 23:08:57 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Pages\css\images\icon2.gif.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName('css/images/icon...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render('css/images/icon...', NULL)
+#2 C:\wamp\www\IAWP4\app\Controller\PagesController.php(80): Controller->render('css/images/icon...')
+#3 [internal function]: PagesController->display('css', 'images', 'icon2.gif')
+#4 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-06-05 23:08:57 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Pages\css\images\icon4.gif.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName('css/images/icon...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render('css/images/icon...', NULL)
+#2 C:\wamp\www\IAWP4\app\Controller\PagesController.php(80): Controller->render('css/images/icon...')
+#3 [internal function]: PagesController->display('css', 'images', 'icon4.gif')
+#4 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-06-05 23:08:57 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Pages\css\images\icon3.gif.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName('css/images/icon...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render('css/images/icon...', NULL)
+#2 C:\wamp\www\IAWP4\app\Controller\PagesController.php(80): Controller->render('css/images/icon...')
+#3 [internal function]: PagesController->display('css', 'images', 'icon3.gif')
+#4 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-06-05 23:08:57 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Pages\css\images\icon1-act.gif.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName('css/images/icon...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render('css/images/icon...', NULL)
+#2 C:\wamp\www\IAWP4\app\Controller\PagesController.php(80): Controller->render('css/images/icon...')
+#3 [internal function]: PagesController->display('css', 'images', 'icon1-act.gif')
+#4 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-06-05 23:08:57 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Pages\img\1page-img1.jpg.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName('img/1page-img1....')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render('img/1page-img1....', NULL)
+#2 C:\wamp\www\IAWP4\app\Controller\PagesController.php(80): Controller->render('img/1page-img1....')
+#3 [internal function]: PagesController->display('img', '1page-img1.jpg')
+#4 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-06-05 23:08:57 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Pages\img\1page-img2.jpg.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName('img/1page-img2....')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render('img/1page-img2....', NULL)
+#2 C:\wamp\www\IAWP4\app\Controller\PagesController.php(80): Controller->render('img/1page-img2....')
+#3 [internal function]: PagesController->display('img', '1page-img2.jpg')
+#4 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-06-05 23:08:57 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Pages\img\1page-img3.jpg.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName('img/1page-img3....')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render('img/1page-img3....', NULL)
+#2 C:\wamp\www\IAWP4\app\Controller\PagesController.php(80): Controller->render('img/1page-img3....')
+#3 [internal function]: PagesController->display('img', '1page-img3.jpg')
+#4 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-06-05 23:08:57 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Pages\img\1page-img4.jpg.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName('img/1page-img4....')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render('img/1page-img4....', NULL)
+#2 C:\wamp\www\IAWP4\app\Controller\PagesController.php(80): Controller->render('img/1page-img4....')
+#3 [internal function]: PagesController->display('img', '1page-img4.jpg')
+#4 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-06-05 23:10:23 Error: [MissingActionException] Action InicioController::index() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(InicioController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-05 23:11:50 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Inicio\home.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName('home')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render('home', NULL)
+#2 C:\wamp\www\IAWP4\app\Controller\InicioController.php(80): Controller->render('home')
+#3 [internal function]: InicioController->display('home')
+#4 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(InicioController), Array)
+#5 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(InicioController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-06-12 23:12:50 Error: [MissingControllerException] Controller class Phpliteadmin.phpController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-12 23:26:16 Error: [MissingControllerException] Controller class Phpliteadmin.phpController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-12 23:26:35 Error: [MissingControllerException] Controller class Phpliteadmin.phpController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-12 23:26:39 Error: [MissingControllerException] Controller class Phpliteadmin.phpController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-12 23:26:53 Error: [MissingControllerException] Controller class Phpliteadmin.phpController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-13 15:09:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-13 15:14:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-13 15:16:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-13 15:16:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-13 15:17:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-13 15:18:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-13 15:20:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
