@@ -7,8 +7,13 @@
 	<meta name="description" content="Place your description here" />
 	<meta name="keywords" content="put, your, keyword, here" />
 	<meta name="author" content="Templates.com - website templates provider" />
-	<link href="css/style.css" rel="stylesheet" type="text/css" />
-	<link href="css/style.controlers.css" rel="stylesheet" type="text/css" />
+	
+	<?php
+
+		echo $this->Html->css('style.css');
+		echo $this->Html->css('style.controlers.css');
+	?>
+	
 	<script src="js/jquery-1.4.2.min.js" type="text/javascript"></script>
 	<script src="js/cufon-yui.js" type="text/javascript"></script>
 	<script src="js/cufon-replace.js" type="text/javascript"></script>
