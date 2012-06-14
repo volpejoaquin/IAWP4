@@ -5,73 +5,10 @@ App::uses('AppModel', 'Model');
  *
  * @property Actor $Actor
  * @property Director $Director
- * @property Gnre $Gnre
- * @property Written $Written
+ * @property Genre $Genre
+ * @property Writer $Writer
  */
 class Movie extends AppModel {
-/**
- * Display field
- *
- * @var string
- */
-	public $displayField = 'name';
-/**
- * Validation rules
- *
- * @var array
- */
-	public $validate = array(
-		'id' => array(
-			'numeric' => array(
-				'rule' => array('numeric'),
-				//'message' => 'Your custom message here',
-				//'allowEmpty' => false,
-				//'required' => false,
-				//'last' => false, // Stop validation after this rule
-				//'on' => 'create', // Limit validation to 'create' or 'update' operations
-			),
-		),
-		'name' => array(
-			'alphanumeric' => array(
-				'rule' => array('alphanumeric'),
-				//'message' => 'Your custom message here',
-				//'allowEmpty' => false,
-				//'required' => false,
-				//'last' => false, // Stop validation after this rule
-				//'on' => 'create', // Limit validation to 'create' or 'update' operations
-			),
-		),
-		'year' => array(
-			'numeric' => array(
-				'rule' => array('numeric'),
-				//'message' => 'Your custom message here',
-				//'allowEmpty' => false,
-				//'required' => false,
-				//'last' => false, // Stop validation after this rule
-				//'on' => 'create', // Limit validation to 'create' or 'update' operations
-			),
-		),
-		'info' => array(
-			'alphanumeric' => array(
-				'rule' => array('alphanumeric'),
-				//'message' => 'Your custom message here',
-				//'allowEmpty' => false,
-				//'required' => false,
-				//'last' => false, // Stop validation after this rule
-				//'on' => 'create', // Limit validation to 'create' or 'update' operations
-			),
-		),
-		'duration' => array(
-			'alphanumeric' => array(
-				'rule' => array('alphanumeric'),
-				//'message' => 'Your custom message here',
-				//'allowEmpty' => false,
-				//'required' => false,
-				//'last' => false, // Stop validation after this rule
-				//'on' => 'create', // Limit validation to 'create' or 'update' operations
-			),
-		),
-	);
 
 	//The Associations below have been created with all possible keys, those that are not needed can be removed
 
@@ -83,7 +20,7 @@ class Movie extends AppModel {
 	public $hasAndBelongsToMany = array(
 		'Actor' => array(
 			'className' => 'Actor',
-			'joinTable' => 'movies_actor',
+			'joinTable' => 'movies_actors',
 			'foreignKey' => 'movie_id',
 			'associationForeignKey' => 'actor_id',
 			'unique' => 'keepExisting',
@@ -98,7 +35,7 @@ class Movie extends AppModel {
 		),
 		'Director' => array(
 			'className' => 'Director',
-			'joinTable' => 'movies_director',
+			'joinTable' => 'movies_directors',
 			'foreignKey' => 'movie_id',
 			'associationForeignKey' => 'director_id',
 			'unique' => 'keepExisting',
@@ -111,11 +48,11 @@ class Movie extends AppModel {
 			'deleteQuery' => '',
 			'insertQuery' => ''
 		),
-		'Gnre' => array(
-			'className' => 'Gnre',
-			'joinTable' => 'movies_gnre',
+		'Genre' => array(
+			'className' => 'Genre',
+			'joinTable' => 'movies_genres',
 			'foreignKey' => 'movie_id',
-			'associationForeignKey' => 'gnre_id',
+			'associationForeignKey' => 'genre_id',
 			'unique' => 'keepExisting',
 			'conditions' => '',
 			'fields' => '',
@@ -126,11 +63,11 @@ class Movie extends AppModel {
 			'deleteQuery' => '',
 			'insertQuery' => ''
 		),
-		'Written' => array(
-			'className' => 'Written',
-			'joinTable' => 'movies_written',
+		'Writer' => array(
+			'className' => 'Writer',
+			'joinTable' => 'movies_writers',
 			'foreignKey' => 'movie_id',
-			'associationForeignKey' => 'written_id',
+			'associationForeignKey' => 'writer_id',
 			'unique' => 'keepExisting',
 			'conditions' => '',
 			'fields' => '',

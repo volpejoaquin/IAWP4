@@ -11,7 +11,7 @@ class MovieTestCase extends CakeTestCase {
  *
  * @var array
  */
-	public $fixtures = array('app.movie', 'app.actor', 'app.movies_actor', 'app.director', 'app.movies_director', 'app.gnre', 'app.movies_gnre', 'app.written', 'app.movies_written');
+	public $fixtures = array('app.movie', 'app.actor', 'app.movies_actor', 'app.director', 'app.movies_director', 'app.genre', 'app.movies_genre', 'app.writer', 'app.movies_writer');
 
 /**
  * setUp method
