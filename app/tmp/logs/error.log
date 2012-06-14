@@ -852,3 +852,1206 @@
 #1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ActorsController), Object(CakeRequest), Object(CakeResponse))
 #2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2012-06-14 18:13:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-14 18:14:21 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-14 18:14:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-14 18:15:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-14 18:19:05 Error: [MissingTableException] Table inicios for model Inicio was not found in datasource default.
+#0 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(3443): Model->setSource('inicios')
+#1 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(2698): Model->getDataSource()
+#2 C:\wamp\www\IAWP4\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#3 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate(NULL, Array, Array)
+#4 C:\wamp\www\IAWP4\app\Controller\IniciosController.php(18): Controller->paginate()
+#5 [internal function]: IniciosController->index('')
+#6 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(IniciosController), Array)
+#7 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(IniciosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-06-14 18:19:31 Error: [MissingTableException] Table inicios for model Inicio was not found in datasource default.
+#0 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(3443): Model->setSource('inicios')
+#1 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(2698): Model->getDataSource()
+#2 C:\wamp\www\IAWP4\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#3 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate(NULL, Array, Array)
+#4 C:\wamp\www\IAWP4\app\Controller\IniciosController.php(18): Controller->paginate()
+#5 [internal function]: IniciosController->index('')
+#6 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(IniciosController), Array)
+#7 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(IniciosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-06-14 18:19:33 Error: [MissingTableException] Table inicios for model Inicio was not found in datasource default.
+#0 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(3443): Model->setSource('inicios')
+#1 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(2698): Model->getDataSource()
+#2 C:\wamp\www\IAWP4\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#3 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate(NULL, Array, Array)
+#4 C:\wamp\www\IAWP4\app\Controller\IniciosController.php(18): Controller->paginate()
+#5 [internal function]: IniciosController->index('')
+#6 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(IniciosController), Array)
+#7 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(IniciosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-06-14 18:20:49 Error: [MissingControllerException] Controller class Phpliteadmin.phpController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-14 18:20:52 Error: [MissingControllerException] Controller class Phpliteadmin.phpController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-14 18:24:23 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:24:23 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:24:23 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:24:23 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:24:24 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:24:24 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:24:24 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:24:24 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:42:19 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:42:20 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:42:20 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:42:20 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:42:20 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:42:20 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:42:20 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:42:20 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:43:21 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:43:21 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:43:21 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:43:21 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:43:21 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:43:21 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:43:21 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:43:21 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:47:33 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:47:33 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:47:33 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:47:33 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:47:33 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:47:34 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:47:34 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:47:34 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 18:48:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-14 19:01:32 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 19:01:32 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 19:01:32 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 19:01:32 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 19:01:32 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 19:01:32 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 19:01:32 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 19:01:32 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 19:09:59 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 19:09:59 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 19:09:59 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 19:09:59 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 19:09:59 Error: [MissingActionException] Action MoviesController::js() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 19:10:00 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 19:10:00 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 19:10:00 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-14 19:15:32 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'jquery-1.4.2.mi...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:15:32 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'cufon-replace.j...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:15:33 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'script.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:15:33 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'cufon-yui.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:15:33 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'Gill_Sans_400.f...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:15:33 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon4.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:15:33 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon1-act.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:15:33 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon2.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:16:01 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'jquery-1.4.2.mi...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:16:01 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'cufon-replace.j...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:16:01 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'Gill_Sans_400.f...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:16:01 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'script.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:16:01 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'cufon-yui.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:16:01 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon2.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:16:01 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon1-act.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:16:01 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon4.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:16:53 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'jquery-1.4.2.mi...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:16:53 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'cufon-yui.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:16:53 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'cufon-replace.j...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:16:53 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'Gill_Sans_400.f...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:16:53 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'script.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:16:53 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon2.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:16:53 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon1-act.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:16:53 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon4.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:16:58 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view2('Toy Story 3')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:16:59 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view2('js', 'Gill_Sans_400.f...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:16:59 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view2('js', 'cufon-replace.j...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:16:59 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view2('js', 'jquery-1.4.2.mi...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:16:59 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view2('js', 'script.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:16:59 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view2('js', 'cufon-yui.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:16:59 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view2('css', 'images', 'icon1-act.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:16:59 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view2('css', 'images', 'icon4.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:16:59 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view2('css', 'images', 'icon2.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:07 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view2('Aaa')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:07 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view2('js', 'jquery-1.4.2.mi...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:07 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view2('js', 'cufon-yui.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:07 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view2('js', 'cufon-replace.j...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:07 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view2('js', 'script.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:07 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view2('js', 'Gill_Sans_400.f...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:08 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view2('css', 'images', 'icon1-act.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:08 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view2('css', 'images', 'icon4.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:08 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view2('css', 'images', 'icon2.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:12 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('Aaa')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:12 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'script.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:12 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'cufon-replace.j...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:12 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'cufon-yui.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:12 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'jquery-1.4.2.mi...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:12 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'Gill_Sans_400.f...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:12 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon1-act.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:12 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon2.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:12 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon4.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:14 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('Toy Story 3')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:15 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'script.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:15 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'cufon-yui.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:15 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'jquery-1.4.2.mi...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:15 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'cufon-replace.j...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:15 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'Gill_Sans_400.f...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:15 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon1-act.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:15 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon2.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:15 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon4.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:18 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'script.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:18 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'jquery-1.4.2.mi...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:18 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'cufon-yui.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:18 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'Gill_Sans_400.f...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:18 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'cufon-replace.j...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:18 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon1-act.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:18 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon4.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:18 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon2.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:41 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('movies')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:41 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'jquery-1.4.2.mi...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:41 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'cufon-yui.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:41 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'cufon-replace.j...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:41 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'Gill_Sans_400.f...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:41 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'script.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:42 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon4.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:42 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon1-act.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:42 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon2.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:49 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('movies')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:49 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'jquery-1.4.2.mi...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:49 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'cufon-replace.j...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:49 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'cufon-yui.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:50 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'Gill_Sans_400.f...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:50 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'script.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:50 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon2.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:50 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon1-act.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:17:50 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon4.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:01 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'jquery-1.4.2.mi...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:01 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'cufon-yui.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:01 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'Gill_Sans_400.f...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:01 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'cufon-replace.j...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:01 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'script.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:01 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon4.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:01 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon1-act.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:01 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon2.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:02 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('movies')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:03 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'jquery-1.4.2.mi...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:03 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'cufon-yui.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:03 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'script.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:03 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'cufon-replace.j...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:03 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'Gill_Sans_400.f...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:03 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon4.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:03 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon1-act.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:03 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon2.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:21 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon4.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:21 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon1-act.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:21 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon2.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:34 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon4.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:34 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon2.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:34 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon1-act.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:41 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'cufon-replace.j...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:41 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'jquery-1.4.2.mi...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:41 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'cufon-yui.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:41 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'Gill_Sans_400.f...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:41 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'script.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:41 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon2.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:41 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon1-act.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:41 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon4.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:43 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('genres')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:43 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'cufon-yui.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:43 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'Gill_Sans_400.f...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:43 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'cufon-replace.j...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:43 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'script.js')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:43 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('js', 'jquery-1.4.2.mi...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:43 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon2.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:43 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon1-act.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:43 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon4.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:44 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon2.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:44 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon1-act.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:18:44 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon4.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-14 19:27:38 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

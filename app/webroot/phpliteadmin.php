@@ -49,7 +49,7 @@ $databases = array
 (
 	array
 	(
-		"path"=> "database1.sqlite",
+		"path"=> "iawp4.sqlite",
 		"name"=> "Database 1"
 	),
 	array

@@ -1,3 +1,60 @@
+<div id="content"><div class="ic">More Website Templates at TemplateMonster.com!</div>
+ <div id="slogan">
+   <div class="image png"></div>
+   <div class="inside">
+	<h>We are breaking<span>All Limitations</span></h>
+    <p>Lorem ipsum dolor consectetur adipisicing elit, sed do eiusmod tempor incididunt labore etolore magna aliqua enim minim veniam quis nostrud exercitation ullamco laboris.</p>
+    <div class="wrapper"><a href="#" class="link"><span><span>Learn More</span></span></a></div>
+   </div>
+</div>
+<div class="box">
+   <div class="border-right">
+		<div class="border-left">
+       <div class="inner">
+	     <h>Welcome to <b>Cinema</b> <span>World</span></h>
+         <p>Cinema World Site is a free web template created by <a rel="nofollow" href="http://www.templatemonster.com/" class="new_window">TemplateMonster.com</a> team. This website template is optimized for X screen resolution. It is also XHTML &amp; CSS valid.</p>
+         <div class="img-box"><img src="img/1page-img1.jpg" alt="" />This website template can be delivered in two packages - with PSD source files included and without them. If you need PSD source files, please go to the template download page at TemplateMonster to leave the e-mail address that you want the template ZIP package to be delivered to.</div>
+         <p>This website template has several pages: <a href="index.html">Home</a>, <a href="about-us.html">About us</a>, <a href="articles.html">Articles</a> (with Article page), <a href="contact-us.html">Contact us</a> (note that contact us form ? doesn?t work), <a href="sitemap.html">Site Map</a>.</p>
+       </div>
+     </div>
+   </div>	
+ </div>
+ <div class="content">
+   <h>Fresh <span>Movies</span></h>
+   <ul class="movies">
+	<?php
+		foreach ($movies as $movie) {
+			if (h($movie['Movie']['id']) % 3 == 0) {
+	?>	
+				<li class="last">
+	<?php
+			} else {
+	?>
+				<li>
+	<?php
+			}
+	?>			
+				<div>
+					<h><?php echo h($movie['Movie']['name']); ?></h>
+				</div>
+				<div class="year">
+					<h>(<?php echo h($movie['Movie']['year']); ?>) </h>
+				</div>
+				<a href="movies/view/<?php echo h($movie['Movie']['id']); ?>" class="link">
+					<img src="img/1page-img<?php echo h($movie['Movie']['id']) + 1; ?>.jpg" alt="" />
+				</a>
+				<p><?php echo substr(h($movie['Movie']['info']), 0, 140) . "..."; ?></p>
+				<div class="wrapper"><a href="movies/view/<?php echo h($movie['Movie']['id']); ?>" class="link"><span><span>Read More</span></span></a></div>
+			 </li>	
+	<?php } ?>
+     <li class="clear">&nbsp;</li>
+   </ul>
+ </div>
+</div>
+
+<div class="clear">
+</div>
+
 <div class="movies index">
 	<h2><?php echo __('Movies');?></h2>
 	<table cellpadding="0" cellspacing="0">
@@ -58,3 +115,7 @@
 		<li><?php echo $this->Html->link(__('New Writer'), array('controller' => 'writers', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
+
+
+
+

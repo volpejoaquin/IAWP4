@@ -9,7 +9,6 @@
 	<meta name="author" content="Templates.com - website templates provider" />
 	
 	<?php
-
 		echo $this->Html->css('style.css');
 		echo $this->Html->css('style.controlers.css');
 	?>

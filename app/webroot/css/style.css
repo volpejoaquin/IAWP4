@@ -35,12 +35,13 @@ ul, ol {list-style:none}
 #contacts-form .link2 {float:right}
 /* LISTS */
 .movies {width:100%}
-.movies li {float:left;width:286px;margin-right:15px}
+.movies li {float:left;width:286px;margin-right:15px; padding-top:20px;}
 .movies li.last {margin-right:0}
 .movies li.clear {float:none;width:auto;margin:0;font-size:0;line-height:0}
 .movies li img {margin-left:-30px;position:relative}
 .movies li p {margin:5px 0 15px 0;padding-right:40px}
 .movies li p span {color:#fff}
+.movies .year {padding-bottom:10px;}
 .list {margin-top:-30px}
 .list li {width:100%;overflow:hidden;vertical-align:top;line-height:1.714em;padding-top:40px}
 .list li img {float:left;margin:-10px 20px 0 0}
