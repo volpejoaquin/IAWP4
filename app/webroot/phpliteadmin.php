@@ -35,7 +35,7 @@
 //////////////////////////////
 
 //password to gain access
-$password = "iawp4";
+$password = "";
 
 //directory relative to this file to search for databases (if false, manually list databases in the $databases variable)
 $directory = "/Datos";

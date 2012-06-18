@@ -12,18 +12,19 @@
 		echo $this->Html->css('style.css');
 		echo $this->Html->css('style.controlers.css');
 	?>
+	<?php echo $this->Html->script('jquery-1.7.2.min'); ?>
+		<?php echo $this->Html->script('cufon-yui'); ?>
+		<?php echo $this->Html->script('cufon-replace'); ?>
+		<?php echo $this->Html->script('Gill_Sans_400.font'); ?>
+		<?php echo $this->Html->script('script'); ?>
 	
-	<script src="js/jquery-1.4.2.min.js" type="text/javascript"></script>
-	<script src="js/cufon-yui.js" type="text/javascript"></script>
-	<script src="js/cufon-replace.js" type="text/javascript"></script>
-	<script src="js/Gill_Sans_400.font.js" type="text/javascript"></script>
-	<script src="js/script.js" type="text/javascript"></script>
 	<!--[if lt IE 7]>
-		<script type="text/javascript" src="js/ie_png.js"></script>
-		<script type="text/javascript">
-			 ie_png.fix('.png, .link1 span, .link1');
-		</script>
-		<link href="ie6.css" rel="stylesheet" type="text/css" />
+	<?php
+		echo $this->Html->script('ie_png');
+		echo "<script type='text/javascript'> ie_png.fix('.png, .link1 span, .link1');</script>";
+		
+		echo $this->Html->css('ie6.css');
+	?>
 	<![endif]-->
 </head>
 <body id="page1">
@@ -44,6 +45,6 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript"> Cufon.now(); </script>
+
 </body>
 </html>

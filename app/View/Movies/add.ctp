@@ -1,10 +1,16 @@
 <div class="movies form">
+<?php echo $this->Html->script('webservice'); ?>
+    
 <?php echo $this->Form->create('Movie');?>
 	<fieldset>
 		<legend><?php echo __('Add Movie'); ?></legend>
 	<?php
-		echo $this->Form->input('name');
-		echo $this->Form->input('year');
+                echo "<input type='text' id='movieNameSearch'></input>";
+            //    echo $this->Form->button('Another Button', array('type' => 'image', 'src'=>'rottenT_logo.png', 'id'=>'rotten', 'onClick'=>'rottenClick'));
+                echo $this->Html->image('rottenT_logo.png', array('alt'=>'RottenTomatoes Info', 'id'=>'rotten'));
+                
+                echo $this->Form->input('name');
+                echo $this->Form->input('year');
 		echo $this->Form->input('info');
 		echo $this->Form->input('duration');
 		echo $this->Form->input('avg_rating');
