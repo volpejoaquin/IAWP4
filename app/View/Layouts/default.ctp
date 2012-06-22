@@ -17,7 +17,8 @@
 		<?php echo $this->Html->script('cufon-replace'); ?>
 		<?php echo $this->Html->script('Gill_Sans_400.font'); ?>
 		<?php echo $this->Html->script('script'); ?>
-	
+		<?php echo $this->Html->script('webservice'); ?>
+
 	<!--[if lt IE 7]>
 	<?php
 		echo $this->Html->script('ie_png');

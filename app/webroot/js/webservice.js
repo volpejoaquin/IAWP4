@@ -8,42 +8,66 @@ var BASE_URI= "http://api.rottentomatoes.com/api/public/v1.0";
 
 $(document).ready(function(){
     
-    $('rotten').click(rottenClick);
+  //  $('rotten').click(rottenClick);
+    $('#rotten').bind('click',rottenClick);
   
 });
 
 function rottenClick()
 {
-    alert("nombre");
+    var nombre = $('#movieNameSearch').val();
+    
+   // alert(nombre);
+   // alert($("movieNameSearch").text());
+   buscarPeli(nombre);
 }
 
 function buscarPeli(nombre)
 {
+      
     var url=BASE_URI+'/movies.json?apikey='+API_KEY;
     
-        //Info sobre el search
-    	$.getJSON(encodeURI(url+"&q="+nombre), function(data) {
+    $.ajax({
+    type: "GET",
+    url: url+"&q="+nombre,
+    dataType: "jsonp",
+    success: function(data) {
+      
+       // $("#sugerencias").html("");
        
         var arrayPelis = data.movies;
         
         if (data.total > 1)
         { //mas de un resultado...resolver cual agarrar
         }
+        var i;
+        for(i=0;i<data.movies.length;i++)
+          {
+            var peli = data.movies[i];
+            var page_peli=data.movies[i].links.self;
+
+
+            var id = peli.id;
+            var title= peli.title;
+            var anio= peli.year;
+            var tiempo = peli.runtime;
+            var sintesis = peli.synopsis;
+
+            var stringFinal = "<option value="+(i+1)+">Id: "+id+", Titulo: "+title+", Año: "+anio+"</option>";
         
-        var peli = data.movies[0];
-        var page_peli=data.movies.links.self;
+            $('#sugerencias').append(stringFinal);
+          }
+        
+      //  alert(stringFinal);
         
         
-        
-       
-      //  var urlPeli = 
-        
-        
-        
-        
-        
-        
-        });
+    }
+    
+    
+    
+    
+});
+    
     
 }
 

@@ -1,14 +1,27 @@
 <div class="movies form">
-<?php echo $this->Html->script('webservice'); ?>
+<?php //echo $this->Html->script('webservice');
+
+
+ echo "<form id='searchForm' ><input type='text' name='nombre' id='movieNameSearch'></input>";
+                //echo $this->Form->submit('rottenT_logo.png',array('onSubmit'=>'javascript: rottenClick();'));
+                echo $this->Html->image('rottenT_logo.png', array('alt'=>'RottenTomatoes Info', 'id'=>'rotten'));//, 'onClick'=>'javascript: rottenClick();'));
+                
+                
+                echo "<div>
+                        <h1>Sugerencias:</h1><br/>
+                        <select id='sugerencias'>
+                        
+                        </select>
+                     </div>";           
+ 
+echo "</form>";
+?>
     
 <?php echo $this->Form->create('Movie');?>
 	<fieldset>
 		<legend><?php echo __('Add Movie'); ?></legend>
 	<?php
-                echo "<input type='text' id='movieNameSearch'></input>";
-            //    echo $this->Form->button('Another Button', array('type' => 'image', 'src'=>'rottenT_logo.png', 'id'=>'rotten', 'onClick'=>'rottenClick'));
-                echo $this->Html->image('rottenT_logo.png', array('alt'=>'RottenTomatoes Info', 'id'=>'rotten'));
-                
+                        
                 echo $this->Form->input('name');
                 echo $this->Form->input('year');
 		echo $this->Form->input('info');
