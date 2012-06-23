@@ -12,7 +12,7 @@
    <ul class="movie">
 		<li class='crosshair'>	
 			<div class="name">
-				<h3><?php echo h($actor['Actor']['name']); ?><h3>
+				<h3 id="name"><?php echo h($actor['Actor']['name']); ?><h3>
 			</div>
 			<div class="year">
 				Nacimiento: <?php echo h($actor['Actor']['birthday']); ?>
@@ -62,13 +62,13 @@
 															array(
 																'alt' => h($movie['name']),
 																'title' => h($movie['name']),
-																'url' => 'view/'.h($movie['id'])
+																'url' => '/movies/view/'.h($movie['id'])
 															)
 														) 
 								?>		
 							<p><?php echo substr(h($movie['info']), 0, 140) . "..."; ?></p>
 							<div class="wrapper">
-								<?php echo $this->Html->link('Leer mas', 'view/'.h($movie['id'])); ?>
+								<?php echo $this->Html->link('Leer mas', '/movies/view/'.h($movie['id'])); ?>
 							</div>
 						 </li>	
 				<?php } ?>

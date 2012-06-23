@@ -2,8 +2,8 @@
 <div class="box">
    <div class="border-right">
 		<div class="border-left">
-       <div class="inner">
-	     <span class="textHeader">Lista de peliculas de <b>Cinema</b> <span class="world">World</span></span>
+       <div class="inner textHeader">
+	     <span>Peliculas de <b>Cinema</b> <span class="world">World</span></span>
        </div>
      </div>
    </div>	
@@ -22,12 +22,13 @@
 	<?php
 			}
 	?>			
-				<div>
-					<h><?php echo h($movie['Movie']['name']); ?></h>
+				<div class='name'>
+					<h2><?php echo h($movie['Movie']['name']); ?> (<?php echo h($movie['Movie']['year']); ?>)</h2>
+					<div class="year">
+						
+					</div>
 				</div>
-				<div class="year">
-					<h>(<?php echo h($movie['Movie']['year']); ?>) </h>
-				</div>
+				
 					<?php echo $this->Html->image(
 											'movies/1page-img'.(h($movie["Movie"]["id"])+1).'.jpg', 
 												array(

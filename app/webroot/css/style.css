@@ -35,13 +35,15 @@ ul, ol {list-style:none}
 #contacts-form .link2 {float:right}
 /* LISTS */
 .movies {width:100%}
-.movies li {float:left;width:286px;margin-right:15px; padding-top:20px;}
+.movies li {float:left;width:286px;margin-right:15px; padding-bottom:40px;}
 .movies li.last {margin-right:0}
 .movies li.clear {float:none;width:auto;margin:0;font-size:0;line-height:0}
 .movies li img {margin-left:-30px;position:relative}
 .movies li p {margin:5px 0 15px 0;padding-right:40px}
 .movies li p span {color:#fff}
 .movies .year {padding-bottom:10px;}
+.movies .name {min-height:70px; max-width:260px;}
+
 .list {margin-top:-30px}
 .list li {width:100%;overflow:hidden;vertical-align:top;line-height:1.714em;padding-top:40px}
 .list li img {float:left;margin:-10px 20px 0 0}
@@ -89,13 +91,15 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 #header .row-1 .fleft {font-size:40px;line-height:1.2em;padding:26px 0 0 47px}
 #header .row-1 .fleft a {text-decoration:none}
 #header .row-1 ul {padding:49px 60px 0 0;float:right}
-#header .row-1 ul li {float:left;padding-left:54px}
+#header .row-1 ul li {float:left;padding-left:54px;}
 #header .row-2 {height:51px}
 #header .row-2 ul {width:100%;overflow:hidden}
-#header .row-2 ul li {float:left;font-size:20px;line-height:2.4em;margin-right:5px;background-color:#000}
+#header .row-2 ul li {float:left;font-size:20px;line-height:2.4em;margin-right:5px;}
 #header .row-2 ul li.last {margin-right:0}
 #header .row-2 ul li a {text-decoration:none;color:#f0f0f0;width:184px;height:56px;float:left;background-image:url(images/nav-bg.gif);background-repeat:no-repeat;background-position:0 0;text-align:center}
-#header .row-2 ul li a:hover, #header .row-2 ul li a.active {color:#d72a18;background-image:url(images/nav-act.gif)}
+#header .row-2 ul li a {color:#d72a18; background-image:url(images/nav-bg.gif);}
+#header .row-2 ul li a:hover {color:white;background-image:url(images/nav-act2.gif);}
+#header .row-2 ul li a.active {color:white;background-color:black !Important;}
 /* CONTENT */
 #content .content {padding:30px 0 39px 50px}
 .ic, .ic a {border:0;float:right;background:#f00;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-50% 0 0 0;overflow:hidden;padding:0}
@@ -114,11 +118,11 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 
 
 .movie {width:100%}
-.movie li {float:left;width:100%;margin-right:15px; padding-top:20px;}
+.movie li {float:left;width:100%;margin-right:15px; padding-top:20px; min-height:450px !Important;}
 .movie li.last {margin-right:0}
-.movie li.clear {float:none;width:auto;margin:0;font-size:0;line-height:0}
+.movie li.clear {float:none;width:auto;margin:0;font-size:0;line-height:0;  min-height:0px !Important;}
 .movie li img {text-align:center;}
-.movie li p {margin:5px 0 15px 0;padding-right:40px}
+.movie li p {margin:5px 0 15px 0;padding-right:40px;}
 .movie li p span {color:#fff}
 .movie .name{ font-size:18px;}
 .movie .year {padding-bottom:10px;}
@@ -132,11 +136,39 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 	cursor:default !Important;
 }
 
+.actors {width:100%}
+.actors li {float:left;width:286px;margin-right:15px; padding-top:20px; min-height:450px !Important;}
+.actors li.last {margin-right:0}
+.actors li.clear {float:none;width:auto;margin:0;font-size:0;line-height:0; min-height:0px !Important;}
+.actors li img {margin-left:-30px;position:relative}
+.actors li p {margin:5px 0 15px 0;padding-right:40px;   }
+.actors li p span {color:#fff}
+.actors .year {padding-bottom:10px;}
+
+.directors {width:100%}
+.directors li {float:left;width:286px;margin-right:15px; padding-top:20px; min-height:450px !Important;}
+.directors li.last {margin-right:0}
+.directors li.clear {float:none;width:auto;margin:0;font-size:0;line-height:0; min-height:0px !Important;}
+.directors li img {margin-left:-30px;position:relative}
+.directors li p {margin:5px 0 15px 0;padding-right:40px;}
+.directors li p span {color:#fff}
+.directors .year {padding-bottom:10px;}
+
+.geners {width:100%}
+.geners li {float:left;width:286px;margin-right:15px; padding-top:20px; min-height:300px !Important;}
+.geners li.last {margin-right:0}
+.geners li.clear {float:none;width:auto;margin:0;font-size:0;line-height:0; min-height:0px !Important;}
+.geners li img {margin-left:-30px;position:relative}
+.geners li p {margin:5px 0 15px 0;padding-right:40px;}
+.geners li p span {color:#fff}
+.geners .year {padding-bottom:10px;}
+.geners .wrapper {margin-left:90px;}
 
 .imagen {
 	vertical-align:middle;
 }
 
+.name h2 {font-size:18px !Important;line-height:1.2em !Important;color:#bfbfbf;margin-bottom:20px}
 
 .textHeader {
 	font-size:20px;

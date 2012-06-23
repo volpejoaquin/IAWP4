@@ -12,7 +12,7 @@
    <ul class="movie">
 		<li class='crosshair'>	
 			<div class="name">
-				<h3><?php echo h($movie['Movie']['name']); ?>(<?php echo h($movie['Movie']['year']); ?>)<h3>
+				<h3 id="name"><?php echo h($movie['Movie']['name']); ?>(<?php echo h($movie['Movie']['year']); ?>)<h3>
 			</div>
 			<div class="year">
 			</div>
@@ -54,7 +54,8 @@
         <label class="sutil"><?php // echo __('Género:');?></label>
 	<?php if (!empty($movie['Genre'])):?>
         
-	<?php   $numItems = count($movie['Genre']);
+	<h3>
+		<?php   $numItems = count($movie['Genre']);
 		$i = 0;
 		foreach ($movie['Genre'] as $genre): ?>
 		<?php echo $this->Html->link(__($genre['name']), array('controller' => 'genres', 'action' => 'view', $genre['id'])); 
@@ -64,6 +65,7 @@
                  ?>
 			
 	<?php endforeach; ?>
+	</h3>
         <?php endif; ?>
         </p>
         

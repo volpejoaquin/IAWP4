@@ -8,3 +8,30 @@
 		</div>
 	</div>
 </div>
+<script type="text/javascript">
+var url = ''+window.location;
+if (url.indexOf("movies") != -1) {
+	document.title = "Peliculas - Cinema WORLD -";
+	document.getElementById("views").setAttribute("class", "active");
+}
+if (url.indexOf("genres") != -1) {
+	document.title = "Generos - Cinema WORLD -";
+	document.getElementById("genres").setAttribute("class", "active");
+}
+if (url.indexOf("actors") != -1) {
+	document.title = "Actores - Cinema WORLD -";
+	document.getElementById("actors").setAttribute("class", "active");
+}
+if (url.indexOf("directors") != -1) {
+	document.title = "Directores - Cinema WORLD -";
+	document.getElementById("directors").setAttribute("class", "active");
+}
+if (url.indexOf("writers") != -1) {
+	document.title = "Escritores - Cinema WORLD -";
+	document.getElementById("writers").setAttribute("class", "active");
+}
+
+if (url.indexOf("view/") != -1) {
+		document.title = document.getElementById('name').innerHTML +" - "+ document.title;
+	}
+</script>

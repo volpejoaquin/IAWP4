@@ -1,67 +1,75 @@
-<div class="genres view">
-<h2><?php  echo __('Genre');?></h2>
-	<dl>
-		<dt><?php echo __('Id'); ?></dt>
-		<dd>
-			<?php echo h($genre['Genre']['id']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Name'); ?></dt>
-		<dd>
-			<?php echo h($genre['Genre']['name']); ?>
-			&nbsp;
-		</dd>
-	</dl>
-</div>
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-		<li><?php echo $this->Html->link(__('Edit Genre'), array('action' => 'edit', $genre['Genre']['id'])); ?> </li>
-		<li><?php echo $this->Form->postLink(__('Delete Genre'), array('action' => 'delete', $genre['Genre']['id']), null, __('Are you sure you want to delete # %s?', $genre['Genre']['id'])); ?> </li>
-		<li><?php echo $this->Html->link(__('List Genres'), array('action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Genre'), array('action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Movies'), array('controller' => 'movies', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Movie'), array('controller' => 'movies', 'action' => 'add')); ?> </li>
-	</ul>
-</div>
-<div class="related">
-	<h3><?php echo __('Related Movies');?></h3>
-	<?php if (!empty($genre['Movie'])):?>
-	<table cellpadding = "0" cellspacing = "0">
-	<tr>
-		<th><?php echo __('Id'); ?></th>
-		<th><?php echo __('Name'); ?></th>
-		<th><?php echo __('Year'); ?></th>
-		<th><?php echo __('Info'); ?></th>
-		<th><?php echo __('Duration'); ?></th>
-		<th><?php echo __('Avg Rating'); ?></th>
-		<th><?php echo __('Reviews'); ?></th>
-		<th class="actions"><?php echo __('Actions');?></th>
-	</tr>
-	<?php
-		$i = 0;
-		foreach ($genre['Movie'] as $movie): ?>
-		<tr>
-			<td><?php echo $movie['id'];?></td>
-			<td><?php echo $movie['name'];?></td>
-			<td><?php echo $movie['year'];?></td>
-			<td><?php echo $movie['info'];?></td>
-			<td><?php echo $movie['duration'];?></td>
-			<td><?php echo $movie['avg_rating'];?></td>
-			<td><?php echo $movie['reviews'];?></td>
-			<td class="actions">
-				<?php echo $this->Html->link(__('View'), array('controller' => 'movies', 'action' => 'view', $movie['id'])); ?>
-				<?php echo $this->Html->link(__('Edit'), array('controller' => 'movies', 'action' => 'edit', $movie['id'])); ?>
-				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'movies', 'action' => 'delete', $movie['id']), null, __('Are you sure you want to delete # %s?', $movie['id'])); ?>
-			</td>
-		</tr>
-	<?php endforeach; ?>
-	</table>
-<?php endif; ?>
-
-	<div class="actions">
-		<ul>
-			<li><?php echo $this->Html->link(__('New Movie'), array('controller' => 'movies', 'action' => 'add'));?> </li>
-		</ul>
+<div id="content">
+<div class="box">
+   <div class="border-right">
+		<div class="border-left">
+       <div class="inner textHeader">
+	     <span>Genero de <b>Cinema</b> <span class="world">World</span></span>
+       </div>
+     </div>
+   </div>	
+ </div>
+ <div class="content">
+   <ul class="movie">
+		<li class='crosshair'>	
+			<div class="name">
+				<h3 id="name"><?php echo h($genre['Genre']['name']); ?><h3>
+			</div>
+			<?php echo $this->Html->image(
+											'genres/genre'.(h($genre['Genre']["id"])+1).'.png', 
+												array(
+													'alt' => h($genre['Genre']['name']),
+													'title' => h($genre['Genre']['name']),
+													'url' => 'view/'.h($genre['Genre']['id'])
+												)
+											) 
+					?>
+		 </li>	
+     <li class="clear">&nbsp;</li>
+   </ul>
+   
+   
+	<div class="related">
+		<h3><?php echo __('Peliculas relacionadas');?></h3>
+		<?php if (!empty($genre['Movie'])):?>
+			 <ul class="movies">
+				<?php
+					foreach ($genre['Movie'] as $movie) {
+						if (h($movie['id']) % 3 == 0) {
+				?>	
+							<li class="last">
+				<?php
+						} else {
+				?>
+							<li>
+				<?php
+						}
+				?>			
+							<div>
+								<h><?php echo h($movie['name']); ?></h>
+							</div>
+							<div class="year">
+								<h>(<?php echo h($movie['year']); ?>) </h>
+							</div>
+								<?php echo $this->Html->image(
+														'movies/1page-img'.(h($movie["id"])+1).'.jpg', 
+															array(
+																'alt' => h($movie['name']),
+																'title' => h($movie['name']),
+																'url' => '/movies/view/'.h($movie['id'])
+															)
+														) 
+								?>		
+							<p><?php echo substr(h($movie['info']), 0, 140) . "..."; ?></p>
+							<div class="wrapper">
+								<?php echo $this->Html->link('Leer mas', 'view/'.h($movie['id'])); ?>
+							</div>
+						 </li>	
+				<?php } ?>
+				<li class="clear">&nbsp;</li>							
+		   </ul>
+	<?php endif; ?>
 	</div>
+ </div>
 </div>
+
+
