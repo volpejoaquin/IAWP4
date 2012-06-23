@@ -8447,3 +8447,1599 @@
 #1 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
 #2 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2012-06-22 23:18:44 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:18:44 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:19:11 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:19:11 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:19:12 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:22:54 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon2.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-22 23:22:54 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon1-act.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-22 23:22:54 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('css', 'images', 'icon4.gif')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-22 23:23:14 Error: [MissingActionException] Action MoviesController::views() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:23:15 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:23:15 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:23:15 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:23:40 Error: [MissingActionException] Action MoviesController::views() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:23:40 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:23:40 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:23:40 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:24:36 Error: [MissingActionException] Action MoviesController::asd() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:24:37 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:24:37 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:24:37 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:25:00 Error: [MissingActionException] Action MoviesController::asd() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:25:00 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:25:00 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:25:00 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:27:05 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Movies\views.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-22 23:27:05 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:27:05 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:27:05 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:27:23 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:27:23 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:27:23 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:27:23 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:27:23 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:27:23 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:27:23 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:27:23 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:27:24 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:27:24 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:27:26 Error: [MissingActionException] Action MoviesController::asd() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:27:27 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:27:27 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:27:27 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:27:32 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Movies\asd.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-22 23:27:32 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:27:32 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:27:32 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:27:38 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Movies\asd.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-22 23:27:38 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:27:38 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:27:38 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:35:22 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:35:22 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:35:22 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:35:22 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:35:22 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:35:22 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:35:22 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:35:22 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:35:22 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:35:22 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:35:25 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:35:25 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:35:25 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:35:56 Error: [MissingActionException] Action MoviesController::views() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:35:56 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:35:56 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:35:56 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:36:07 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:36:07 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:36:07 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:36:07 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:36:07 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:36:07 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:36:07 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:36:07 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:36:07 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:36:07 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:36:33 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:36:33 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:36:33 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:36:33 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:36:33 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:36:33 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:36:33 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:36:34 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:36:34 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:36:34 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:37:26 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:37:26 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:37:26 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:37:26 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:37:26 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:37:26 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:37:26 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:37:26 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:37:26 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:37:26 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:06 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:06 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:06 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:06 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:06 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:06 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:07 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:07 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:07 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:07 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:14 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:14 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:14 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:14 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:14 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:15 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:15 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:15 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:15 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:32 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:32 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:32 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:32 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:32 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:32 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:32 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:32 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:38:32 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:23 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:23 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:23 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:23 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:23 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:23 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:23 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:23 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:23 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:28 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:28 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:29 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:29 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:29 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:29 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:29 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:29 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:29 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:38 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:38 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:38 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:38 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:38 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:38 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:38 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:38 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:38 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:52 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:52 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:52 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:52 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:52 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:52 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:52 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:52 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:39:52 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:06 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:06 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:06 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:06 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:06 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:06 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:07 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:07 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:07 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:12 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:12 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:12 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:12 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:12 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:12 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:12 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:12 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:12 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:38 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:38 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:38 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:38 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:38 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:38 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:39 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:39 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:40:39 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:09 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:09 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:09 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:09 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:09 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:09 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:09 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:09 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:09 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:30 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:30 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:30 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:30 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:30 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:30 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:30 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:30 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:30 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:41 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:41 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:41 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:41 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:41 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:41 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:41 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:41 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:42:41 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:43:08 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:43:17 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:43:17 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:43:17 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:43:17 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:43:17 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:43:17 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:43:17 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:43:17 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:44:19 Error: [MissingActionException] Action MoviesController::list() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:44:20 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:44:20 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:44:20 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:44:21 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Movies\lists.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-22 23:44:22 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:44:22 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:44:22 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:44:35 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:44:35 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:44:35 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:45:37 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:45:37 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:45:37 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:45:37 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:45:37 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:45:37 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:45:37 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:45:37 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:45:37 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:46:21 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:46:21 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:46:22 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:46:22 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:46:22 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:46:22 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:46:22 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:46:22 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:46:22 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:46:28 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:46:29 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:46:29 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:46:29 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:46:29 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:46:29 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:46:29 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:46:29 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:46:29 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:50:28 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:50:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:50:28 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:50:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:50:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:50:28 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:50:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:50:28 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:50:28 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:50:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:50:29 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:50:29 Error: [MissingActionException] Action MoviesController::img() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:50:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:50:37 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:50:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:50:37 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:50:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:50:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:50:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:50:37 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:50:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:50:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:50:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:50:51 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:50:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:50:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:50:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:50:51 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:50:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:50:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:50:52 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:50:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:50:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:50:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:50:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:51:10 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:51:10 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:51:10 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:51:37 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:51:37 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:51:37 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:52:16 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:52:16 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:52:16 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:52:58 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:52:58 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:52:58 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:54:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:54:02 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:54:02 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:54:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:54:48 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:54:48 Error: [MissingActionException] Action MoviesController::css() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:54:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:55:55 Error: [MissingControllerException] Controller class InicioController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:56:05 Error: [MissingControllerException] Controller class InicioController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:56:09 Error: [MissingControllerException] Controller class ContactoController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:56:13 Error: [MissingControllerException] Controller class FacebookController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-22 23:56:45 Error: [MissingActionException] Action MoviesController::movies() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-22 23:56:51 Error: [MissingActionException] Action MoviesController::movies() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-23 00:00:10 Error: [MissingActionException] Action MoviesController::movies() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-23 00:00:52 Error: [MissingActionException] Action MoviesController::movies() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-23 00:01:06 Error: [MissingActionException] Action MoviesController::movies() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-23 00:10:59 Error: [MissingActionException] Action MoviesController::movies() could not be found.
+#0 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-23 00:16:11 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('movies', 'view', '1')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

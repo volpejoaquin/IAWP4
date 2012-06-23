@@ -17,6 +17,26 @@ class MoviesController extends AppController {
 		$this->Movie->recursive = 0;
 		$this->set('movies', $this->paginate());
 	}
+	
+/**
+ * views method
+ *
+ * @return void
+ */
+	public function views() {
+		$this->Movie->recursive = 0;
+		$this->set('movies', $this->paginate());
+	}
+	
+/**
+ * lists method
+ *
+ * @return void
+ */
+	public function lists() {
+		$this->Movie->recursive = 0;
+		$this->set('movies', $this->paginate());
+	}
 
 /**
  * view method
