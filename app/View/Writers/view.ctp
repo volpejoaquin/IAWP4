@@ -58,7 +58,7 @@
 								<h>(<?php echo h($movie['year']); ?>) </h>
 							</div>
 								<?php echo $this->Html->image(
-														'movies/1page-img'.(h($movie["id"])+1).'.jpg', 
+														'movies/movie'.(h($movie["id"])+1).'.jpg', 
 															array(
 																'alt' => h($movie['name']),
 																'title' => h($movie['name']),

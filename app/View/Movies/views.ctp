@@ -23,14 +23,22 @@
 			}
 	?>			
 				<div class='name'>
-					<h2><?php echo h($movie['Movie']['name']); ?> (<?php echo h($movie['Movie']['year']); ?>)</h2>
-					<div class="year">
-						
-					</div>
+					<h2><?php echo $this->Html->link(h($movie['Movie']['name']).' ('.h($movie['Movie']['year']).')', 'view/'.h($movie['Movie']['id'])); ?></h2>
 				</div>
-				
+				<div class="ratingIcons">
+					<?php
+						$i = 1;
+						$rat = h($movie['Movie']['avg_rating']);
+						for ($i;$i<=$rat;$i++) {
+							echo $this->Html->image('rating-chico.png',array('class' => 'ratIcon', 'title' => 'Rating '.$rat.'/10'));
+						}			
+						if ($rat - $i != -1) {
+							echo $this->Html->image('rating-chico-medio.png',array('class' => 'ratIcon', 'title' => 'Rating '.$rat.'/10'));
+						}
+					?>
+				</div>
 					<?php echo $this->Html->image(
-											'movies/1page-img'.(h($movie["Movie"]["id"])+1).'.jpg', 
+											'movies/movie'.(h($movie["Movie"]["id"])+1).'.jpg', 
 												array(
 													'alt' => h($movie['Movie']['name']),
 													'title' => h($movie['Movie']['name']),

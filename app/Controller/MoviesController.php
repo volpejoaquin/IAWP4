@@ -7,6 +7,10 @@ App::uses('AppController', 'Controller');
  */
 class MoviesController extends AppController {
 
+var $paginate = array('Movie' => array(
+      'limit' => 10,
+      'page' => 1,
+      'order' => array('avg_rating' => 'desc')));
 
 /**
  * index method
@@ -15,7 +19,8 @@ class MoviesController extends AppController {
  */
 	public function index() {
 		$this->Movie->recursive = 0;
-		$this->set('movies', $this->paginate());
+		$this->set('movies', $this->paginate('Movie'));
+		//$this->set('movies',$this->paginate());
 	}
 	
 /**
