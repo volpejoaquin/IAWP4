@@ -11683,3 +11683,93 @@ lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController
 2012-06-23 16:14:48 Error: [MissingControllerException] Controller class ImgController could not be found.
 #0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-06-23 16:18:29 Error: [MissingModelException] normal
+#0 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate('normal', Array, Array)
+#1 C:\wamp\www\IAWP4\app\Controller\MoviesController.php(38): Controller->paginate('normal')
+#2 [internal function]: MoviesController->views()
+#3 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#4 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#5 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-06-23 16:18:31 Error: [MissingModelException] normal
+#0 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate('normal', Array, Array)
+#1 C:\wamp\www\IAWP4\app\Controller\MoviesController.php(38): Controller->paginate('normal')
+#2 [internal function]: MoviesController->views()
+#3 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#4 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#5 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-06-23 16:18:32 Error: [MissingModelException] rating
+#0 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate('rating', Array, Array)
+#1 C:\wamp\www\IAWP4\app\Controller\MoviesController.php(28): Controller->paginate('rating')
+#2 [internal function]: MoviesController->index()
+#3 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#4 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#5 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-06-23 16:19:07 Error: [MissingModelException] rating
+#0 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate('rating', Array, Array)
+#1 C:\wamp\www\IAWP4\app\Controller\MoviesController.php(27): Controller->paginate('rating')
+#2 [internal function]: MoviesController->index()
+#3 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#4 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#5 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-06-23 16:19:22 Error: [MissingModelException] Rating
+#0 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate('Rating', Array, Array)
+#1 C:\wamp\www\IAWP4\app\Controller\MoviesController.php(27): Controller->paginate('Rating')
+#2 [internal function]: MoviesController->index()
+#3 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#4 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#5 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-06-23 16:19:23 Error: [MissingModelException] Normal
+#0 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate('Normal', Array, Array)
+#1 C:\wamp\www\IAWP4\app\Controller\MoviesController.php(37): Controller->paginate('Normal')
+#2 [internal function]: MoviesController->views()
+#3 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#4 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#5 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-06-23 16:19:38 Error: [MissingModelException] Normal
+#0 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate('Normal', Array, Array)
+#1 C:\wamp\www\IAWP4\app\Controller\MoviesController.php(37): Controller->paginate('Normal')
+#2 [internal function]: MoviesController->views()
+#3 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#4 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#5 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-06-23 16:19:52 Error: [MissingModelException] MovieR
+#0 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate('MovieR', Array, Array)
+#1 C:\wamp\www\IAWP4\app\Controller\MoviesController.php(27): Controller->paginate('MovieR')
+#2 [internal function]: MoviesController->index()
+#3 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#4 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#5 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-06-23 16:20:03 Error: [MissingModelException] MovieR
+#0 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate('MovieR', Array, Array)
+#1 C:\wamp\www\IAWP4\app\Controller\MoviesController.php(27): Controller->paginate('MovieR')
+#2 [internal function]: MoviesController->index()
+#3 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#4 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#5 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-06-23 16:20:06 Error: [MissingModelException] MovieR
+#0 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate('MovieR', Array, Array)
+#1 C:\wamp\www\IAWP4\app\Controller\MoviesController.php(27): Controller->paginate('MovieR')
+#2 [internal function]: MoviesController->index()
+#3 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#4 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#5 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
