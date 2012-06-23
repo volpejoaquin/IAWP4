@@ -29,7 +29,7 @@
 					<h>(<?php echo h($movie['Movie']['year']); ?>) </h>
 				</div>
 					<?php echo $this->Html->image(
-											'1page-img'.(h($movie["Movie"]["id"])+1).'.jpg', 
+											'movies/1page-img'.(h($movie["Movie"]["id"])+1).'.jpg', 
 												array(
 													'alt' => h($movie['Movie']['name']),
 													'title' => h($movie['Movie']['name']),

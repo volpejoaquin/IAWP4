@@ -10,15 +10,14 @@
  </div>
  <div class="content">
    <ul class="movie">
-		<li>	
+		<li class='crosshair'>	
 			<div class="name">
-				<?php echo h($movie['Movie']['name']); ?>(<?php echo h($movie['Movie']['year']); ?>)
+				<h3><?php echo h($movie['Movie']['name']); ?>(<?php echo h($movie['Movie']['year']); ?>)<h3>
 			</div>
 			<div class="year">
-				<?php echo h($movie['Movie']['reviews']); ?>
 			</div>
 				<?php echo $this->Html->image(
-											'1page-img'.(h($movie["Movie"]["id"])+1).'.jpg', 
+											'movies/1page-img'.(h($movie["Movie"]["id"])+1).'.jpg', 
 												array(
 													'alt' => h($movie['Movie']['name']),
 													'title' => h($movie['Movie']['name']),
@@ -44,17 +43,13 @@
 												)
 											) 
 				?>
-				<span title='Cantidad de reproducciones'><?php echo h($movie['Movie']['reviews']); ?></span>
+				<span title='Cantidad de reproducciones' ><?php echo h($movie['Movie']['reviews']); ?></span>
 			</div>
 			<p><?php echo h($movie['Movie']['info']); ?></p>
 		 </li>	
      <li class="clear">&nbsp;</li>
    </ul>
- </div>
-</div>
-
-
-      <div class="related">
+   <div class="related">
 	<p>
         <label class="sutil"><?php // echo __('Género:');?></label>
 	<?php if (!empty($movie['Genre'])):?>
@@ -119,3 +114,8 @@
 	<?php endif; ?>
         </p>
     </div>
+ </div>
+</div>
+
+
+
