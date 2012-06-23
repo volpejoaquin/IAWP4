@@ -30,7 +30,7 @@ var $pag = array('Movie' => array('limit' => 10,'page' => 1));
 	public function views() {
 		$this->Movie->recursive = 0;
 		$paginate = array('Movie' => array('limit' => 10,'page' => 1));
-		$this->set('movies', $this->pag('Movie'));
+		$this->set('movies', $this->paginate('Movie'));
 	}
 	
 /**
