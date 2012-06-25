@@ -7,6 +7,7 @@ App::uses('AppController', 'Controller');
  */
 class WritersController extends AppController {
 
+var $paginate = array('Writer' => array('limit' => 3,'page' => 1));
 
 /**
  * index method
@@ -15,7 +16,7 @@ class WritersController extends AppController {
  */
 	public function index() {
 		$this->Writer->recursive = 0;
-		$this->set('writers', $this->paginate());
+		$this->set('writers', $this->paginate('Writer'));
 	}
 
 /**

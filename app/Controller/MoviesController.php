@@ -7,9 +7,10 @@ App::uses('AppController', 'Controller');
  */
 class MoviesController extends AppController {
 
+var $components = array('RequestHandler'); 
+var $helpers = array('Html','Form'); 
+var $paginate = array('Movie' => array('limit' => 3,'page' => 1,'order' => array('avg_rating' => 'desc')));
 
-var $paginate = array('Movie' => array('limit' => 10,'page' => 1,'order' => array('avg_rating' => 'desc')));
-var $pag = array('Movie' => array('limit' => 10,'page' => 1));
 /**
  * index method
  *
@@ -17,8 +18,6 @@ var $pag = array('Movie' => array('limit' => 10,'page' => 1));
  */
 	public function index() {
 		$this->Movie->recursive = 0;
-		$paginate = array('Movie' => array('limit' => 10,'page' => 1,'order' => array('avg_rating' => 'desc')));
-		
 		$this->set('movies', $this->paginate('Movie'));
 	}
 	
@@ -29,7 +28,6 @@ var $pag = array('Movie' => array('limit' => 10,'page' => 1));
  */
 	public function views() {
 		$this->Movie->recursive = 0;
-		$paginate = array('Movie' => array('limit' => 10,'page' => 1));
 		$this->set('movies', $this->paginate('Movie'));
 	}
 	
