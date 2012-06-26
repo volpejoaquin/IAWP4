@@ -12042,3 +12042,24 @@ lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController
 2012-06-25 16:11:36 Error: [MissingControllerException] Controller class CssController could not be found.
 #0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-06-26 14:17:44 Error: [MissingControllerException] Controller class MovieController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 14:17:57 Error: [MissingControllerException] Controller class MovieController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 14:18:46 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 14:19:36 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 14:19:59 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 14:20:04 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 14:20:06 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
