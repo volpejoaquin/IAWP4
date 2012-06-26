@@ -162,21 +162,36 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 
 .buscar {
 	background:url(images/buscar.png) 0px 0px no-repeat; 
-	width:316px; 
+	width:297px; 
 	height:35px;
 	margin-top:-8px;
 	padding:0px 5px 5px 10px;
 	cursor:pointer;
 }
-.buscar input { 
-	display:block; 
+.buscar .search { 
+	float:left; 
 	background:transparent!important; 
 	border:none!important; 
 	width:270px; 
 	color:#000; 
+	padding-top:-20px;
 	line-height:24px;
 	font-size:10px;
 	height:26px;
+}
+
+.buscar .submit {
+	margin-top:-28px;
+	float:right;
+	width:12px;
+	background:transparent!important; 
+	border:none;
+	cursor:pointer;
+}
+
+.center {
+	text-align:center;
+	padding-right:30px;
 }
 
 .ratingIcons {
@@ -207,6 +222,15 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 .directors li p span {color:#fff}
 .directors .year {padding-bottom:10px;}
 
+.writers {width:100%}
+.writers li {float:left;width:286px;margin-right:15px; padding-top:20px; min-height:400px !Important;}
+.writers li.last {margin-right:0}
+.writers li.clear {float:none;width:auto;margin:0;font-size:0;line-height:0; min-height:0px !Important;}
+.writers li img {margin-left:-30px;position:relative}
+.writers li p {margin:5px 0 15px 0;padding-right:40px;}
+.writers li p span {color:#fff}
+.writers .year {padding-bottom:10px;}
+
 .geners {width:100%}
 .geners li {float:left;width:286px;margin-right:15px; padding-top:20px; min-height:300px !Important;}
 .geners li.last {margin-right:0}
@@ -216,6 +240,11 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 .geners li p span {color:#fff}
 .geners .year {padding-bottom:10px;}
 .geners .wrapper {margin-left:90px;}
+
+
+.resultado {
+	font-size:18px;
+}
 
 .imagen {
 	vertical-align:middle;

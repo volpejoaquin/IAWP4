@@ -9,7 +9,8 @@ class MoviesController extends AppController {
 
 var $components = array('RequestHandler'); 
 var $helpers = array('Html','Form'); 
-var $paginate = array('Movie' => array('limit' => 3,'page' => 1,'order' => array('avg_rating' => 'desc')));
+var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
+
 
 /**
  * index method
@@ -17,8 +18,16 @@ var $paginate = array('Movie' => array('limit' => 3,'page' => 1,'order' => array
  * @return void
  */
 	public function index() {
-		$this->Movie->recursive = 0;
-		$this->set('movies', $this->paginate('Movie'));
+		$this->Movie->recursive = 0;			
+
+		$this->paginate = array(
+			'limit' => 3,
+			'page' => 1,
+			'order' => array('avg_rating' => 'desc')
+		);
+		
+		$movies = $this->paginate('Movie');
+		$this->set(compact('movies'));
 	}
 	
 /**
@@ -28,7 +37,14 @@ var $paginate = array('Movie' => array('limit' => 3,'page' => 1,'order' => array
  */
 	public function views() {
 		$this->Movie->recursive = 0;
-		$this->set('movies', $this->paginate('Movie'));
+		
+		$this->paginate = array(
+			'limit' => 3,
+			'page' => 1
+		);
+		
+		$movies = $this->paginate('Movie');
+		$this->set(compact('movies'));
 	}
 	
 /**
@@ -126,4 +142,41 @@ var $paginate = array('Movie' => array('limit' => 3,'page' => 1,'order' => array
 		$this->Session->setFlash(__('Movie was not deleted'));
 		$this->redirect(array('action' => 'index'));
 	}
+	
+	
+	public function search() {
+		if ($this->request->is('post')) {
+			
+			//Peliculas
+			$this->Movie->recursive = 0;
+
+			$data = $this->request->data['Movie']['search'];
+			
+			$movies = $this->paginate('Movie', array('Movie.name LIKE' => '%'.$data.'%','Movie.year LIKE' => '%'.$data.'%'));
+			var_dump($movies);
+			//Actores
+			$this->Actor->recursive = 0;
+
+			$actors = $this->paginate('Actor', array('Actor.name LIKE' => '%'.$data.'%'));
+			
+			//Directores
+			$this->Director->recursive = 0;
+
+			$directors = $this->paginate('Director', array('Director.name LIKE' => '%'.$data.'%'));
+			
+			//Escritores
+			$this->Writer->recursive = 0;
+
+			$writers = $this->paginate('Writer', array('Writer.name LIKE' => '%'.$data.'%'));
+			
+			//Generos
+			$this->Genres->recursive = 0;
+
+			$genres = $this->paginate('Genre', array('Genre.name LIKE' => '%'.$data.'%'));
+			
+			
+			$this->set(compact('movies','actors','directors','writers','genres'));
+		}
+	}
+	
 }

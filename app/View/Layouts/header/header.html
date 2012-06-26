@@ -3,7 +3,19 @@
 		<div class="fleft"><a href="/IAWP4">Cinema <span>World</span></a></div>
 		<ul>
 			<li><a href="/IAWP4"><?php echo $this->Html->image('icon1-act.gif', array('title' => 'Inicio'))?></a></li>
-			<li ><div class="buscar"><input id="textsearch" name="search" placeholder="Buscar por título, actor, director, género..." type="text"></div></li>
+			<li >
+				<form action="/IAWP4/movies/search" id="SearchViewsForm" method="post" accept-charset="utf-8">
+					<div class="buscar">
+						<div style="display:none;">
+							<input type="hidden" name="_method" value="POST">
+						</div>						
+						
+						<input class="search" id="SearchSearch" name="data[Movie][search]" placeholder="Buscar por título, actor, director, género..." type="text">
+					
+						<input class="submit" type="submit" value="">					
+					</div>
+				</form>
+			</li>
 		</ul>
 	</div>
 	<div class="row-2">
