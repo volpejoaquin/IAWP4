@@ -4,13 +4,26 @@
 		<ul>
 			<li><a href="/IAWP4"><?php echo $this->Html->image('icon1-act.gif', array('title' => 'Inicio'))?></a></li>
 			<li><a href="/IAWP4/admin"><?php echo $this->Html->image('admin-logo.png', array('title' => 'Admin'))?></a></li>
-			<li ><div class="buscar"><input id="textsearch" name="search" placeholder="Buscar por título, actor, director, género..." type="text"></div></li>
+			<li >
+				<form action="/IAWP4/movies/search" id="SearchViewsForm" method="post" accept-charset="utf-8">
+					<div class="buscar">
+						<div style="display:none;">
+							<input type="hidden" name="_method" value="POST">
+						</div>						
+						
+						<input class="search" id="SearchSearch" name="data[Movie][search]" placeholder="Buscar por título, actor, director, género..." type="text">
+					
+						<input class="submit" type="submit" value="">					
+					</div>
+				</form>
+			</li>
+
 		</ul>
 	</div>
 	<div class="row-2">
 		<ul>
-			<li ><a id="views" class="desactive" href="/IAWP4/movies/views">Pel&iacute;culas</a></li>
-			<li ><a id="genres" class="desactive" href="/IAWP4/genres">G&eacute;neros</a></li>
+			<li ><a id="views" class="desactive" href="/IAWP4/movies/views/sort:id/direction:asc">Peliculas</a></li>
+			<li ><a id="genres" class="desactive" href="/IAWP4/genres">Generos</a></li>
 			<li ><a id="actors" class="desactive" href="/IAWP4/actors">Actores</a></li>
 			<li ><a id="directors" class="desactive" href="/IAWP4/directors">Directores</a></li>
 			<li class="last" ><a id="writers"  class="desactive" href="/IAWP4/writers">Escritores</a></li>

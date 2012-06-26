@@ -25,6 +25,7 @@
 												)
 											) 
 					?>
+					
 			<div class="rating">
 				<div class="ratingIcons">
 					
@@ -48,12 +49,14 @@
 												)
 											) 
 				?>
+				
 				<span title='Cantidad de reproducciones' ><?php echo h($movie['Movie']['reviews']); ?></span>
 			</div>
 			<p><?php echo h($movie['Movie']['info']); ?></p>
 		 </li>	
      <li class="clear">&nbsp;</li>
    </ul>
+   <div id="likesL" class="fb-like" data-href="http://localhost:8080/IAWP4/movies/view/<?php echo h($movie['Movie']['id']); ?>" data-send="true" data-show-faces="true" data-width="900"  data-colorscheme="dark"></div>
    <div class="related">
 	<p>
         <label class="sutil"><?php // echo __('Género:');?></label>
@@ -121,6 +124,7 @@
 	<?php endif; ?>
         </p>
     </div>
+	<div id="comentariosC" class="fb-comments" data-href="http://localhost:8080/IAWP4/movies/view/<?php echo h($movie['Movie']['id']); ?>" data-num-posts="5" data-width="900" data-colorscheme="dark"></div>
  </div>
 </div>
 

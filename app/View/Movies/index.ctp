@@ -15,7 +15,7 @@
    <div class="border-right">
 		<div class="border-left">
        <div class="inner textHeader">
-	     <span>Pel&iacute;culas mas vistas </span>
+	     <span>Peliculas mas <span class="world">vistas</span> </span>
        </div>
      </div>
    </div>	
