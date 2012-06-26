@@ -7,6 +7,7 @@ App::uses('AppController', 'Controller');
  */
 class DirectorsController extends AppController {
 
+var $paginate = array('Director' => array('limit' => 3,'page' => 1));
 
 /**
  * index method
@@ -15,7 +16,7 @@ class DirectorsController extends AppController {
  */
 	public function index() {
 		$this->Director->recursive = 0;
-		$this->set('directors', $this->paginate());
+		$this->set('directors', $this->paginate('Director'));
 	}
 
 /**

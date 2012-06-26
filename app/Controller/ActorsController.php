@@ -7,6 +7,7 @@ App::uses('AppController', 'Controller');
  */
 class ActorsController extends AppController {
 
+var $paginate = array('Actor' => array('limit' => 3,'page' => 1));
 
 /**
  * index method
@@ -15,7 +16,7 @@ class ActorsController extends AppController {
  */
 	public function index() {
 		$this->Actor->recursive = 0;
-		$this->set('actors', $this->paginate());
+		$this->set('actors', $this->paginate('Actor'));
 	}
 
 /**

@@ -7,6 +7,7 @@ App::uses('AppController', 'Controller');
  */
 class GenresController extends AppController {
 
+var $paginate = array('Genre' => array('limit' => 3,'page' => 1));
 
 /**
  * index method
@@ -15,7 +16,7 @@ class GenresController extends AppController {
  */
 	public function index() {
 		$this->Genre->recursive = 0;
-		$this->set('genres', $this->paginate());
+		$this->set('genres', $this->paginate('Genre'));
 	}
 
 /**

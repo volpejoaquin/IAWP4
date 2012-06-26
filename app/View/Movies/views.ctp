@@ -1,4 +1,4 @@
-<div id="content">
+﻿<div id="content">
 <div class="box">
    <div class="border-right">
 		<div class="border-left">
@@ -54,6 +54,18 @@
 	<?php } ?>
      <li class="clear">&nbsp;</li>
    </ul>
+   
+   <div id="divvermas" class="wp-pagenavi verMas" style="">
+		<?php 
+		  echo $this->Paginator->prev();  
+		 ?>
+		 <?php 
+		  echo $this->Paginator->numbers(array('separator'=>' - '));
+		?>
+		 <?php 	  
+		  echo $this->Paginator->next(); 
+		?> 
+	</div>
  </div>
 </div>
 
