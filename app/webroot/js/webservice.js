@@ -9,8 +9,7 @@ var BASE_URI= "http://api.rottentomatoes.com/api/public/v1.0";
 $(document).ready(function(){
     
   $("label[for*='MovieDuration']").text("Duration (mins)");
-  
-  
+ 
   var urlSug=BASE_URI+'/movies.json?apikey='+API_KEY;
   
   $( "#movieSearch" ).autocomplete({

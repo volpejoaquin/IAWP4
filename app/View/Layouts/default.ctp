@@ -24,6 +24,7 @@
 		echo $this->Html->script('script'); 
 		echo $this->Html->script('webservice'); 
 		echo $this->Html->script('jquery-ui.min'); 
+		echo $this->Html->script('relatedMovies');
 	?>
 	<!--[if lt IE 7]>
 	<?php
