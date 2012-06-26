@@ -3,7 +3,7 @@
    <div class="border-right">
 		<div class="border-left">
        <div class="inner textHeader">
-	     <span>Pelica de <b>Cinema</b> <span class="world">World</span></span>
+	     <span>Pel&iacute;cula de <b>Cinema</b> <span class="world">World</span></span>
        </div>
      </div>
    </div>	

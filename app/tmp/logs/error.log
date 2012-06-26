@@ -11773,3 +11773,13 @@ lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController
 #5 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
 #6 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #7 {main}
+2012-06-24 21:00:13 Error: [MissingActionException] Action MoviesController::list() could not be found.
+#0 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-25 01:21:46 Error: [MissingActionException] Action MoviesController::api.rottentomatoes.com() could not be found.
+#0 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

@@ -4,21 +4,27 @@
 <head>
 	<title>- Cinema WORLD -</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="description" content="Place your description here" />
-	<meta name="keywords" content="put, your, keyword, here" />
-	<meta name="author" content="Templates.com - website templates provider" />
+	<meta name="description" content="Movies for the world." />
+	<meta name="keywords" content="movies, dvd, cinema, movie" />
+	<meta name="author" content="Quintana - Volpe" />
 	
 	<?php
+		//Style pages
 		echo $this->Html->css('style.css');
 		echo $this->Html->css('style.controlers.css');
+		echo $this->Html->css('jquery-ui.css');
+		
 	?>
-	<?php echo $this->Html->script('jquery-1.7.2.min'); ?>
-		<?php echo $this->Html->script('cufon-yui'); ?>
-		<?php echo $this->Html->script('cufon-replace'); ?>
-		<?php echo $this->Html->script('Gill_Sans_400.font'); ?>
-		<?php echo $this->Html->script('script'); ?>
-		<?php echo $this->Html->script('webservice'); ?>
-
+	<?php 
+		//Scripts
+		echo $this->Html->script('jquery-1.7.2.min'); 
+		echo $this->Html->script('cufon-yui'); 
+		echo $this->Html->script('cufon-replace'); 
+		echo $this->Html->script('Gill_Sans_400.font'); 
+		echo $this->Html->script('script'); 
+		echo $this->Html->script('webservice'); 
+		echo $this->Html->script('jquery-ui.min'); 
+	?>
 	<!--[if lt IE 7]>
 	<?php
 		echo $this->Html->script('ie_png');

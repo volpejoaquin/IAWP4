@@ -1,18 +1,14 @@
 <div class="movies form">
-<?php //echo $this->Html->script('webservice');
+<?php 
 
 
- echo "<form id='searchForm' ><input type='text' name='nombre' id='movieNameSearch'></input>";
-                //echo $this->Form->submit('rottenT_logo.png',array('onSubmit'=>'javascript: rottenClick();'));
+            echo "<form id='searchForm' action='' method='post'> 
+                <input id='movieSearch' class='ui-autocomplete-input' autocomplete='off' role='textbox' aria-autocomplete='list' aria-haspopup='true'>
+                </input>";
+                
                 echo $this->Html->image('rottenT_logo.png', array('alt'=>'RottenTomatoes Info', 'id'=>'rotten'));//, 'onClick'=>'javascript: rottenClick();'));
                 
-                
-                echo "<div>
-                        <h1>Sugerencias:</h1><br/>
-                        <select id='sugerencias'>
-                        
-                        </select>
-                     </div>";           
+                     
  
 echo "</form>";
 ?>

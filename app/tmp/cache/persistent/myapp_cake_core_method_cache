@@ -1,2 +1,2 @@
-1340474692
+1340721273
 a:2:{s:4:"name";a:11:{i:-1396741753;s:12:""Movie"."id"";i:849826281;s:14:""Movie"."name"";i:1671229662;s:14:""Movie"."year"";i:777951940;s:14:""Movie"."info"";i:904723659;s:18:""Movie"."duration"";i:-1298913332;s:20:""Movie"."avg_rating"";i:1205142271;s:17:""Movie"."reviews"";i:1887883622;s:6:""main"";i:1650517268;s:8:""movies"";i:-1454186740;s:7:""Movie"";i:-791207631;s:7:""count"";}s:6:"fields";a:2:{s:32:"7f61d37852e8eb46e206f7fa5034c649";a:7:{i:0;s:12:""Movie"."id"";i:1;s:14:""Movie"."name"";i:2;s:14:""Movie"."year"";i:3;s:14:""Movie"."info"";i:4;s:18:""Movie"."duration"";i:5;s:20:""Movie"."avg_rating"";i:6;s:17:""Movie"."reviews"";}s:32:"443e2bc18a09dab0821a3c5d6f64f2fa";a:1:{i:0;s:19:"COUNT(*) AS "count"";}}}
