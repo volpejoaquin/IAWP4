@@ -139,6 +139,36 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 	cursor:default;
 }
 
+.order {
+	float:right;
+	padding-top:10px;
+	padding-right:40px;
+	text-decoration:none !Important;
+}
+
+.order a {
+	text-decoration:none !Important;
+	color:#d72a18;
+	padding-left:12px;
+	margin-left:5px;
+}
+
+.order .asc {
+	text-decoration:none !Important;
+	color:white;
+	background:url(images/flechaArriba.png) 0px 5px no-repeat;
+}
+
+.order .desc {
+	text-decoration:none !Important;
+	color:white;
+	background:url(images/flechaAbajo.png) 0px 5px no-repeat;
+}
+
+.orderC {
+	margin-top:20px !Important;
+}
+
 #relatedMovies{
         border-top-color: #f0f0f0;
         border-top-style: solid;

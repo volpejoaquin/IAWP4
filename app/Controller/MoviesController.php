@@ -12,6 +12,7 @@ var $helpers = array('Html','Form');
 var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 
 
+
 /**
  * index method
  *
@@ -40,7 +41,7 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 		
 		$this->paginate = array(
 			'limit' => 3,
-			'page' => 1
+			'page' => 1,
 		);
 		
 		$movies = $this->paginate('Movie');
