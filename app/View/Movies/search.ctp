@@ -7,10 +7,15 @@
 		 <br>
 		 <br>
 		<span class="world">
-			 <?php if (!isset($actors) && !isset($movies) && !isset($directors) && !isset($writers) && !isset($geners)) { ?>
+			 <?php $count = 0;
+				   if (!isset($actors) && !isset($movies) && !isset($directors) && !isset($writers) && !isset($geners)) {	 
+			 ?>
 				0 resultados
-			<?php } else { ?>
-				<?php echo count($movies) + count($actors) + count($directors) + count($writers) + count($genres); ?> resultado(s)
+			<?php 
+				} else { 
+					$count = count($movies) + count($actors) + count($directors) + count($writers) + count($genres);
+			?>
+				<?php echo $count; ?> resultado(s)
 			<?php } ?>
 		 </span>
        </div>
@@ -223,7 +228,7 @@
 	   </ul>
 	<?php } ?>
 	
-	<?php if (!isset($actors) && !isset($movies) && !isset($directors) && !isset($writers) && !isset($geners)) { ?>
+	<?php if ($count == 0) { ?>
 		<div class="center"><h3> No hay resultados </h3></div>
 	<?php } ?>
     
