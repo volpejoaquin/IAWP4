@@ -23,7 +23,7 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 		$this->paginate = array(
 			'limit' => 3,
 			'page' => 1,
-			'order' => array('avg_rating' => 'desc')
+			'order' => array('name' => 'desc')
 		);
 		
 		$movies = $this->paginate('Movie');
@@ -46,18 +46,8 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 		$movies = $this->paginate('Movie');
 		$this->set(compact('movies'));
 	}
-	
-/**
- * lists method
- *
- * @return void
- */
-	public function lists() {
-		$this->Movie->recursive = 0;
-		$this->set('movies', $this->paginate());
-	}
 
-/**
+	/**
  * view method
  *
  * @param string $id
@@ -68,7 +58,11 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 		if (!$this->Movie->exists()) {
 			throw new NotFoundException(__('Invalid movie'));
 		}
-		$this->set('movie', $this->Movie->read(null, $id));
+		
+		//Calculo el rating
+		$movie = $this->Movie->read(null, $id);
+		
+		$this->set('movie', $movie);
 	}
 
 /**
@@ -152,8 +146,9 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 
 			$data = $this->request->data['Movie']['search'];
 			
-			$movies = $this->paginate('Movie', array('Movie.name LIKE' => '%'.$data.'%','Movie.year LIKE' => '%'.$data.'%'));
+			$movies = $this->paginate('Movie', array('Movie.name LIKE' => '%'.$data.'%','Movie.tags LIKE' => '%'.$data.'%'));
 			var_dump($movies);
+			echo "VER TAGSSS";
 			//Actores
 			$this->Actor->recursive = 0;
 
@@ -177,6 +172,24 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 			
 			$this->set(compact('movies','actors','directors','writers','genres'));
 		}
+	}
+	
+	public function rating($id = 0,$rat = 0) {
+		$this->Movie->id = $id;
+
+		$movie = $this->Movie->read(null, $id);
+		
+		$sumaRat = $movie['Movie']['avg_rating'];
+		$cantVot = $movie['Movie']['avg_cant']+1;
+		
+		$sumaRatNuevo= $rat+$sumaRat;
+		
+		$this->request->data['Movie']['avg_rating'] = $sumaRatNuevo;
+		$this->request->data['Movie']['avg_cant'] = $cantVot;
+		
+		$this->Movie->save($this->request->data);
+		
+		$this->redirect(array('action' => 'view',$id));
 	}
 	
 }

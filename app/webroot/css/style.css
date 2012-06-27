@@ -132,7 +132,7 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 .movie .rating {
 	float:right;
 	margin-top:20px;
-	margin-right:200px;
+	margin-right:130px;
 	font-size:30px;
 }
 .crosshair {
@@ -240,6 +240,11 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 	background:none !Important;
 }
 
+.tableView  .td{
+	width:60px;
+	text-align:right;	
+}
+
 .tableRating tr .titulo{
 	font-size:10px;
 	text-align:center;
@@ -247,15 +252,23 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 
 
 .tableRating  .td{
-	width:50px;
+	width:60px;
 	text-align:right;	
-	
 }
 
 .ratingIcons {
 	padding-bottom:10px;
 }
 
+.linkNum {
+	text-decoration:none !Important;
+	color: #858585 !Important;
+}
+
+.viewIcon {
+	width:30px;
+	height:30px;
+}
 
 .iconAb {
 	width:10px;

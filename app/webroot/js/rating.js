@@ -1,62 +1,88 @@
 $(document).ready(function(){
+	ratingA =  $('[class=ratingNum]').html();
 	rating = 0.0;
-	ant = "rat0",act = "rat0";
-	dir = "derecha";
+
 	
 	$('[id^=rat]').mouseover(function(data) {
-	  i = 0;
-	  prev = $(this).prev();
+	
+	  if ($(this).attr("id")[4] != undefined) {
+		r = 10;
+	  } else {
+		r = $(this).attr("id")[3];
+	  }
+	  r -= 1;
+	  
+	  prev = $('#rat'+r);
 	  while (prev.attr("id") != undefined) {
 		prev.attr("src","/IAWP4/img/rating-chico.png");
-		prev = prev.prev();
-		i++;
+		r -= 1;
+		prev = $('#rat'+r);
 	  }
 	  
 	  $(this).attr("src","/IAWP4/img/rating-chico.png");
 	  
-	  next = $(this).next();
+	  if ($(this).attr("id")[4] != undefined) {
+		r = 10;
+	  } else {
+		r = $(this).attr("id")[3];
+	  }
+	  r++;
+	  next = $('#rat'+r);
 	  while (next.attr("id") != undefined) {
 		next.attr("src","/IAWP4/img/rating-chico-osc.png");
-		next = next.next();
+		r++;
+		next = $('#rat'+r);
 	  }
-
-	  ant = $(this).attr("id");
 	  
-	  if (act[3] - ant[3] >= 0) {
-		dir = "izquierda";
-	  } else {
-		dir = "derecha";
-	  }
+
 	  contarRating();
 	  
-	  $('[class=ratingNum]').html(rating);
+	  $('[class=ratingNum]').html(rating+".0");
 	});
 	
 	
-	$('[id^=rat]').mouseout(function(data) {
-	  act = $(this).attr("id");
-
-
-	  if (act == "rat1" && dir.indexOf("izquierda") == 0) {
-		$(this).attr("src","/IAWP4/img/rating-chico-osc.png");
-		rating = 0.0;
-	  }	  
+	$('#botonRating').mouseout(function(data) {
+	  i=0;
+	  next = $('#rat1');
+	  while (i <= ratingA) {
+		next.attr("src","/IAWP4/img/rating-chico.png");
+		i++;
+		next = $('#rat'+i);		
+	  }
+	  
+	  if (ratingA - i != -1) {
+			next.attr("src","/IAWP4/img/rating-chico-medio.png");
+			//cant = $i;
+			i++;	
+			next = $('#rat'+i);			
+	   } 
+		
+	  
+	  
+	  
+	   while (i <= 10) {
+		next.attr("src","/IAWP4/img/rating-chico-osc.png");
+		i++;
+		next = $('#rat'+i);		
+	  }
 	 
-	  $('[class=ratingNum]').html(rating);
+	  $('[class=ratingNum]').html(ratingA);
 	});
 	
-	$('#botonRating').click(function() {
-		console.log(rating);
+	$('[id^=rat]').parent().click(function(data) {
+			$(this).attr("href",$(this).attr("href")+"/"+rating);
 	});
 	
 	function contarRating() {
 	  rating = 0.0;
+	  i = 1;
 	  next = $('#rat1');
 	  while (next != undefined && next.attr("src") != undefined) {
 		if (next.attr("src").indexOf("rating-chico-osc") == -1) {
 			rating += 1.0;
 		}		
-		next = next.next();
+		i++;
+		next = $('#rat'+i);
 	  }
 	}
 });

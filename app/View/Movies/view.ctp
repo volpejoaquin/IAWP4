@@ -30,7 +30,7 @@
 							<div id="Icons" class="ratingIcons divRatRep">
 								<table class="tableRating">
 									<tr>
-										<td colspan="2">
+										<td colspan="3">
 											<span class="titulo">
 												<?php echo $this->Html->image('flechaAbajo.png',array('class' => 'iconAb')); ?>
 												Seleccione el rating de esta pelicula aqui abajo
@@ -38,42 +38,53 @@
 											</span>
 										</td>
 									</tr>
-									<tr id="botonRating">
-										<td class="td">
-											<span class="ratingNum" title='Rating' width="100px"><?php echo h($movie['Movie']['avg_rating']); ?></span>
-										</td>
-										<td>
-										<?php
-											$i = 1;
-											$rat = h($movie['Movie']['avg_rating']);
-											$url = 'rating-chico.png';
-											
-											if ($rat == 0) {
-												$rat = 10;
-												$url = 'rating-chico-osc.png';
-											}
-											
-											for ($i;$i<=$rat;$i++) {
-												echo $this->Html->image($url,array('id' => 'rat'.$i,'class' => 'ratIcon pointer', 'title' => 'Rating '.$rat.'/10'));
-											}		
-											
-											if ($rat - $i != -1) {
-												echo $this->Html->image('rating-chico-medio.png',array('id' => 'rat'.$i,'class' => 'ratIcon', 'title' => 'Rating '.$rat.'/10'));
-												$cant = $i;
-												$i++;							
-											} else {
-												$cant = $i-1;
-											}
-											
-											if ($rat != 10) {
-												//$i = ceil($rat)+1;
-												for ($i;$i<=(10 - $rat)+$cant;$i++) {
-												echo $this->Html->image('rating-chico-osc.png',array('id' => 'rat'.$i, 'class' => 'ratIcon pointer', 'title' => 'Rating '.$rat.'/10'));
-												}
-											}
-										?>
-										</td>
-									</tr>
+										<tr id="botonRating">
+											<td class="td">
+												<span class="ratingNum" title='Rating' width="100px"><?php echo number_format(h($movie['Movie']['avg_rating'])/h($movie['Movie']['avg_cant']), 1, '.', ''); ?></span>
+											</td>
+											<td>
+													<?php
+														$i = 1;
+														$avg_cant = h($movie['Movie']['avg_cant']);
+														$avg_rating = h($movie['Movie']['avg_rating']);
+														if ($avg_cant != 0) {
+															$rat = number_format($avg_rating/$avg_cant, 1, '.', '');
+														} else {
+															$rat = 0.0;
+														}
+														
+														$url = 'rating-chico.png';
+														
+														if ($rat == 0) {
+															$rat = 10;
+															$url = 'rating-chico-osc.png';
+														}
+														
+														for ($i;$i<=$rat;$i++) {
+															echo $this->Html->image($url,array('id' => 'rat'.$i,'class' => 'ratIcon pointer', 'title' => 'Rating '.$rat.'/10', 'url' => '/movies/rating/'.h($movie['Movie']['id'])));
+														}		
+														
+														if ($rat - $i != -1) {
+															echo $this->Html->image('rating-chico-medio.png',array('id' => 'rat'.$i,'class' => 'ratIcon', 'title' => 'Rating '.$rat.'/10', 'url' => '/movies/rating/'.h($movie['Movie']['id'])));
+															$cant = $i;
+															$i++;							
+														} else {
+															$cant = $i-1;
+														}
+														
+														if ($rat != 10) {
+															//$i = ceil($rat)+1;
+															for ($i;$i<=(10 - $rat)+$cant;$i++) {
+															echo $this->Html->image('rating-chico-osc.png',array('id' => 'rat'.$i, 'class' => 'ratIcon pointer', 'title' => 'Rating '.$rat.'/10', 'url' => '/movies/rating/'.h($movie['Movie']['id'])));
+															}
+														}
+													?>
+												
+											</td>
+											<td  class="titulo">
+												(<?php echo h($movie['Movie']['avg_cant']); ?> votos)
+											</td>
+										</tr>
 								</table>
 							</div>	
 						
@@ -86,7 +97,7 @@
 											<?php echo $this->Html->image(
 																		'reviews.png', 
 																			array(
-																				'class' => 'imagen',
+																				'class' => 'imagen viewIcon',
 																				'title' => 'Cantidad de reproducciones'
 																			)
 																		) 
@@ -96,6 +107,12 @@
 							</table>
 			</div>
 			<p><?php echo h($movie['Movie']['info']); ?></p>
+			<p>Tags: <?php 
+						$tags = "".h($movie['Movie']['tags']);
+						$tagsA = explode("|-|",$tags);
+						echo  implode(", ",$tagsA);;
+					?>
+			</p>
 		 </li>	
      <li class="clear">&nbsp;</li>
    </ul>
