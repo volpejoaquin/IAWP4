@@ -1,15 +1,3 @@
-<?php
-    session_start();
-    
-    if(!$_SESSION['loggedin'])
-    {
-        echo "<script language='Javascript'>location.href='/IAWP4/admin'</script>";
-    }
-    else
-    {
-
-?>
-
 <div class="movies form">
 <?php echo $this->Form->create('Movie');?>
 	<fieldset>
@@ -27,7 +15,6 @@
 		echo $this->Form->input('Director');
 		echo $this->Form->input('Genre');
 		echo $this->Form->input('Writer');
-		echo $this->Form->input('RMovie');
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit'));?>
@@ -49,8 +36,3 @@
 	</ul>
 </div>
 
-<?php
-
-    }//Esta logueado
-    
-    ?>

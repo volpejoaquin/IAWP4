@@ -41,7 +41,6 @@ echo "</form>";
 		echo $this->Form->input('Director');
 		echo $this->Form->input('Genre');
 		echo $this->Form->input('Writer');
-		echo $this->Form->input('RMovie');
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit'));?>

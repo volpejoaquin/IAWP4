@@ -84,8 +84,8 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 		$directors = $this->Movie->Director->find('list');
 		$genres = $this->Movie->Genre->find('list');
 		$writers = $this->Movie->Writer->find('list');
-		$rmovie = $this->Movie->RMovie->find('list');
-		$this->set(compact('actors', 'directors', 'genres', 'writers','rmovie'));
+
+		$this->set(compact('actors', 'directors', 'genres', 'writers'));
 	}
 
 /**
@@ -113,8 +113,8 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 		$directors = $this->Movie->Director->find('list');
 		$genres = $this->Movie->Genre->find('list');
 		$writers = $this->Movie->Writer->find('list');
-		$rmovie = $this->Movie->RMovie->find('list');
-		$this->set(compact('actors', 'directors', 'genres', 'writers','rmovie'));
+
+		$this->set(compact('actors', 'directors', 'genres', 'writers'));
 	}
 
 /**
@@ -183,7 +183,10 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 		
 		$sumaRat = $movie['Movie']['avg_rating'];
 		$cantVot = $movie['Movie']['avg_cant']+1;
-		
+		var_dump($sumaRat);
+		echo "<br>";
+		var_dump($cantVot);
+		echo "<br>";
 		$sumaRatNuevo= $rat+$sumaRat;
 		
 		$this->request->data['Movie']['avg_rating'] = $sumaRatNuevo;
