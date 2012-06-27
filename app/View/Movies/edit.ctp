@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <?php
     if(!isset($_SESSION)) {
      session_start();
@@ -15,7 +13,6 @@
 
 ?>
 
->>>>>>> branch 'master' of https://github.com/volpejoaquin/IAWP4.git
 <div class="movies form">
 <?php echo $this->Form->create('Movie');?>
 	<fieldset>
@@ -53,6 +50,7 @@
 		<li><?php echo $this->Html->link(__('New Writer'), array('controller' => 'writers', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
+
 <<<<<<< HEAD
 
 =======
