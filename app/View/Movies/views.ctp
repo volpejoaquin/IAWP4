@@ -1,5 +1,8 @@
 <?php
-    session_start();
+    
+if(!isset($_SESSION)) {
+     session_start();
+}
 ?>﻿
 
 <div id="content">
@@ -72,13 +75,13 @@
 				<div class="wrapper">
 					<?php echo $this->Html->link('Leer mas ', 'view/'.h($movie['Movie']['id'])); ?>
                                         <?php 
-                                                if($_SESSION['loggedin'])
+                                                if(isset($_SESSION['loggedin']))
                                                 {
                                                     echo " - ";
                                                     echo $this->Html->link('Editar', 'edit/'.h($movie['Movie']['id']),array('style'=>'color:red;')); 
                                                     echo " - ";
-                                                    echo $this->Html->link('Borrar', array('controller'=>'movies','action'=>'delete','id'=>$movie['Movie']['id']),array('style'=>'color:red;')); 
-                                                }
+                                                    echo $this->Form->postLink(__('Borrar'), array('action' => 'delete', $movie['Movie']['id']), array('style'=>'color:red;'), __('Confirme que desea borrar "%s"', $movie['Movie']['name'])); 
+                                      }
                                          ?>
 
 				</div>

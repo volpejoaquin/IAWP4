@@ -1,3 +1,10 @@
+<?php
+if(!isset($_SESSION)) {
+     session_start();
+}
+
+?>
+
 <div id="content">
  <div id="slogan">
    <div class="image png"></div>
@@ -79,7 +86,18 @@
 					?>		
 				<p><?php echo substr(h($movie['Movie']['info']), 0, 140) . "..."; ?></p>
 				<div class="wrapper">
-					<?php echo $this->Html->link('Leer mas', 'view/'.h($movie['Movie']['id'])); ?>
+					<?php echo $this->Html->link('Leer mas', 'view/'.h($movie['Movie']['id'])); 
+                                        
+                                          
+                                                if(isset($_SESSION['loggedin']))
+                                                {
+                                                    echo " - ";
+                                                    echo $this->Html->link('Editar', 'edit/'.h($movie['Movie']['id']),array('style'=>'color:red;')); 
+                                                    echo " - ";
+                                                    echo $this->Form->postLink(__('Borrar'), array('action' => 'delete', $movie['Movie']['id']), array('style'=>'color:red;'), __('Confirme que desea borrar "%s"', $movie['Movie']['name'])); 
+                                      }
+                                         ?>
+                                        
 				</div>
 			 </li>	
 	<?php } ?>

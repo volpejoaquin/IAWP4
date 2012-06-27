@@ -43,7 +43,7 @@ session_start();
 				<div class="wrapper">
 					<?php echo $this->Html->link('Ver mas', 'view/'.h($genre['Genre']['id'])); ?>
                                         <?php 
-                                                if($_SESSION['loggedin'])
+                                                if(isset($_SESSION['loggedin']))
                                                 {
                                                     echo " - ";
                                                     echo $this->Html->link('Editar', 'edit/'.h($genre['Genre']['id']),array('style'=>'color:red;')); 
