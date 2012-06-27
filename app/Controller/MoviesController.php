@@ -143,34 +143,26 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 	public function search() {
 		if ($this->request->is('post')) {
 			
-			//Peliculas
 			$this->Movie->recursive = 0;
-
-			$data = $this->request->data['Movie']['search'];
-			
-			$movies = $this->paginate('Movie', array('Movie.name LIKE' => '%'.$data.'%','Movie.tags LIKE' => '%'.$data.'%'));
-			var_dump($movies);
-			echo "VER TAGSSS";
-			//Actores
 			$this->Actor->recursive = 0;
-
-			$actors = $this->paginate('Actor', array('Actor.name LIKE' => '%'.$data.'%'));
-			
-			//Directores
 			$this->Director->recursive = 0;
-
-			$directors = $this->paginate('Director', array('Director.name LIKE' => '%'.$data.'%'));
-			
-			//Escritores
 			$this->Writer->recursive = 0;
-
-			$writers = $this->paginate('Writer', array('Writer.name LIKE' => '%'.$data.'%'));
-			
-			//Generos
 			$this->Genres->recursive = 0;
-
-			$genres = $this->paginate('Genre', array('Genre.name LIKE' => '%'.$data.'%'));
 			
+			$datas = explode(" ",$this->request->data['Movie']['search']);
+			
+			foreach ($datas as $data) {
+				$movies = $this->paginate('Movie', array('Movie.name LIKE' => '%'.$data.'%'));
+				$movies = $this->paginate('Movie', array('Movie.tags LIKE' => '%'.$data.'%'));
+
+				$actors = $this->paginate('Actor', array('Actor.name LIKE' => '%'.$data.'%'));
+				
+				$directors = $this->paginate('Director', array('Director.name LIKE' => '%'.$data.'%'));
+				
+				$writers = $this->paginate('Writer', array('Writer.name LIKE' => '%'.$data.'%'));
+
+				$genres = $this->paginate('Genre', array('Genre.name LIKE' => '%'.$data.'%'));
+			}
 			
 			$this->set(compact('movies','actors','directors','writers','genres'));
 		}
