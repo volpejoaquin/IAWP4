@@ -51,14 +51,14 @@
 						}
 						
 						for ($i;$i<=$rat;$i++) {
-							echo $this->Html->image('rating-chico.png',array('class' => 'ratIcon', 'title' => 'Rating '.$rat.'/10'));
+							echo $this->Html->image('rating-chico.png',array('class' => 'ratIcon', 'title' => 'Rating '.$rat.'/10. '.$avg_cant.' votos'));
 						}			
 						if ($rat - $i != -1) {
-							echo $this->Html->image('rating-chico-medio.png',array('class' => 'ratIcon', 'title' => 'Rating '.$rat.'/10'));
+							echo $this->Html->image('rating-chico-medio.png',array('class' => 'ratIcon', 'title' => 'Rating '.$rat.'/10. '.$avg_cant.' votos'));
 						}
 						
 						if ($rat == 0) {
-							echo $this->Html->image('rating-chico-osc.png',array('class' => 'ratIcon', 'title' => 'Rating '.$rat.'/10'));
+							echo $this->Html->image('rating-chico-osc.png',array('class' => 'ratIcon', 'title' => 'Rating '.$rat.'/10. '.$avg_cant.' votos'));
 						}
 					?>
 				</div>
