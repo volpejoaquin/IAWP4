@@ -131,7 +131,7 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 .movie .year {padding-bottom:10px;}
 .movie .rating {
 	float:right;
-	margin-top:60px;
+	margin-top:20px;
 	margin-right:200px;
 	font-size:30px;
 }
@@ -223,8 +223,45 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 	padding-right:30px;
 }
 
+.tableRating tr {
+	background:none !Important;
+}
+
+.tableRating tr td{
+	border: none !Important;
+	color: #858585 !Important;
+	cursor:pointer !Important;
+	background:none !Important;
+}
+
+.tableView tr td{
+	border: none !Important;
+	color: #858585 !Important;
+	background:none !Important;
+}
+
+.tableRating tr .titulo{
+	font-size:10px;
+	text-align:center;
+}
+
+
+.tableRating  .td{
+	width:50px;
+	text-align:right;	
+	
+}
+
 .ratingIcons {
 	padding-bottom:10px;
+}
+
+
+.iconAb {
+	width:10px;
+	height:9px;
+	margin:0px !Important;
+	vertical-align:middle;
 }
 
 .ratingIcons .ratIcon {
@@ -278,6 +315,7 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 .pointer {
 	cursor:pointer;
 }
+
 
 .imagen {
 	vertical-align:middle;

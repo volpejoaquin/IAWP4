@@ -27,49 +27,73 @@
 					?>
 					
 			<div class="rating">
-				<div id="Icons" class="ratingIcons">
-					
-					<?php
-						$i = 1;
-						$rat = h($movie['Movie']['avg_rating']);
-						$url = 'rating-chico.png';
+							<div id="Icons" class="ratingIcons divRatRep">
+								<table class="tableRating">
+									<tr>
+										<td colspan="2">
+											<span class="titulo">
+												<?php echo $this->Html->image('flechaAbajo.png',array('class' => 'iconAb')); ?>
+												Seleccione el rating de esta pelicula aqui abajo
+												<?php echo $this->Html->image('flechaAbajo.png',array('class' => 'iconAb')); ?>
+											</span>
+										</td>
+									</tr>
+									<tr id="botonRating">
+										<td class="td">
+											<span class="ratingNum" title='Rating' width="100px"><?php echo h($movie['Movie']['avg_rating']); ?></span>
+										</td>
+										<td>
+										<?php
+											$i = 1;
+											$rat = h($movie['Movie']['avg_rating']);
+											$url = 'rating-chico.png';
+											
+											if ($rat == 0) {
+												$rat = 10;
+												$url = 'rating-chico-osc.png';
+											}
+											
+											for ($i;$i<=$rat;$i++) {
+												echo $this->Html->image($url,array('id' => 'rat'.$i,'class' => 'ratIcon pointer', 'title' => 'Rating '.$rat.'/10'));
+											}		
+											
+											if ($rat - $i != -1) {
+												echo $this->Html->image('rating-chico-medio.png',array('id' => 'rat'.$i,'class' => 'ratIcon', 'title' => 'Rating '.$rat.'/10'));
+												$cant = $i;
+												$i++;							
+											} else {
+												$cant = $i-1;
+											}
+											
+											if ($rat != 10) {
+												//$i = ceil($rat)+1;
+												for ($i;$i<=(10 - $rat)+$cant;$i++) {
+												echo $this->Html->image('rating-chico-osc.png',array('id' => 'rat'.$i, 'class' => 'ratIcon pointer', 'title' => 'Rating '.$rat.'/10'));
+												}
+											}
+										?>
+										</td>
+									</tr>
+								</table>
+							</div>	
 						
-						if ($rat == 0) {
-							$rat = 10;
-							$url = 'rating-chico-osc.png';
-						}
-						
-						for ($i;$i<=$rat;$i++) {
-							echo $this->Html->image($url,array('id' => 'rat'.$i,'class' => 'ratIcon pointer', 'title' => 'Rating '.$rat.'/10'));
-						}		
-						
-						if ($rat - $i != -1) {
-							echo $this->Html->image('rating-chico-medio.png',array('id' => 'rat'.$i,'class' => 'ratIcon', 'title' => 'Rating '.$rat.'/10'));
-							$cant = $i;
-							$i++;							
-						} else {
-							$cant = $i-1;
-						}
-						
-						if ($rat != 10) {
-							//$i = ceil($rat)+1;
-							for ($i;$i<=(10 - $rat)+$cant;$i++) {
-							echo $this->Html->image('rating-chico-osc.png',array('id' => 'rat'.$i, 'class' => 'ratIcon pointer', 'title' => 'Rating '.$rat.'/10'));
-							}
-						}
-					?>
-					<span id="Rating" title='Rating'><?php echo h($movie['Movie']['avg_rating']); ?></span>
-				</div>				
-				<?php echo $this->Html->image(
-											'reviews.png', 
-												array(
-													'class' => 'imagen',
-													'title' => 'Cantidad de reproducciones'
-												)
-											) 
-				?>
-				
-				<span title='Cantidad de reproducciones' ><?php echo h($movie['Movie']['reviews']); ?></span>
+							<table class="tableView">
+									<tr>
+										<td class="td">
+											<span title='Cantidad de reproducciones' ><?php echo h($movie['Movie']['reviews']); ?></span>
+										</td>
+										<td>
+											<?php echo $this->Html->image(
+																		'reviews.png', 
+																			array(
+																				'class' => 'imagen',
+																				'title' => 'Cantidad de reproducciones'
+																			)
+																		) 
+											?>
+									</td>
+								</tr>
+							</table>
 			</div>
 			<p><?php echo h($movie['Movie']['info']); ?></p>
 		 </li>	
