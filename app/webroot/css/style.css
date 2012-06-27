@@ -179,6 +179,11 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
         padding-top:15px;
 }
 
+.relatedImgs1 {
+        padding-top:10px;
+		 padding-bottom:20px;
+}
+
 .relatedPics{
 	margin-left:10px;
 	margin-right:10px;
@@ -189,8 +194,21 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
         margin-top: 15px;
 }
 
+.relatedTitle1{
+	font-family:Arial,Helvetica,sans-serif;font-size:120%;line-height:1em;color: #f0f0f0;
+        margin-top: 15px;
+}
+
 .relatedText{
         font-family:Arial,Helvetica,sans-serif;font-size:100%;line-height:1em;color: #858585;
+}
+
+.relatedMovies {
+	margin-top:10px;
+}
+
+#relatedImgs1 {
+	padding-bottom:20px;
 }
 
 .tomatoText{

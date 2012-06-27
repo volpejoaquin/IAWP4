@@ -65,7 +65,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'IAWP4',
 		'password' => 'iawp4',
-		'database' => 'Datos/IAWP4.sqlite',
+		'database' => '../Datos/IAWP4.sqlite',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);

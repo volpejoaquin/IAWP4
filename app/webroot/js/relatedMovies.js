@@ -14,7 +14,7 @@ $(document).ready(function(){
     {
                                                                                         //<img class='tomatoImg' src='/IAWP4/img/rottenT_logo.png' title='RottenTomatoes' alt='RottenTomatoes'></img>
         $("#content").find("[class*='content']").append("<div id='relatedMovies'>\n\
-                                                <div class='relatedTitle'> Pel&iacute;culas relacionadas - powered by <a class='tomatoText' href='http://www.rottentomatoes.com' target='_blank' >RottenTomatoes</a></span>\n\
+                                                <div class='relatedTitle'> Pel&iacute;culas relacionadas - <a class='tomatoText' href='http://www.rottentomatoes.com' target='_blank' >RottenTomatoes</a></span>\n\
                                                 <div id='relatedImgs'></div>\n\
                                                 </div>")
 

@@ -21,13 +21,13 @@
 		echo $this->Form->input('info');
 		echo $this->Form->input('duration');
 		echo $this->Form->input('avg_rating');
-		echo $this->Form->input('reviews');
 		echo $this->Form->input('avg_cant');
 		echo $this->Form->input('tags');
 		echo $this->Form->input('Actor');
 		echo $this->Form->input('Director');
 		echo $this->Form->input('Genre');
 		echo $this->Form->input('Writer');
+		echo $this->Form->input('RMovie');
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit'));?>

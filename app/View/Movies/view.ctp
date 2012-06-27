@@ -32,7 +32,6 @@
 									<tr>
 										<td colspan="3">
 											<span class="titulo">
-												<?php echo $this->Html->image('flechaAbajo.png',array('class' => 'iconAb')); ?>
 												Seleccione el rating de esta pelicula aqui abajo
 												<?php echo $this->Html->image('flechaAbajo.png',array('class' => 'iconAb')); ?>
 											</span>
@@ -40,7 +39,18 @@
 									</tr>
 										<tr id="botonRating">
 											<td class="td">
-												<span class="ratingNum" title='Rating' width="100px"><?php echo number_format(h($movie['Movie']['avg_rating'])/h($movie['Movie']['avg_cant']), 1, '.', ''); ?></span>
+												<span class="ratingNum" title='Rating' width="100px">
+													<?php
+														$avg_cant = h($movie['Movie']['avg_cant']);
+														$avg_rating = h($movie['Movie']['avg_rating']);
+														if ($avg_cant != 0) {
+															$rat = number_format($avg_rating/$avg_cant, 1, '.', '');
+														} else {
+															$rat = 0.0;
+														}
+														echo $rat;
+													?>
+												</span>
 											</td>
 											<td>
 													<?php
@@ -81,9 +91,6 @@
 													?>
 												
 											</td>
-											<td  class="titulo">
-												(<?php echo h($movie['Movie']['avg_cant']); ?> votos)
-											</td>
 										</tr>
 								</table>
 							</div>	
@@ -91,14 +98,14 @@
 							<table class="tableView">
 									<tr>
 										<td class="td">
-											<span title='Cantidad de reproducciones' ><?php echo h($movie['Movie']['reviews']); ?></span>
+											<span title='Cantidad de votos' ><?php echo h($movie['Movie']['avg_cant']); ?></span>
 										</td>
 										<td>
 											<?php echo $this->Html->image(
 																		'reviews.png', 
 																			array(
 																				'class' => 'imagen viewIcon',
-																				'title' => 'Cantidad de reproducciones'
+																				'title' => 'Cantidad de votos'
 																			)
 																		) 
 											?>
@@ -171,7 +178,7 @@
 	<label class="sutil"><?php echo __('Escrita por:');?></label>
 	<?php if (!empty($movie['Writer'])):?>
 	<?php
-                $numItems = count($movie['Writer']);
+        $numItems = count($movie['Writer']);
 		$i = 0;
 		foreach ($movie['Writer'] as $writer): ?>
 		<?php echo $this->Html->link(__($writer['name']), array('controller' => 'writers', 'action' => 'view', $writer['id']));
@@ -185,6 +192,29 @@
         </p>
     </div>
 	<div id="comentariosC" class="fb-comments" data-href="http://localhost:8080/IAWP4/movies/view/<?php echo h($movie['Movie']['id']); ?>" data-num-posts="5" data-width="900" data-colorscheme="dark"></div>
+	<div id='relatedMovies' class='relatedMovies'>
+		<div class='relatedTitle1'> Pel&iacute;culas relacionadas - Cinema <span class="world">WORLD</span></span>
+		<div class='relatedImgs1'>
+			<?php if (!empty($movie['RMovie'])) {
+				$i = 0;
+				foreach ($movie['RMovie'] as $rmovie) { 
+					echo $this->Html->image(
+										'movies/movie'.(h($rmovie["id"])+1).'.jpg', 
+											array(
+												'alt' => h($rmovie['name']),
+												'title' => h($rmovie['name']),
+												'url' => 'view/'.h($rmovie['id']),
+											)
+										);
+										
+				}
+			} else { ?>
+				<span class='relatedText'>
+					No hay peliculas relacionadas.
+				</span>
+			<?php }?>
+		</div>
+	</div>
  </div>
 </div>
 
