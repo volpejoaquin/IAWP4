@@ -24,6 +24,7 @@ echo "</form>";
 		echo $this->Form->input('duration');
 		echo $this->Form->input('avg_rating');
 		echo $this->Form->input('reviews');
+		echo $this->Form->input('avg_cant');
 		echo $this->Form->input('Actor');
 		echo $this->Form->input('Director');
 		echo $this->Form->input('Genre');
