@@ -41,6 +41,17 @@
 	<?php } ?>
      <li class="clear">&nbsp;</li>
    </ul>
+   <div id="divvermas" class="wp-pagenavi verMas" style="">
+		<?php 
+		  echo $this->Paginator->prev();  
+		 ?>
+		 <?php 
+		  echo $this->Paginator->numbers(array('separator'=>' - '));
+		?>
+		 <?php 	  
+		  echo $this->Paginator->next(); 
+		?> 
+	</div>
  </div>
 </div>
 

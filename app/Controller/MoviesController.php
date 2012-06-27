@@ -62,7 +62,6 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 		
 		//Calculo el rating
 		$movie = $this->Movie->read(null, $id);
-		
 		$this->set('movie', $movie);
 	}
 
@@ -85,7 +84,8 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 		$directors = $this->Movie->Director->find('list');
 		$genres = $this->Movie->Genre->find('list');
 		$writers = $this->Movie->Writer->find('list');
-		$this->set(compact('actors', 'directors', 'genres', 'writers'));
+		$rmovie = $this->Movie->RMovie->find('list');
+		$this->set(compact('actors', 'directors', 'genres', 'writers','rmovie'));
 	}
 
 /**
@@ -113,7 +113,8 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 		$directors = $this->Movie->Director->find('list');
 		$genres = $this->Movie->Genre->find('list');
 		$writers = $this->Movie->Writer->find('list');
-		$this->set(compact('actors', 'directors', 'genres', 'writers'));
+		$rmovie = $this->Movie->RMovie->find('list');
+		$this->set(compact('actors', 'directors', 'genres', 'writers','rmovie'));
 	}
 
 /**

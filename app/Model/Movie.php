@@ -6,9 +6,103 @@ App::uses('AppModel', 'Model');
  * @property Actor $Actor
  * @property Director $Director
  * @property Genre $Genre
+ * @property Movie $Movie
  * @property Writer $Writer
  */
 class Movie extends AppModel {
+/**
+ * Display field
+ *
+ * @var string
+ */
+	public $displayField = 'name';
+/**
+ * Validation rules
+ *
+ * @var array
+ */
+	public $validate = array(
+		'id' => array(
+			'numeric' => array(
+				'rule' => array('numeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'name' => array(
+			'alphanumeric' => array(
+				'rule' => array('alphanumeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'year' => array(
+			'numeric' => array(
+				'rule' => array('numeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'info' => array(
+			'alphanumeric' => array(
+				'rule' => array('alphanumeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'duration' => array(
+			'alphanumeric' => array(
+				'rule' => array('alphanumeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'avg_rating' => array(
+			'alphanumeric' => array(
+				'rule' => array('alphanumeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'avg_cant' => array(
+			'numeric' => array(
+				'rule' => array('numeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'tags' => array(
+			'alphanumeric' => array(
+				'rule' => array('alphanumeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+	);
 
 	//The Associations below have been created with all possible keys, those that are not needed can be removed
 
@@ -53,6 +147,21 @@ class Movie extends AppModel {
 			'joinTable' => 'movies_genres',
 			'foreignKey' => 'movie_id',
 			'associationForeignKey' => 'genre_id',
+			'unique' => 'keepExisting',
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'finderQuery' => '',
+			'deleteQuery' => '',
+			'insertQuery' => ''
+		),
+		'RMovie' => array(
+			'className' => 'Movie',
+			'joinTable' => 'movies_movies',
+			'foreignKey' => 'movie_id',
+			'associationForeignKey' => 'rmovie_id',
 			'unique' => 'keepExisting',
 			'conditions' => '',
 			'fields' => '',

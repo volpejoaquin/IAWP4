@@ -494,3 +494,117 @@
 #3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
 #4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2012-06-27 20:42:12 Error: [MissingTableException] Table r_movies for model RMovie was not found in datasource default.
+#0 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(3443): Model->setSource('r_movies')
+#1 C:\wamp\www\IAWP4\lib\Cake\Model\Datasource\DboSource.php(1044): Model->getDataSource()
+#2 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(2698): DboSource->read(Object(Movie), Array)
+#3 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(1507): Model->find('first', Array)
+#4 C:\wamp\www\IAWP4\app\Controller\MoviesController.php(64): Model->read(NULL, '1')
+#5 [internal function]: MoviesController->view('1')
+#6 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#7 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-06-27 20:42:48 Error: [MissingTableException] Table r_movies for model RMovie was not found in datasource default.
+#0 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(3443): Model->setSource('r_movies')
+#1 C:\wamp\www\IAWP4\lib\Cake\Model\Datasource\DboSource.php(1044): Model->getDataSource()
+#2 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(2698): DboSource->read(Object(Movie), Array)
+#3 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(1507): Model->find('first', Array)
+#4 C:\wamp\www\IAWP4\app\Controller\MoviesController.php(64): Model->read(NULL, '1')
+#5 [internal function]: MoviesController->view('1')
+#6 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#7 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-06-27 20:43:09 Error: [PDOException] SQLSTATE[HY000]: General error: 1 ambiguous column name: MoviesMovie.id
+#0 C:\wamp\www\IAWP4\lib\Cake\Model\Datasource\DboSource.php(435): PDO->prepare('SELECT "MoviesM...', Array)
+#1 C:\wamp\www\IAWP4\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT "MoviesM...', Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT "MoviesM...', Array, Array)
+#3 C:\wamp\www\IAWP4\lib\Cake\Model\Datasource\DboSource.php(1219): DboSource->fetchAll('SELECT "MoviesM...', false)
+#4 C:\wamp\www\IAWP4\lib\Cake\Model\Datasource\DboSource.php(1087): DboSource->queryAssociation(Object(Movie), Object(MoviesMovie), 'hasAndBelongsTo...', 'MoviesMovie', Array, Array, true, Array, 0, Array)
+#5 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(2698): DboSource->read(Object(Movie), Array)
+#6 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(1507): Model->find('first', Array)
+#7 C:\wamp\www\IAWP4\app\Controller\MoviesController.php(64): Model->read(NULL, '1')
+#8 [internal function]: MoviesController->view('1')
+#9 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#10 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-06-27 20:43:54 Error: [MissingTableException] Table r_movies for model RMovie was not found in datasource default.
+#0 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(3443): Model->setSource('r_movies')
+#1 C:\wamp\www\IAWP4\lib\Cake\Model\Datasource\DboSource.php(1044): Model->getDataSource()
+#2 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(2698): DboSource->read(Object(Movie), Array)
+#3 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(1507): Model->find('first', Array)
+#4 C:\wamp\www\IAWP4\app\Controller\MoviesController.php(64): Model->read(NULL, '1')
+#5 [internal function]: MoviesController->view('1')
+#6 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#7 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-06-27 20:44:09 Error: [MissingTableException] Table r_movies for model RMovie was not found in datasource default.
+#0 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(3443): Model->setSource('r_movies')
+#1 C:\wamp\www\IAWP4\lib\Cake\Model\Datasource\DboSource.php(1044): Model->getDataSource()
+#2 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(2698): DboSource->read(Object(Movie), Array)
+#3 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(1507): Model->find('first', Array)
+#4 C:\wamp\www\IAWP4\app\Controller\MoviesController.php(64): Model->read(NULL, '1')
+#5 [internal function]: MoviesController->view('1')
+#6 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#7 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-06-27 20:44:17 Error: [MissingTableException] Table r_movies for model RMovie was not found in datasource default.
+#0 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(3443): Model->setSource('r_movies')
+#1 C:\wamp\www\IAWP4\lib\Cake\Model\Datasource\DboSource.php(1044): Model->getDataSource()
+#2 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(2698): DboSource->read(Object(Movie), Array)
+#3 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(1507): Model->find('first', Array)
+#4 C:\wamp\www\IAWP4\app\Controller\MoviesController.php(64): Model->read(NULL, '1')
+#5 [internal function]: MoviesController->view('1')
+#6 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#7 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-06-27 20:45:42 Error: [NotFoundException] Invalid movie
+#0 [internal function]: MoviesController->view('0')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-27 20:49:28 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [14] unable to open database file" is missing, or could not be created.
+#0 C:\wamp\www\IAWP4\lib\Cake\Model\Datasource\DboSource.php(245): Sqlite->connect()
+#1 C:\wamp\www\IAWP4\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(3417): ConnectionManager::getDataSource('default')
+#3 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(1083): Model->setDataSource('default')
+#4 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(3443): Model->setSource('movies')
+#5 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(2795): Model->getDataSource()
+#6 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(2735): Model->_findCount('before', Array)
+#7 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(2693): Model->buildQuery('count', Array)
+#8 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(2623): Model->find('count', Array)
+#9 C:\wamp\www\IAWP4\app\Controller\MoviesController.php(59): Model->exists()
+#10 [internal function]: MoviesController->view('1')
+#11 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#12 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-06-27 21:00:55 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-27 21:34:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-27 21:36:21 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-27 21:36:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-27 21:36:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
