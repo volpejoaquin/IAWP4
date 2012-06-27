@@ -15,7 +15,7 @@
    <div class="border-right">
 		<div class="border-left">
        <div class="inner textHeader">
-	     <span>Peliculas mas <span class="world">vistas</span> </span>
+	     <span>Peliculas mas <span class="world">votadas</span> </span>
        </div>
      </div>
    </div>	

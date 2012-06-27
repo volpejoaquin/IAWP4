@@ -23,7 +23,7 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 		$this->paginate = array(
 			'limit' => 3,
 			'page' => 1,
-			'order' => array('name' => 'desc')
+			'order' => array('avg_cant' => 'desc')
 		);
 		
 		$movies = $this->paginate('Movie');
