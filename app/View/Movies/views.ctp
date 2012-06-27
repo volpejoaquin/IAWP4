@@ -1,4 +1,8 @@
-﻿<div id="content">
+<?php
+    session_start();
+?>﻿
+
+<div id="content">
 <div class="box">
    <div class="border-right">
 		<div class="border-left">
@@ -59,7 +63,17 @@
 					?>		
 				<p><?php echo substr(h($movie['Movie']['info']), 0, 140) . "..."; ?></p>
 				<div class="wrapper">
-					<?php echo $this->Html->link('Leer mas', 'view/'.h($movie['Movie']['id'])); ?>
+					<?php echo $this->Html->link('Leer mas ', 'view/'.h($movie['Movie']['id'])); ?>
+                                        <?php 
+                                                if($_SESSION['loggedin'])
+                                                {
+                                                    echo " - ";
+                                                    echo $this->Html->link('Editar', 'edit/'.h($movie['Movie']['id']),array('style'=>'color:red;')); 
+                                                    echo " - ";
+                                                    echo $this->Html->link('Borrar', array('controller'=>'movies','action'=>'delete','id'=>$movie['Movie']['id']),array('style'=>'color:red;')); 
+                                                }
+                                         ?>
+
 				</div>
 			 </li>	
 	<?php } ?>

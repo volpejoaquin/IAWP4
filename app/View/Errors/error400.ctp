@@ -20,7 +20,7 @@
 <p class="error">
 	<strong><?php echo __d('cake', 'Error'); ?>: </strong>
 	<?php printf(
-		__d('cake', 'La página a la que hace referencia (%s) no fue encontrada en el servidor.'),
+		__d('cake', 'La p&aacute;gina a la que hace referencia (%s) no fue encontrada en el servidor.'),
 		"<strong>'{$url}'</strong>"
 	); ?>
 </p>

@@ -1,3 +1,9 @@
+<?php
+
+session_start();
+
+?>
+
 <div id="content">
 <div class="box">
    <div class="border-right">
@@ -36,6 +42,15 @@
 					?>		
 				<div class="wrapper">
 					<?php echo $this->Html->link('Ver mas', 'view/'.h($genre['Genre']['id'])); ?>
+                                        <?php 
+                                                if($_SESSION['loggedin'])
+                                                {
+                                                    echo " - ";
+                                                    echo $this->Html->link('Editar', 'edit/'.h($genre['Genre']['id']),array('style'=>'color:red;')); 
+                                                    echo " - ";
+                                                    echo $this->Html->link('Borrar', array('controller'=>'genres','method'=>'post','action'=>'delete','id'=>$genre['Genre']['id']),array('style'=>'color:red;')); 
+                                                }
+                                         ?>
 				</div>
 			 </li>	
 	<?php } ?>

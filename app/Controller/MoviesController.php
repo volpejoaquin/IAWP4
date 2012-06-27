@@ -56,7 +56,7 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 	public function view($id = null) {
 		$this->Movie->id = $id;
 		if (!$this->Movie->exists()) {
-			throw new NotFoundException(__('Invalid movie'));
+			throw new NotFoundException(__('Pelicula no existente'));
 		}
 		
 		//Calculo el rating
@@ -74,10 +74,10 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 		if ($this->request->is('post')) {
 			$this->Movie->create();
 			if ($this->Movie->save($this->request->data)) {
-				$this->Session->setFlash(__('The movie has been saved'));
+				$this->Session->setFlash(__('Se agregó la pelicula!'));
 				$this->redirect(array('action' => 'index'));
 			} else {
-				$this->Session->setFlash(__('The movie could not be saved. Please, try again.'));
+				$this->Session->setFlash(__('No pudo agregarse la pelicula. Por favor intente nuevamente.'));
 			}
 		}
 		$actors = $this->Movie->Actor->find('list');
@@ -96,14 +96,14 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 	public function edit($id = null) {
 		$this->Movie->id = $id;
 		if (!$this->Movie->exists()) {
-			throw new NotFoundException(__('Invalid movie'));
+			throw new NotFoundException(__('Pelicula invalida'));
 		}
 		if ($this->request->is('post') || $this->request->is('put')) {
 			if ($this->Movie->save($this->request->data)) {
-				$this->Session->setFlash(__('The movie has been saved'));
+				$this->Session->setFlash(__('Se guardaron los cambios!'));
 				$this->redirect(array('action' => 'index'));
 			} else {
-				$this->Session->setFlash(__('The movie could not be saved. Please, try again.'));
+				$this->Session->setFlash(__('No se pudieron guardar los cambios. Intente nuevamente.'));
 			}
 		} else {
 			$this->request->data = $this->Movie->read(null, $id);
@@ -127,13 +127,13 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 		}
 		$this->Movie->id = $id;
 		if (!$this->Movie->exists()) {
-			throw new NotFoundException(__('Invalid movie'));
+			throw new NotFoundException(__('Pelicula invalida!'));
 		}
 		if ($this->Movie->delete()) {
-			$this->Session->setFlash(__('Movie deleted'));
+			$this->Session->setFlash(__('Pelicula eliminada'));
 			$this->redirect(array('action' => 'index'));
 		}
-		$this->Session->setFlash(__('Movie was not deleted'));
+		$this->Session->setFlash(__('La pelicula no fue eliminada'));
 		$this->redirect(array('action' => 'index'));
 	}
 	

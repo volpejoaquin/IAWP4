@@ -1,3 +1,15 @@
+<?php
+    session_start();
+    
+    if(!$_SESSION['loggedin'])
+    {
+        echo "<script language='Javascript'>location.href='/IAWP4/admin'</script>";
+    }
+    else
+    {
+
+?>
+
 <div class="movies form">
 <?php echo $this->Form->create('Movie');?>
 	<fieldset>
@@ -36,3 +48,9 @@
 		<li><?php echo $this->Html->link(__('New Writer'), array('controller' => 'writers', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
+
+<?php
+
+    }//Esta logueado
+    
+    ?>

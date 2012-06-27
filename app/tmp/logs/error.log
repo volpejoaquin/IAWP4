@@ -494,3 +494,125 @@
 #3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
 #4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2012-06-27 22:24:11 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-27 22:24:52 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-27 22:29:59 Error: [NotFoundException] Invalid actor
+#0 [internal function]: ActorsController->edit()
+#1 C:\xampp\htdocs\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ActorsController), Array)
+#2 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ActorsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-27 22:36:05 Error: [NotFoundException] Invalid actor
+#0 [internal function]: ActorsController->edit()
+#1 C:\xampp\htdocs\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ActorsController), Array)
+#2 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ActorsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-27 23:10:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-27 23:10:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-27 23:10:38 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: MoviesController->delete('8')
+#1 C:\xampp\htdocs\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-27 23:14:02 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: MoviesController->delete('1')
+#1 C:\xampp\htdocs\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-27 23:19:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-27 23:19:14 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: MoviesController->delete('8', '??Est?? seguro?')
+#1 C:\xampp\htdocs\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-27 23:21:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-27 23:21:02 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: MoviesController->delete('8', '??Est&aacute; s...')
+#1 C:\xampp\htdocs\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-27 23:25:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-27 23:25:22 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: MoviesController->delete('8')
+#1 C:\xampp\htdocs\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-27 23:25:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-27 23:26:01 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: MoviesController->delete()
+#1 C:\xampp\htdocs\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-27 23:27:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-27 23:27:19 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: MoviesController->delete()
+#1 C:\xampp\htdocs\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-27 23:27:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-27 23:27:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-27 23:27:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-27 23:33:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-27 23:37:32 Error: [NotFoundException] Invalid genre
+#0 [internal function]: GenresController->edit()
+#1 C:\xampp\htdocs\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(GenresController), Array)
+#2 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(GenresController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-27 23:37:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-27 23:37:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-27 23:50:08 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: MoviesController->delete()
+#1 C:\xampp\htdocs\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

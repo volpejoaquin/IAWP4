@@ -1,3 +1,8 @@
+<?php
+
+session_start();
+?>
+
 <div id="content">
 <div class="box">
    <div class="border-right">
@@ -21,8 +26,15 @@
 													'title' => h($genre['Genre']['name']),
 													'url' => 'view/'.h($genre['Genre']['id'])
 												)
-											) 
-					?>
+											);
+                                                if($_SESSION['loggedin'])
+                                                {
+                                                    echo " - ";
+                                                    echo $this->Html->link('Editar', 'edit/'.h($genre['Genre']['id']),array('style'=>'color:red;')); 
+                                                    echo " - ";
+                                                    echo $this->Html->link('Borrar', array('controller'=>'movies','action'=>'delete','id'=>$genre['Genre']['id']),array('style'=>'color:red;')); 
+                                                }
+                                         ?>
 		 </li>	
      <li class="clear">&nbsp;</li>
    </ul>
@@ -61,7 +73,8 @@
 								?>		
 							<p><?php echo substr(h($movie['info']), 0, 140) . "..."; ?></p>
 							<div class="wrapper">
-								<?php echo $this->Html->link('Leer mas', 'view/'.h($movie['id'])); ?>
+								<?php echo $this->Html->link('Leer mas', array('controller'=>'movies','action'=>'view',h($movie['id']))); ?>
+                                                                               
 							</div>
 						 </li>	
 				<?php } ?>

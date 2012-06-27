@@ -1,11 +1,11 @@
 <?php
 App::uses('AppController', 'Controller');
 /**
- * Admin Controller
+ * Login Controller
  *
  * 
  */
-class AdminController extends AppController {
+class LoginController extends AppController {
 
  /*
 var $components  = array('Auth');
@@ -36,24 +36,32 @@ protected function initAuth(){
 		
 	}
 
+            
 /**
- * edit method
+ * view method
  *
  * @param string $id
  * @return void
  */
-	public function edit() {
-	
+	public function view($id = null) {
+		
 	}
-
 /**
- * delete method
- *
- * @param string $id
- * @return void
+ * 
  */
-	public function delete() {
-	
-	}
+        public function login()
+        {
+            
+            
+        }
+        
+/**
+* 
+*/
+        public function logout()
+        {
+            
+        }
+        
 }
 ?>
