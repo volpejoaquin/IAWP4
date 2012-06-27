@@ -27,7 +27,7 @@ session_start();
 													'url' => 'view/'.h($genre['Genre']['id'])
 												)
 											);
-                                                if($_SESSION['loggedin'])
+                                                if(isset($_SESSION['loggedin']))
                                                 {
                                                     echo " - ";
                                                     echo $this->Html->link('Editar', 'edit/'.h($genre['Genre']['id']),array('style'=>'color:red;')); 

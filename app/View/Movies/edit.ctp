@@ -1,7 +1,10 @@
 <?php
-    session_start();
+    if(!isset($_SESSION)) {
+     session_start();
+}
+
     
-    if(!$_SESSION['loggedin'])
+    if(!isset($_SESSION['loggedin']))
     {
         echo "<script language='Javascript'>location.href='/IAWP4/admin'</script>";
     }
