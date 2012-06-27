@@ -50,14 +50,8 @@
 		<li><?php echo $this->Html->link(__('New Writer'), array('controller' => 'writers', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
-
-<<<<<<< HEAD
-
-=======
-
 <?php
 
     }//Esta logueado
     
     ?>
->>>>>>> branch 'master' of https://github.com/volpejoaquin/IAWP4.git

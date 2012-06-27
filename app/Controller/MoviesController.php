@@ -150,28 +150,33 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 			$this->Genres->recursive = 0;
 			
 			$datas = explode(" ",$this->request->data['Movie']['search']);
-			$movies = array();
-			$actors = array();
-			$directors =  array();
-			$writers = array();
-			$genres = array();
+			$conditionsMovies = array();
+			$conditionsActors = array();
+			$conditionsDirectors = array();
+			$conditionsWriters = array();
+			$conditionsGenres = array();
 			
 			foreach ($datas as $data) {
-			
-				$movies += $this->paginate('Movie', array('Movie.name LIKE' => '%'.$data.'%'));
-				$movies += $this->paginate('Movie', array('Movie.tags LIKE' => '%'.$data.'%'));
-
-				$actors += $this->paginate('Actor', array('Actor.name LIKE' => '%'.$data.'%'));
+				array_push($conditionsMovies,array('Movie.name LIKE' => '%'.$data.'%'));
+				array_push($conditionsMovies, array('Movie.tags LIKE' => '%'.$data.'%'));
+				array_push($conditionsMovies, array('Movie.year LIKE' => '%'.$data.'%'));
 				
-				$directors += $this->paginate('Director', array('Director.name LIKE' => '%'.$data.'%'));
+				array_push($conditionsActors, array('Actor.name LIKE' => '%'.$data.'%'));
+				array_push($conditionsDirectors, array('Director.name LIKE' => '%'.$data.'%'));
+				array_push($conditionsWriters, array('Writer.name LIKE' => '%'.$data.'%'));
+				array_push($conditionsGenres, array('Genre.name LIKE' => '%'.$data.'%'));
 				
-				$writers += $this->paginate('Writer', array('Writer.name LIKE' => '%'.$data.'%'));
-
-				$genres += $this->paginate('Genre', array('Genre.name LIKE' => '%'.$data.'%'));
-				
-				var_dump($movies);
-				echo "<br>";
 			}
+			
+			$movies = $this->paginate('Movie',array( "or" => $conditionsMovies));
+
+			$actors = $this->paginate('Actor',array( "or" => $conditionsActors));
+			
+			$directors = $this->paginate('Director',array( "or" => $conditionsDirectors)); 
+			
+			$writers = $this->paginate('Writer',array( "or" => $conditionsWriters));
+
+			$genres = $this->paginate('Genre',array( "or" => $conditionsGenres));
 			
 			$this->set(compact('movies','actors','directors','writers','genres'));
 		}
