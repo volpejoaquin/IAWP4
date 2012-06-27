@@ -150,18 +150,27 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 			$this->Genres->recursive = 0;
 			
 			$datas = explode(" ",$this->request->data['Movie']['search']);
+			$movies = array();
+			$actors = array();
+			$directors =  array();
+			$writers = array();
+			$genres = array();
 			
 			foreach ($datas as $data) {
-				$movies = $this->paginate('Movie', array('Movie.name LIKE' => '%'.$data.'%'));
-				$movies = $this->paginate('Movie', array('Movie.tags LIKE' => '%'.$data.'%'));
+			
+				$movies += $this->paginate('Movie', array('Movie.name LIKE' => '%'.$data.'%'));
+				$movies += $this->paginate('Movie', array('Movie.tags LIKE' => '%'.$data.'%'));
 
-				$actors = $this->paginate('Actor', array('Actor.name LIKE' => '%'.$data.'%'));
+				$actors += $this->paginate('Actor', array('Actor.name LIKE' => '%'.$data.'%'));
 				
-				$directors = $this->paginate('Director', array('Director.name LIKE' => '%'.$data.'%'));
+				$directors += $this->paginate('Director', array('Director.name LIKE' => '%'.$data.'%'));
 				
-				$writers = $this->paginate('Writer', array('Writer.name LIKE' => '%'.$data.'%'));
+				$writers += $this->paginate('Writer', array('Writer.name LIKE' => '%'.$data.'%'));
 
-				$genres = $this->paginate('Genre', array('Genre.name LIKE' => '%'.$data.'%'));
+				$genres += $this->paginate('Genre', array('Genre.name LIKE' => '%'.$data.'%'));
+				
+				var_dump($movies);
+				echo "<br>";
 			}
 			
 			$this->set(compact('movies','actors','directors','writers','genres'));
