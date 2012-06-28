@@ -8,10 +8,57 @@ var BASE_URI= "http://api.rottentomatoes.com/api/public/v1.0";
 
 $(document).ready(function(){
     
-  $("label[for*='MovieDuration']").text("Duration (mins)");
+    $("#MovieName").attr('rows','1');
+    $("#MovieYear").attr('rows','1');
+    $("#MovieYear").attr('rows','1');
+    $("#MovieInfo").attr('rows','4');
+    $("#MovieDuration").attr('rows','1');
+    $("#MovieImg").attr('rows','1');
+    $("#MovieAvgRating").attr('rows','1');
+    $("#MovieAvgCant").attr('rows','1');
+    $("#MovieTags").attr('rows','1');
+    
+    //CAMBIO DE LABELS ... 
+   $("label[for*='MovieName']").text("Nombre"); 
+   $("label[for*='MovieYear']").text("Año estreno");
+   $("label[for*='MovieInfo']").text("Sinopsis");
+    $("label[for*='MovieDuration']").text("Duracion (mins)");
+    $("label[for*='MovieImg']").text("Imagen");
+    $("label[for*='MovieAvgRating']").text("Puntaje total");
+    $("label[for*='MovieAvgCant']").text("Cantidad de Votos");
+    $("label[for*='MovieTags']").text("Tags (separadas por |-|)").attr('rows','1');
+  
+  $("label[for*='ActorName']").text("Nombre"); 
+  $("label[for*='ActorBirthday']").text("Fecha de Nacimiento"); 
+  $("label[for*='ActorBirthplace']").text("Lugar de Nacimiento"); 
+  $("label[for*='ActorBio']").text("Biografía"); 
+  $("label[for*='ActorImg']").text("Imagen");
+   
+  $("label[for*='WriterName']").text("Nombre"); 
+  $("label[for*='WriterBirthday']").text("Fecha de Nacimiento"); 
+  $("label[for*='WriterBirthplace']").text("Lugar de Nacimiento"); 
+  $("label[for*='WriterBio']").text("Biografía"); 
+  $("label[for*='WriterImg']").text("Imagen");
+  
+  $("label[for*='DirectorName']").text("Nombre"); 
+  $("label[for*='DirectorBirthday']").text("Fecha de Nacimiento"); 
+  $("label[for*='DirectorBirthplace']").text("Lugar de Nacimiento"); 
+  $("label[for*='DirectorBio']").text("Biografía"); 
+  $("label[for*='DirectorImg']").text("Imagen");
+  
+  $("label[for*='GenreName']").text("Nombre"); 
+  
+  $("label[for*='MovieMovie']").text("Películas relacionadas");
+  $("label[for*='ActorActor']").text("Actores relacionados");
+  $("label[for*='DirectorDirector']").text("Directores relacionados");
+  $("label[for*='GenreGenre']").text("Géneros relacionados");
+  $("label[for*='WriterWriter']").text("Escritores relacionados");
+  $("label[for*='RMovieRMovie']").text("Películas locales relacionadas");
+ //********************************************************
+ 
  
   var urlSug=BASE_URI+'/movies.json?apikey='+API_KEY;
-  
+
   $( "#movieSearch" ).autocomplete({
 			source: function( request, response ) {
 				$.ajax({
@@ -28,15 +75,14 @@ $(document).ready(function(){
 							return {
 								label: item.title + (item.year ? " ("+ item.year+")" : "") +(item.runtime ? " - "+item.runtime+"mins aprox." : ""),
 								value: item.title,
-                                                                id:item.id,
-                                                                year:item.year
+                                                                id:item.id
 							}
 						}));
 					}
 				});
 			},
 			minLength: 1,
-                        select: function( event, ui ) {
+                    select: function( event, ui ) {
 				                                
                                 $.ajax({
 					url: "http://api.rottentomatoes.com/api/public/v1.0/movies/"+ui.item.id+".json?apikey="+API_KEY,   
@@ -46,17 +92,73 @@ $(document).ready(function(){
 					success: function( data ) {
                                               var peli = data;
                                               var title= peli.title;
-                                              var anio= ui.item.year;
+                                              var poster= peli.posters.original;
+                                              var thumbnail=peli.posters.detailed;
+                                              var anio= peli.year;
+                                              var peliUrl=peli.links.alternate;
                                               var tiempo = peli.runtime;
                                               var sintesis = peli.synopsis; 
-                                              var rating = (peli.ratings.critics_score + peli.ratings.audience_score)/20
                                               
+                                              if($.trim(sintesis) == "")
+                                              {
+                                                    sintesis="(No info available)";
+                                              }
+                                                                                           
                                               $("#MovieName").text(title);
+                                              $("#MovieName").val(title);
                                               $("#MovieYear").text(anio);
+                                              $("#MovieYear").val(anio);
                                               $("#MovieInfo").text(sintesis);
+                                              $("#MovieInfo").val(sintesis);
+                                         
                                               $("#MovieDuration").text(tiempo);
-                                              $("#MovieAvgRating").text(rating);
+                                              $("#MovieDuration").val(tiempo);
+                                              $("#MovieAvgRating").text("0.0");
+                                              $("#MovieAvgRating").val("0.0");
+                                              $("#MovieAvgCant").val("0.0");
                                               
+                                              //Poster
+                                             // $("#MovieImg").text(poster);
+                                              $("#MovieImg").val(poster);
+                                              $("#rotten").attr('src',thumbnail);
+                                              
+                                              //Crear tags
+                                              title = title.replace("-","");
+                                              title = title.replace(",","");
+                                              title = title.replace(":","");
+                                              title = title.replace(";","");
+                                              title = title.replace(".","");
+                                              title = title.replace("?","");
+                                              title = title.replace("\"","");
+                                              title = title.replace("/","");
+                                              //alert(title);
+                                              var taggs=explode(' ',title);
+                                              alert(taggs);
+                                              var stringTags="";
+                                              for(i=0;i<taggs.length;i++)                                              
+                                              {
+                                                  if($.trim(taggs[i])!="")
+                                                  {
+                                                      stringTags+=taggs[i];
+                                                      if(i != taggs.length-1)
+                                                        {     
+                                                            stringTags+="|-|";
+                                                        }
+                                                  }
+                                              }
+                                              $("#MovieTags").text(stringTags);
+                                              
+                                              
+                                              //Abre la pagina correspondiente a la peli en RottenTomatoes
+                                              if(peliUrl!= undefined && $.trim(peliUrl) != "")
+                                              {
+                                                  window.open(peliUrl);
+                                              }
+                                              
+                                              //Borra info anterior de otras pelis
+                                              $("#otherActors").remove();
+                                              $("#otherDirectors").remove();
+                                              $("#otherGenres").remove();
                                               //*************ACTORES*************
                                               var arrayActores= peli.abridged_cast;
                                               var j;
@@ -106,7 +208,7 @@ $(document).ready(function(){
                                           //    alert(estan +"  "+ noEstan);
                                                
                                               if(noEstan.length>0) 
-                                                $("#ActorActor").parent().append("<span > Other Actors: "+cast+"</span>");
+                                                $("#ActorActor").parent().append("<span id='otherActors'> Other Actors: "+cast+"</span>");
                                               //******************************************
                                                 
                                               //**************DIRECTORES*******************
@@ -157,7 +259,7 @@ $(document).ready(function(){
                                             //alert("DIRS ="+estanDir +" | "+ noEstanDir);
                                                 
                                               if(noEstanDir.length>0)
-                                                $("#DirectorDirector").parent().append("<span>Other Directors: "+dirs_string+"</span>");
+                                                $("#DirectorDirector").parent().append("<span id='otherDirectors'>Other Directors: "+dirs_string+"</span>");
                                               //**************************************
                                               
                                               //****************GENEROS****************
@@ -208,7 +310,7 @@ $(document).ready(function(){
                                           //    alert(estanGen +"  "+ noEstanGen);
                                               
                                               if(noEstanGen.length>0)
-                                                $("#GenreGenre").parent().append("<span>Other Suggested Genres: "+gens_string+"</span>");
+                                                $("#GenreGenre").parent().append("<span id='otherGenres'>Other Suggested Genres: "+gens_string+"</span>");
                                               //********************************************
                                               
                                               //**************ESCRITORES********************
@@ -233,6 +335,39 @@ $(document).ready(function(){
 
     
     
+function explode (delimiter, string, limit) {
+
+    if ( arguments.length < 2 || typeof delimiter == 'undefined' || typeof string == 'undefined' ) return null;
+	if ( delimiter === '' || delimiter === false || delimiter === null) return false;
+	if ( typeof delimiter == 'function' || typeof delimiter == 'object' || typeof string == 'function' || typeof string == 'object'){
+		return { 0: '' };
+	}
+	if ( delimiter === true ) delimiter = '1';
+	
+	// Here we go...
+	delimiter += '';
+	string += '';
+	
+	var s = string.split( delimiter );
+	
+
+	if ( typeof limit === 'undefined' ) return s;
+	
+	// Support for limit
+	if ( limit === 0 ) limit = 1;
+	
+	// Positive limit
+	if ( limit > 0 ){
+		if ( limit >= s.length ) return s;
+		return s.slice( 0, limit - 1 ).concat( [ s.slice( limit - 1 ).join( delimiter ) ] );
+	}
+
+	// Negative limit
+	if ( -limit >= s.length ) return [];
+	
+	s.splice( s.length + limit );
+	return s;
+}
 
 
 

@@ -73,8 +73,13 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 	public function add() {
 		if ($this->request->is('post')) {
 			$this->Movie->create();
+			
 			if ($this->Movie->save($this->request->data)) {
 				$this->Session->setFlash(__('Se agregó la pelicula!'));
+				
+				$path = dirname(__DIR__);
+				copy($path.'\webroot\img\movies\movie0.jpg', $path.'\webroot\img\movies\movie'.$this->Movie->id.'.jpg');
+			
 				$this->redirect(array('action' => 'index'));
 			} else {
 				$this->Session->setFlash(__('No pudo agregarse la pelicula. Por favor intente nuevamente.'));
@@ -84,8 +89,9 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 		$directors = $this->Movie->Director->find('list');
 		$genres = $this->Movie->Genre->find('list');
 		$writers = $this->Movie->Writer->find('list');
-
-		$this->set(compact('actors', 'directors', 'genres', 'writers'));
+		$rMovies = $this->Movie->RMovie->find('list');
+		
+		$this->set(compact('actors', 'directors', 'genres', 'writers','rMovies'));
 	}
 
 /**
@@ -101,8 +107,14 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 		}
 		if ($this->request->is('post') || $this->request->is('put')) {
 			if ($this->Movie->save($this->request->data)) {
+				
+				//Propiedad reflexiva 
+				var_dump($this->request->data);
+				
 				$this->Session->setFlash(__('Se guardaron los cambios!'));
-				$this->redirect(array('action' => 'view/'.$id));
+
+				$this->redirect(array('action' => 'view',$id));
+
 			} else {
 				$this->Session->setFlash(__('No se pudieron guardar los cambios. Intente nuevamente.'));
 			}
@@ -113,8 +125,9 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 		$directors = $this->Movie->Director->find('list');
 		$genres = $this->Movie->Genre->find('list');
 		$writers = $this->Movie->Writer->find('list');
+		$rMovies = $this->Movie->RMovie->find('list');
 
-		$this->set(compact('actors', 'directors', 'genres', 'writers'));
+		$this->set(compact('actors', 'directors', 'genres', 'writers','rMovies'));
 	}
 
 /**
@@ -150,30 +163,79 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 			$this->Genres->recursive = 0;
 			
 			$datas = explode(" ",$this->request->data['Movie']['search']);
-			$movies = array();
-			$actors = array();
-			$directors =  array();
-			$writers = array();
-			$genres = array();
+			$conditionsMovies = array();
+			$conditionsActors = array();
+			$conditionsDirectors = array();
+			$conditionsWriters = array();
+			$conditionsGenres = array();
 			
 			foreach ($datas as $data) {
-			
-				$movies += $this->paginate('Movie', array('Movie.name LIKE' => '%'.$data.'%'));
-				$movies += $this->paginate('Movie', array('Movie.tags LIKE' => '%'.$data.'%'));
-
-				$actors += $this->paginate('Actor', array('Actor.name LIKE' => '%'.$data.'%'));
+				array_push($conditionsMovies,array('Movie.name LIKE' => '%'.$data.'%'));
+				array_push($conditionsMovies, array('Movie.tags LIKE' => '%'.$data.'%'));
+				array_push($conditionsMovies, array('Movie.year LIKE' => '%'.$data.'%'));
 				
-				$directors += $this->paginate('Director', array('Director.name LIKE' => '%'.$data.'%'));
+				array_push($conditionsActors, array('Actor.name LIKE' => '%'.$data.'%'));
+				array_push($conditionsDirectors, array('Director.name LIKE' => '%'.$data.'%'));
+				array_push($conditionsWriters, array('Writer.name LIKE' => '%'.$data.'%'));
+				array_push($conditionsGenres, array('Genre.name LIKE' => '%'.$data.'%'));
 				
-				$writers += $this->paginate('Writer', array('Writer.name LIKE' => '%'.$data.'%'));
-
-				$genres += $this->paginate('Genre', array('Genre.name LIKE' => '%'.$data.'%'));
-				
-				var_dump($movies);
-				echo "<br>";
 			}
 			
+			$movies = $this->paginate('Movie',array( "or" => $conditionsMovies));
+
+			$actors = $this->paginate('Actor',array( "or" => $conditionsActors));
+			
+			$directors = $this->paginate('Director',array( "or" => $conditionsDirectors)); 
+			
+			$writers = $this->paginate('Writer',array( "or" => $conditionsWriters));
+
+			$genres = $this->paginate('Genre',array( "or" => $conditionsGenres));
+			
 			$this->set(compact('movies','actors','directors','writers','genres'));
+		}
+	}
+	
+	public function searchjson($data="") {
+		if ($this->request->is('GET')) {
+			$this->layout = null;
+			
+			$this->Movie->recursive = 0;
+			$this->Actor->recursive = 0;
+			$this->Director->recursive = 0;
+			$this->Writer->recursive = 0;
+			$this->Genres->recursive = 0;
+			
+			$datas = explode(" ",$data);
+			$conditionsMovies = array();
+			$conditionsActors = array();
+			$conditionsDirectors = array();
+			$conditionsWriters = array();
+			$conditionsGenres = array();
+			
+			foreach ($datas as $data) {
+				array_push($conditionsMovies,array('Movie.name LIKE' => '%'.$data.'%'));
+				array_push($conditionsMovies, array('Movie.tags LIKE' => '%'.$data.'%'));
+				array_push($conditionsMovies, array('Movie.year LIKE' => '%'.$data.'%'));
+				
+				array_push($conditionsActors, array('Actor.name LIKE' => '%'.$data.'%'));
+				array_push($conditionsDirectors, array('Director.name LIKE' => '%'.$data.'%'));
+				array_push($conditionsWriters, array('Writer.name LIKE' => '%'.$data.'%'));
+				array_push($conditionsGenres, array('Genre.name LIKE' => '%'.$data.'%'));
+				
+			}
+			
+			$movies = $this->paginate('Movie',array( "or" => $conditionsMovies));
+
+			$actors = $this->paginate('Actor',array( "or" => $conditionsActors));
+			
+			$directors = $this->paginate('Director',array( "or" => $conditionsDirectors)); 
+			
+			$writers = $this->paginate('Writer',array( "or" => $conditionsWriters));
+
+			$genres = $this->paginate('Genre',array( "or" => $conditionsGenres));
+			
+			$this->set(compact('movies','actors','directors','writers','genres'));
+			
 		}
 	}
 	
