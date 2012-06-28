@@ -51,7 +51,6 @@
 		<li><?php echo $this->Html->link(__('New Writer'), array('controller' => 'writers', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
-
 <?php
 
     }//Esta logueado

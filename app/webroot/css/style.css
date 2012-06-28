@@ -491,3 +491,20 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 .world {
 	color:#d72a18;
 }
+
+
+/* movies/add*/
+#movieSearch{
+    margin-left: 15px;
+    width:60%;
+    float:left;
+}
+
+.movieSearchLegend {
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+#rotten{
+    float:right;
+}

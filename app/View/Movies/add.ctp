@@ -24,6 +24,7 @@
                 echo $this->Html->image('rottenT_logo.png', array('alt'=>'RottenTomatoes Info', 'id'=>'rotten'));//, 'onClick'=>'javascript: rottenClick();'));
                                    
  
+ 
 echo "</form>";
 ?>
     
