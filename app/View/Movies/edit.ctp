@@ -30,7 +30,6 @@
 		echo $this->Form->input('Director');
 		echo $this->Form->input('Genre');
 		echo $this->Form->input('Writer');
-		echo $this->Form->input('RMovie');
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit'));?>
@@ -52,8 +51,13 @@
 	</ul>
 </div>
 
+<<<<<<< HEAD
+
+=======
+
 <?php
 
     }//Esta logueado
     
     ?>
+>>>>>>> branch 'master' of https://github.com/volpejoaquin/IAWP4.git

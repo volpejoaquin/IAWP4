@@ -70,7 +70,7 @@ $(document).ready(function(){
 	});
 	
 	$('[id^=rat]').parent().click(function(data) {
-			$(this).attr("href",$(this).attr("href")+"/"+rating);
+		$(this).attr("href",$(this).attr("href")+"/"+rating);
 	});
 	
 	function contarRating() {
