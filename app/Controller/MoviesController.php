@@ -89,7 +89,8 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 				} else {
 					copy($this->request->data["Movie"]["img"], $path.'\webroot\img\movies\movie'.++$id.'.jpg');
 				}
-			
+				--$id;
+				
 				//Id pelicula a relacionar
 				$cant = sizeof($this->request->data["RMovie"]["RMovie"]);
 				
@@ -112,7 +113,7 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 				
 				
 				//Redireccion a la pelicula
-				$this->redirect(array('action' => 'view',--$id));
+				$this->redirect(array('action' => 'view',$id));
 
 			} else {
 				$this->Session->setFlash(__('No pudo agregarse la pelicula. Por favor intente nuevamente.'));
@@ -148,6 +149,7 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 				
 				for ($i = 0; $i < $cant; $i++) {
 					$idRMovie = $this->request->data["RMovie"]["RMovie"][$i];
+					var_dump($idRMovie);
 					
 					//Pelicula a relacionar
 					$RMovieAnt = $this->Movie->read(null, $idRMovie);
@@ -166,7 +168,7 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 				$this->Session->setFlash(__('Se guardaron los cambios!'));
 
 
-				$this->redirect(array('action' => 'view',$id));
+				//$this->redirect(array('action' => 'view',$id));
 			} else {
 				$this->Session->setFlash(__('No se pudieron guardar los cambios. Intente nuevamente.'));
 			}
