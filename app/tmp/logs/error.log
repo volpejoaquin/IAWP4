@@ -1484,3 +1484,18 @@
 2012-06-28 16:34:40 Error: [MissingControllerException] Controller class ImgController could not be found.
 #0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-06-28 18:01:57 Error: [PDOException] SQLSTATE[HY000]: General error: 1 near "LIMIT": syntax error
+#0 C:\wamp\www\IAWP4\lib\Cake\Model\Datasource\DboSource.php(435): PDO->prepare('SELECT "Movie"....', Array)
+#1 C:\wamp\www\IAWP4\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT "Movie"....', Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT "Movie"....', Array, Array)
+#3 C:\wamp\www\IAWP4\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT "Movie"....', false)
+#4 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(2698): DboSource->read(Object(Movie), Array)
+#5 C:\wamp\www\IAWP4\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#6 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate('Movie', Array, Array)
+#7 C:\wamp\www\IAWP4\app\Controller\MoviesController.php(213): Controller->paginate('Movie', Array)
+#8 [internal function]: MoviesController->search()
+#9 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#10 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}

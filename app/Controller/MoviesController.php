@@ -180,44 +180,48 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 	
 	public function search() {
 		if ($this->request->is('post')) {
-			
-			$this->Movie->recursive = 0;
-			$this->Actor->recursive = 0;
-			$this->Director->recursive = 0;
-			$this->Writer->recursive = 0;
-			$this->Genres->recursive = 0;
-			
 			$datas = explode(" ",$this->request->data['Movie']['search']);
-			$conditionsMovies = array();
-			$conditionsActors = array();
-			$conditionsDirectors = array();
-			$conditionsWriters = array();
-			$conditionsGenres = array();
-			
-			foreach ($datas as $data) {
-				array_push($conditionsMovies,array('Movie.name LIKE' => '%'.$data.'%'));
-				array_push($conditionsMovies, array('Movie.tags LIKE' => '%'.$data.'%'));
-				array_push($conditionsMovies, array('Movie.year LIKE' => '%'.$data.'%'));
-				
-				array_push($conditionsActors, array('Actor.name LIKE' => '%'.$data.'%'));
-				array_push($conditionsDirectors, array('Director.name LIKE' => '%'.$data.'%'));
-				array_push($conditionsWriters, array('Writer.name LIKE' => '%'.$data.'%'));
-				array_push($conditionsGenres, array('Genre.name LIKE' => '%'.$data.'%'));
-				
-			}
-			
-			$movies = $this->paginate('Movie',array( "or" => $conditionsMovies));
-
-			$actors = $this->paginate('Actor',array( "or" => $conditionsActors));
-			
-			$directors = $this->paginate('Director',array( "or" => $conditionsDirectors)); 
-			
-			$writers = $this->paginate('Writer',array( "or" => $conditionsWriters));
-
-			$genres = $this->paginate('Genre',array( "or" => $conditionsGenres));
-			
-			$this->set(compact('movies','actors','directors','writers','genres'));
+		} else {
+			$datas = array("");
 		}
+	
+		$this->Movie->recursive = 0;
+		$this->Actor->recursive = 0;
+		$this->Director->recursive = 0;
+		$this->Writer->recursive = 0;
+		$this->Genres->recursive = 0;
+		
+		
+		$conditionsMovies = array();
+		$conditionsActors = array();
+		$conditionsDirectors = array();
+		$conditionsWriters = array();
+		$conditionsGenres = array();
+		
+		foreach ($datas as $data) {
+			array_push($conditionsMovies,array('Movie.name LIKE' => '%'.$data.'%'));
+			array_push($conditionsMovies, array('Movie.tags LIKE' => '%'.$data.'%'));
+			array_push($conditionsMovies, array('Movie.year LIKE' => '%'.$data.'%'));
+			
+			array_push($conditionsActors, array('Actor.name LIKE' => '%'.$data.'%'));
+			array_push($conditionsDirectors, array('Director.name LIKE' => '%'.$data.'%'));
+			array_push($conditionsWriters, array('Writer.name LIKE' => '%'.$data.'%'));
+			array_push($conditionsGenres, array('Genre.name LIKE' => '%'.$data.'%'));
+			
+		}
+		
+		$movies = $this->paginate('Movie',array( "or" => $conditionsMovies));
+
+		$actors = $this->paginate('Actor',array( "or" => $conditionsActors));
+		
+		$directors = $this->paginate('Director',array( "or" => $conditionsDirectors)); 
+		
+		$writers = $this->paginate('Writer',array( "or" => $conditionsWriters));
+
+		$genres = $this->paginate('Genre',array( "or" => $conditionsGenres));
+		
+		$this->set(compact('movies','actors','directors','writers','genres'));
+		
 	}
 	
 	public function searchjson($data="") {

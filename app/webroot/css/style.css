@@ -169,6 +169,13 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 	z-index:1;
 }
 
+.writers .marcoImg {
+	position:relative;
+	left:0px;
+	top:0px;
+	z-index:1;
+}
+
 .movies .marcoImg {
 	margin-left:-30px;
 	position:relative;
