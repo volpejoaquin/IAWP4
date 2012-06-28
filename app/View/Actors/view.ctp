@@ -102,7 +102,7 @@ if(!isset($_SESSION)) {
 																		'class' => 'imgF',
 																		'alt' => h($movie['name']),
 																		'title' => h($movie['name']),
-																		'url' => 'view/'.h($movie['id'])
+																		'url' => '/movies/view/'.h($movie['id'])
 																	)
 																) 
 										?>
