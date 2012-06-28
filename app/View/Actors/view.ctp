@@ -1,3 +1,9 @@
+<?php
+if(!isset($_SESSION)) {
+     session_start();
+}
+
+?>
 <div id="content">
 <div class="box">
    <div class="border-right">
@@ -20,15 +26,37 @@
 			<div class="year">
 				Lugar: <?php echo h($actor['Actor']['birthplace']); ?>
 			</div>			
-			<?php echo $this->Html->image(
+			<div class='marcoImg'>
+					<?php echo $this->Html->image(
 											'actors/actor'.(h($actor['Actor']["id"])+1).'.jpg', 
 												array(
+													'class' => 'imgS',
 													'alt' => h($actor['Actor']['name']),
 													'title' => h($actor['Actor']['name']),
 													'url' => 'view/'.h($actor['Actor']['id'])
 												)
 											) 
 					?>
+					<?php echo $this->Html->image(
+											'marcoPeli.png',
+											array(
+													'class' => 'imgF',
+													'alt' => h($actor['Actor']['name']),
+													'title' => h($actor['Actor']['name']),
+													'url' => 'view/'.h($actor['Actor']['id'])
+												)
+											) 
+					?>
+			</div>
+			<div class="edbrAdminActor">
+					<?php if(isset($_SESSION['loggedin']))
+								{
+									echo $this->Html->link('Editar', 'edit/'.h($actor['Actor']['id']),array('class'=>'editar')); 
+									echo " - ";
+									echo $this->Form->postLink(__('Borrar'), array('action' => 'delete', $actor['Actor']['id']), array('class'=>'borrar'), __('Confirme que desea borrar "%s"', $actor['Actor']['name'])); 
+					  }
+					?>
+			</div>
 			<p>Biografia: <?php echo h($actor['Actor']['bio']); ?></p>
 		 </li>	
      <li class="clear">&nbsp;</li>
@@ -57,15 +85,28 @@
 							<div class="year">
 								<h>(<?php echo h($movie['year']); ?>) </h>
 							</div>
-								<?php echo $this->Html->image(
+								<div class='marcoImg'>
+										<?php echo $this->Html->image(
 														'movies/movie'.(h($movie["id"])+1).'.jpg', 
 															array(
+																'class' => 'imgS',
 																'alt' => h($movie['name']),
 																'title' => h($movie['name']),
 																'url' => '/movies/view/'.h($movie['id'])
 															)
 														) 
-								?>		
+										?>		
+										<?php echo $this->Html->image(
+																'marcoPeli.png',
+																array(
+																		'class' => 'imgF',
+																		'alt' => h($movie['name']),
+																		'title' => h($movie['name']),
+																		'url' => '/movies/view/'.h($movie['id'])
+																	)
+																) 
+										?>
+								</div>
 							<p><?php echo substr(h($movie['info']), 0, 140) . "..."; ?></p>
 							<div class="wrapper">
 								<?php echo $this->Html->link('Leer mas', '/movies/view/'.h($movie['id'])); ?>

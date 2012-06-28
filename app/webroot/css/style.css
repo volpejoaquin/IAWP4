@@ -38,7 +38,6 @@ ul, ol {list-style:none}
 .movies li {float:left;width:280px;margin-right:15px; padding-bottom:40px;  min-height:450px !Important;}
 .movies li.last {margin-right:0}
 .movies li.clear {float:none;width:auto;margin:0;font-size:0;line-height:0; min-height:0px !Important;}
-.movies li img {margin-left:-30px;position:relative}
 .movies li p {margin:5px 0 15px 0;padding-right:40px}
 .movies li p span {color:#fff}
 .movies .year {padding-bottom:10px;}
@@ -124,17 +123,117 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 .movie li {float:left;width:100%;margin-right:15px; padding-top:20px;}
 .movie li.last {margin-right:0}
 .movie li.clear {float:none;width:auto;margin:0;font-size:0;line-height:0;  min-height:0px !Important;}
-.movie li img {text-align:center;}
 .movie li p {margin:5px 0 15px 0;padding-right:40px;}
 .movie li p span {color:#fff}
 .movie .name{ font-size:18px;}
 .movie .year {padding-bottom:10px;}
 .movie .rating {
 	float:right;
-	margin-top:20px;
+	margin-top:-175px;
 	margin-right:130px;
 	font-size:30px;
+	position:relative;
+	z-index:2;
 }
+.movie .edbrAdmin {
+	position:relative;
+	float:right;
+	margin-top:-240px;
+	margin-right:140px;
+}
+.movie .edbrAdminActor {
+	float:right;
+	margin-top:-280px;
+	margin-right:140px;
+}
+
+
+.geners .marcoImg {
+	position:relative;
+	left:0px;
+	top:0px;
+	z-index:1;
+}
+
+.actors .marcoImg {
+	position:relative;
+	left:0px;
+	top:0px;
+	z-index:1;
+}
+
+.directors .marcoImg {
+	position:relative;
+	left:0px;
+	top:0px;
+	z-index:1;
+}
+
+.writers .marcoImg {
+	position:relative;
+	left:0px;
+	top:0px;
+	z-index:1;
+}
+
+.movies .marcoImg {
+	margin-left:-30px;
+	position:relative;
+	left:0px;
+	top:0px;
+	z-index:1;
+}
+
+.movie .marcoImg {
+	margin-left:-30px;
+	position:relative;
+	left:0px;
+	top:0px;
+	z-index:1;
+}
+
+.relatedImgs1 .marcoImg {
+	display:inline;
+	padding-right:20px;
+	margin-bottom:30px;
+	position:relative;
+	left:0px;
+	top:0px;
+	z-index:1;
+}
+
+.marcoImg  .imgF{
+	position:relative;
+	left:0px;
+	top:0px;
+	z-index:-1;
+}
+.marcoImg  .imgS{
+	padding-left:30px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:-1;
+	width:240px;
+	height:177px;
+}
+
+
+
+.borrar {
+	background:url(images/delete.png) 0px 1px no-repeat;
+	padding-left:15px;
+	text-decoration:none;
+	color:red;
+}
+
+.editar {
+	background:url(images/edit.png) 0px 1px no-repeat;
+	padding-left:15px;
+	text-decoration:none;
+	color:red;
+}
+
 .crosshair {
 	cursor:default;
 }
@@ -181,7 +280,7 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 
 .relatedImgs1 {
         padding-top:10px;
-		 padding-bottom:20px;
+		padding-bottom:20px;
 }
 
 .relatedPics{
@@ -366,7 +465,7 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 .geners li p {margin:5px 0 15px 0;padding-right:40px;}
 .geners li p span {color:#fff}
 .geners .year {padding-bottom:10px;}
-.geners .wrapper {margin-left:90px;}
+.geners .wrapperr { text-align:center; padding-right:40px;}
 
 
 .resultado {

@@ -1,9 +1,9 @@
 <?php
-  if(!isset($_SESSION)) {
+if(!isset($_SESSION)) {
      session_start();
 }
-?>
 
+?>
 
 <div id="content">
 <div class="box">
@@ -23,9 +23,21 @@
 			</div>
 			<div class="year">
 			</div>
-				<?php echo $this->Html->image(
+			<div class='marcoImg'>
+					<?php echo $this->Html->image(
 											'movies/movie'.(h($movie["Movie"]["id"])+1).'.jpg', 
 												array(
+													'class' => 'imgS',
+													'alt' => h($movie['Movie']['name']),
+													'title' => h($movie['Movie']['name']),
+													'url' => 'view/'.h($movie['Movie']['id'])
+												)
+											) 
+					?>
+					<?php echo $this->Html->image(
+											'marcoPeli.png',
+											array(
+													'class' => 'imgF',
 													'alt' => h($movie['Movie']['name']),
 													'title' => h($movie['Movie']['name']),
 													'url' => 'view/'.h($movie['Movie']['id'])
@@ -42,6 +54,16 @@
                                 
 					?>
 					
+			</div>
+			<div class="edbrAdmin">
+					<?php if(isset($_SESSION['loggedin']))
+								{
+									echo $this->Html->link('Editar', 'edit/'.h($movie['Movie']['id']),array('class'=>'editar')); 
+									echo " - ";
+									echo $this->Form->postLink(__('Borrar'), array('action' => 'delete', $movie['Movie']['id']), array('class'=>'borrar'), __('Confirme que desea borrar "%s"', $movie['Movie']['name'])); 
+					  }
+					?>
+			</div>
 			<div class="rating">
 							<div id="Icons" class="ratingIcons divRatRep">
 								<table class="tableRating">
@@ -136,6 +158,7 @@
 						echo  implode(", ",$tagsA);;
 					?>
 			</p>
+
 		 </li>	
      <li class="clear">&nbsp;</li>
    </ul>
@@ -211,24 +234,41 @@
 	<div id='relatedMovies' class='relatedMovies'>
 		<div class='relatedTitle1'> Pel&iacute;culas relacionadas - Cinema <span class="world">WORLD</span></span>
 		<div class='relatedImgs1'>
-			<?php if (!empty($movie['RMovie'])) {
-				$i = 0;
-				foreach ($movie['RMovie'] as $rmovie) { 
-					echo $this->Html->image(
-										'movies/movie'.(h($rmovie["id"])+1).'.jpg', 
-											array(
-												'alt' => h($rmovie['name']),
-												'title' => h($rmovie['name']),
-												'url' => 'view/'.h($rmovie['id']),
-											)
-										);
-										
-				}
-			} else { ?>
-				<span class='relatedText'>
-					No hay peliculas relacionadas.
-				</span>
-			<?php }?>
+				<?php if (!empty($movie['RMovie'])) {
+					$i = 0;
+					foreach ($movie['RMovie'] as $rmovie) { 
+					?>
+							<div class='marcoImg'>
+								<?php			
+									echo $this->Html->image(
+														'movies/movie'.(h($rmovie["id"])+1).'.jpg', 
+															array(
+																'class' => 'imgS',
+																'alt' => h($rmovie['name']),
+																'title' => h($rmovie['name']),
+																'url' => 'view/'.h($rmovie['id']),
+															)
+														);
+									echo $this->Html->image(
+															'marcoPeli.png',
+															array(
+																	'class' => 'imgF',
+																	'alt' => h($rmovie['name']),
+																	'title' => h($rmovie['name']),
+																	'url' => 'view/'.h($rmovie['id']),
+																)
+															);
+														
+								
+								?>
+							</div>
+				<?php	}
+			
+				} else { ?>
+						<span class='relatedText'>
+							No hay peliculas relacionadas.
+						</span>
+				<?php }?>
 		</div>
 	</div>
  </div>

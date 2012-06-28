@@ -1,3 +1,9 @@
+<?php
+if(!isset($_SESSION)) {
+     session_start();
+}
+
+?>
 <div id="content">
 <div class="box">
    <div class="border-right">
@@ -28,18 +34,42 @@
 				<div class="year">
 					<h>(<?php echo h($actor['Actor']['birthday']); ?>) </h>
 				</div>
-					<?php echo $this->Html->image(
+					
+					<div class='marcoImg'>
+						<?php echo $this->Html->image(
 											'actors/actor'.(h($actor['Actor']["id"])+1).'.jpg', 
 												array(
+													'class' => 'imgS',
 													'alt' => h($actor['Actor']['name']),
 													'title' => h($actor['Actor']['name']),
 													'url' => 'view/'.h($actor['Actor']['id'])
 												)
 											) 
-					?>		
+						?>
+						<?php echo $this->Html->image(
+												'marcoPeli.png',
+												array(
+														'class' => 'imgF',
+														'alt' => h($actor['Actor']['name']),
+														'title' => h($actor['Actor']['name']),
+														'url' => 'view/'.h($actor['Actor']['id'])
+													)
+												) 
+						?>
+						
+					</div>					
 				<p><?php echo substr(h($actor['Actor']['bio']), 0, 140) . "..."; ?></p>
 				<div class="wrapper">
-					<?php echo $this->Html->link('Leer mas', 'view/'.h($actor['Actor']['id'])); ?>
+					<?php echo $this->Html->link('Leer mas', 'view/'.h($actor['Actor']['id']));                                                                              
+                                                if(isset($_SESSION['loggedin']))
+                                                {
+                                                    echo " - ";
+                                                    echo $this->Html->link('Editar', 'edit/'.h($actor['Actor']['id']),array('style'=>'color:red;')); 
+                                                    echo " - ";
+                                                    echo $this->Form->postLink(__('Borrar'), array('action' => 'delete', $actor['Actor']['id']), array('style'=>'color:red;'), __('Confirme que desea borrar "%s"', $actor['Actor']['name'])); 
+                                      }
+                                         ?>
+                                        
 				</div>
 			 </li>	
 	<?php } ?>

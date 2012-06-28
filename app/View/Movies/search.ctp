@@ -1,4 +1,10 @@
-﻿<div id="content">
+﻿<?php
+    
+if(!isset($_SESSION)) {
+     session_start();
+}
+?>﻿
+<div id="content">
 <div class="box">
    <div class="border-right">
 		<div class="border-left">
@@ -64,18 +70,42 @@
 							}
 						?>
 					</div>
+						<div class='marcoImg'>
 						<?php echo $this->Html->image(
 												'movies/movie'.(h($movie["Movie"]["id"])+1).'.jpg', 
 													array(
+														'class' => 'imgS',
 														'alt' => h($movie['Movie']['name']),
 														'title' => h($movie['Movie']['name']),
 														'url' => 'view/'.h($movie['Movie']['id'])
 													)
 												) 
-						?>		
+						?>
+						<?php echo $this->Html->image(
+												'marcoPeli.png',
+												array(
+														'class' => 'imgF',
+														'alt' => h($movie['Movie']['name']),
+														'title' => h($movie['Movie']['name']),
+														'url' => 'view/'.h($movie['Movie']['id'])
+													)
+												) 
+						?>
+						
+					</div>	
 					<p><?php echo substr(h($movie['Movie']['info']), 0, 140) . "..."; ?></p>
 					<div class="wrapper">
-						<?php echo $this->Html->link('Leer mas', 'view/'.h($movie['Movie']['id'])); ?>
+						<?php echo $this->Html->link('Leer mas ', 'view/'.h($movie['Movie']['id'])); ?>
+											<?php 
+													if(isset($_SESSION['loggedin']))
+													{
+														echo " - ";
+														echo $this->Html->link('Editar', 'edit/'.h($movie['Movie']['id']),array('style'=>'color:red;')); 
+														echo " - ";
+														echo $this->Form->postLink(__('Borrar'), array('action' => 'delete', $movie['Movie']['id']), array('style'=>'color:red;'), __('Confirme que desea borrar "%s"', $movie['Movie']['name'])); 
+										  }
+											 ?>
+
 					</div>
 				 </li>	
 		<?php 	} ?>
@@ -104,18 +134,40 @@
 						<div class="year">
 							<h>(<?php echo h($actor['Actor']['birthday']); ?>) - Actor </h>
 						</div>
+						<div class='marcoImg'>
 							<?php echo $this->Html->image(
-													'actors/actor'.(h($actor['Actor']["id"])+1).'.jpg', 
-														array(
+												'actors/actor'.(h($actor['Actor']["id"])+1).'.jpg', 
+													array(
+														'class' => 'imgS',
+														'alt' => h($actor['Actor']['name']),
+														'title' => h($actor['Actor']['name']),
+														'url' => 'view/'.h($actor['Actor']['id'])
+													)
+												) 
+							?>
+							<?php echo $this->Html->image(
+													'marcoPeli.png',
+													array(
+															'class' => 'imgF',
 															'alt' => h($actor['Actor']['name']),
 															'title' => h($actor['Actor']['name']),
 															'url' => 'view/'.h($actor['Actor']['id'])
 														)
 													) 
-							?>		
+							?>
+						</div>		
 						<p><?php echo substr(h($actor['Actor']['bio']), 0, 140) . "..."; ?></p>
 						<div class="wrapper">
-							<?php echo $this->Html->link('Leer mas', 'view/'.h($actor['Actor']['id'])); ?>
+							<?php echo $this->Html->link('Leer mas', 'view/'.h($actor['Actor']['id']));                                                                              
+														if(isset($_SESSION['loggedin']))
+														{
+															echo " - ";
+															echo $this->Html->link('Editar', 'edit/'.h($actor['Actor']['id']),array('style'=>'color:red;')); 
+															echo " - ";
+															echo $this->Form->postLink(__('Borrar'), array('action' => 'delete', $actor['Actor']['id']), array('style'=>'color:red;'), __('Confirme que desea borrar "%s"', $actor['Actor']['name'])); 
+											  }
+												 ?>
+												
 						</div>
 					 </li>	
 			<?php } ?>
@@ -144,18 +196,40 @@
 						<div class="year">
 							<h>(<?php echo h($director['Director']['birthday']); ?>) - Director </h>
 						</div>
-							<?php echo $this->Html->image(
-													'directors/director'.(h($director['Director']["id"])+1).'.jpg', 
-														array(
-															'alt' => h($director['Director']['name']),
-															'title' => h($director['Director']['name']),
-															'url' => 'view/'.h($director['Director']['id'])
-														)
-													) 
-							?>		
+							<div class='marcoImg'>
+						<?php echo $this->Html->image(
+											'directors/director'.(h($director['Director']["id"])+1).'.jpg', 
+												array(
+													'class' => 'imgS',
+													'alt' => h($director['Director']['name']),
+													'title' => h($director['Director']['name']),
+													'url' => 'view/'.h($director['Director']['id'])
+												)
+											) 
+						?>
+						<?php echo $this->Html->image(
+												'marcoPeli.png',
+												array(
+														'class' => 'imgF',
+														'alt' => h($director['Director']['name']),
+														'title' => h($director['Director']['name']),
+														'url' => 'view/'.h($director['Director']['id'])
+													)
+												) 
+						?>
+						
+						</div>
 						<p><?php echo substr(h($director['Director']['bio']), 0, 140) . "..."; ?></p>
 						<div class="wrapper">
-							<?php echo $this->Html->link('Leer mas', 'view/'.h($director['Director']['id'])); ?>
+							<?php echo $this->Html->link('Leer mas', 'view/'.h($director['Director']['id']));                          
+											if(isset($_SESSION['loggedin']))
+														{
+															echo " - ";
+															echo $this->Html->link('Editar', 'edit/'.h($director['Director']['id']),array('style'=>'color:red;')); 
+															echo " - ";
+															echo $this->Form->postLink(__('Borrar'), array('action' => 'delete', $director['Director']['id']), array('style'=>'color:red;'), __('Confirme que desea borrar "%s"', $director['Director']['name'])); 
+											  }
+							?>                                        
 						</div>
 					 </li>	
 			<?php } ?>
@@ -184,19 +258,42 @@
 					<div class="year">
 						<h>(<?php echo h($writer['Writer']['birthday']); ?>) - Escritor</h>
 					</div>
+					<div class='marcoImg'>
 						<?php echo $this->Html->image(
-												'writers/writer'.(h($writer['Writer']["id"])+1).'.jpg', 
-													array(
+											'writers/writer'.(h($writer['Writer']["id"])+1).'.jpg', 
+												array(
+													'class' => 'imgS',
+													'alt' => h($writer['Writer']['name']),
+													'title' => h($writer['Writer']['name']),
+													'url' => 'view/'.h($writer['Writer']['id'])
+												)
+											) 
+						?>								
+						<?php echo $this->Html->image(
+												'marcoPeli.png',
+												array(
+														'class' => 'imgF',
 														'alt' => h($writer['Writer']['name']),
 														'title' => h($writer['Writer']['name']),
 														'url' => 'view/'.h($writer['Writer']['id'])
 													)
 												) 
-						?>		
-					<p><?php echo substr(h($writer['Writer']['bio']), 0, 140) . "..."; ?></p>
-					<div class="wrapper">
-						<?php echo $this->Html->link('Leer mas', 'view/'.h($writer['Writer']['id'])); ?>
-					</div>
+						?>
+						
+						</div>
+						
+						<p><?php echo substr(h($writer['Writer']['bio']), 0, 140) . "..."; ?></p>
+						<div class="wrapper">
+							<?php echo $this->Html->link('Leer mas', 'view/'.h($writer['Writer']['id']));                          
+											if(isset($_SESSION['loggedin']))
+														{
+															echo " - ";
+															echo $this->Html->link('Editar', 'edit/'.h($writer['Writer']['id']),array('style'=>'color:red;')); 
+															echo " - ";
+															echo $this->Form->postLink(__('Borrar'), array('action' => 'delete', $writer['Writer']['id']), array('style'=>'color:red;'), __('Confirme que desea borrar "%s"', $writer['Writer']['name'])); 
+											  }
+							?>                                        
+						</div>
 				 </li>	
 		<?php } ?>
 		 <li class="clear">&nbsp;</li>
@@ -221,17 +318,40 @@
 					<div class='name'>
 						<h2><?php echo h($genre['Genre']['name']); ?></h2>
 					</div>
+					<div class='marcoImg'>
 						<?php echo $this->Html->image(
-												'genres/genre'.(h($genre["Genre"]["id"])+1).'.png', 
-													array(
+											'genres/genre'.(h($genre["Genre"]["id"])+1).'.png', 
+												array(
+													'class' => 'imgS',
+													'alt' => h($genre['Genre']['name']),
+													'title' => h($genre['Genre']['name']),
+													'url' => 'view/'.h($genre['Genre']['id'])
+												)
+											) 
+						?>	
+						<?php echo $this->Html->image(
+												'marcoPeli.png',
+												array(
+														'class' => 'imgF',
 														'alt' => h($genre['Genre']['name']),
 														'title' => h($genre['Genre']['name']),
 														'url' => 'view/'.h($genre['Genre']['id'])
 													)
 												) 
-						?>		
-					<div class="wrapper">
+						?>
+						
+					</div>	
+					<div class="wrapperr">
 						<?php echo $this->Html->link('Ver mas', 'view/'.h($genre['Genre']['id'])); ?>
+											<?php 
+													if(isset($_SESSION['loggedin']))
+													{
+														echo " - ";
+														echo $this->Html->link('Editar', 'edit/'.h($genre['Genre']['id']),array('style'=>'color:red;')); 
+														echo " - ";
+														echo $this->Html->link('Borrar', array('controller'=>'genres','method'=>'post','action'=>'delete','id'=>$genre['Genre']['id']),array('style'=>'color:red;')); 
+													}
+											 ?>
 					</div>
 				 </li>	
 		<?php } ?>
