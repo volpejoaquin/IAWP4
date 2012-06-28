@@ -102,7 +102,7 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 		if ($this->request->is('post') || $this->request->is('put')) {
 			if ($this->Movie->save($this->request->data)) {
 				$this->Session->setFlash(__('Se guardaron los cambios!'));
-				$this->redirect(array('action' => 'index'));
+				$this->redirect(array('action' => 'view/'.$id));
 			} else {
 				$this->Session->setFlash(__('No se pudieron guardar los cambios. Intente nuevamente.'));
 			}
