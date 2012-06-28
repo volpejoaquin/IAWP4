@@ -1,3 +1,10 @@
+<?php
+if(!isset($_SESSION)) {
+     session_start();
+}
+
+?>
+
 <div id="content">
 <div class="box">
    <div class="border-right">
@@ -25,7 +32,15 @@
 												)
 											) 
 					?>
-					
+			<div class="edbrAdmin">
+					<?php if(isset($_SESSION['loggedin']))
+								{
+									echo $this->Html->link('Editar', 'edit/'.h($movie['Movie']['id']),array('class'=>'editar')); 
+									echo " - ";
+									echo $this->Form->postLink(__('Borrar'), array('action' => 'delete', $movie['Movie']['id']), array('class'=>'borrar'), __('Confirme que desea borrar "%s"', $movie['Movie']['name'])); 
+					  }
+					?>
+			</div>
 			<div class="rating">
 							<div id="Icons" class="ratingIcons divRatRep">
 								<table class="tableRating">
@@ -120,6 +135,7 @@
 						echo  implode(", ",$tagsA);;
 					?>
 			</p>
+
 		 </li>	
      <li class="clear">&nbsp;</li>
    </ul>

@@ -1293,3 +1293,38 @@
 2012-06-28 13:50:51 Error: [MissingControllerException] Controller class ImgController could not be found.
 #0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-06-28 14:19:36 Error: [NotFoundException] Invalid actor
+#0 [internal function]: ActorsController->edit()
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ActorsController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ActorsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 14:26:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 14:26:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 14:27:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 14:27:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 14:27:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 14:28:10 Error: [NotFoundException] Pelicula no existente
+#0 [internal function]: MoviesController->view('11')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 14:28:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 14:28:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

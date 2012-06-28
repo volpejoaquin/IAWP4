@@ -135,6 +135,32 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 	margin-right:130px;
 	font-size:30px;
 }
+.movie .edbrAdmin {
+	float:right;
+	margin-top:-50px;
+	margin-right:140px;
+}
+.movie .edbrAdminActor {
+	float:right;
+	margin-top:-95px;
+	margin-right:140px;
+}
+
+
+.borrar {
+	background:url(images/delete.png) 0px 1px no-repeat;
+	padding-left:15px;
+	text-decoration:none;
+	color:red;
+}
+
+.editar {
+	background:url(images/edit.png) 0px 1px no-repeat;
+	padding-left:15px;
+	text-decoration:none;
+	color:red;
+}
+
 .crosshair {
 	cursor:default;
 }
@@ -366,7 +392,7 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 .geners li p {margin:5px 0 15px 0;padding-right:40px;}
 .geners li p span {color:#fff}
 .geners .year {padding-bottom:10px;}
-.geners .wrapper {margin-left:90px;}
+.geners .wrapperr { text-align:center; padding-right:40px;}
 
 
 .resultado {

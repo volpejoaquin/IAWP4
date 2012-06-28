@@ -1,3 +1,9 @@
+<?php
+if(!isset($_SESSION)) {
+     session_start();
+}
+
+?>
 <div id="content">
 <div class="box">
    <div class="border-right">
@@ -29,6 +35,15 @@
 												)
 											) 
 					?>
+			<div class="edbrAdminActor">
+					<?php if(isset($_SESSION['loggedin']))
+								{
+									echo $this->Html->link('Editar', 'edit/'.h($writer['Writer']['id']),array('class'=>'editar')); 
+									echo " - ";
+									echo $this->Form->postLink(__('Borrar'), array('action' => 'delete', $writer['Writer']['id']), array('class'=>'borrar'), __('Confirme que desea borrar "%s"', $writer['Writer']['name'])); 
+					  }
+					?>
+			</div>
 			<p>Biografia: <?php echo h($writer['Writer']['bio']); ?></p>
 		 </li>	
      <li class="clear">&nbsp;</li>

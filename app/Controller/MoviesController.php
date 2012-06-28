@@ -77,10 +77,12 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 			if ($this->Movie->save($this->request->data)) {
 				$this->Session->setFlash(__('Se agregó la pelicula!'));
 				
+				$id = $this->Movie->id;
+				 
 				$path = dirname(__DIR__);
-				copy($path.'\webroot\img\movies\movie0.jpg', $path.'\webroot\img\movies\movie'.$this->Movie->id.'.jpg');
+				copy($path.'\webroot\img\movies\movie0.jpg', $path.'\webroot\img\movies\movie'.++$id.'.jpg');
 			
-				$this->redirect(array('action' => 'index'));
+				$this->redirect(array('action' => 'view',--$id));
 			} else {
 				$this->Session->setFlash(__('No pudo agregarse la pelicula. Por favor intente nuevamente.'));
 			}

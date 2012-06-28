@@ -1,8 +1,9 @@
 <?php
+if(!isset($_SESSION)) {
+     session_start();
+}
 
-session_start();
 ?>
-
 <div id="content">
 <div class="box">
    <div class="border-right">
@@ -27,14 +28,16 @@ session_start();
 													'url' => 'view/'.h($genre['Genre']['id'])
 												)
 											);
-                                                if(isset($_SESSION['loggedin']))
-                                                {
-                                                    echo " - ";
-                                                    echo $this->Html->link('Editar', 'edit/'.h($genre['Genre']['id']),array('style'=>'color:red;')); 
-                                                    echo " - ";
-                                                    echo $this->Html->link('Borrar', array('controller'=>'movies','action'=>'delete','id'=>$genre['Genre']['id']),array('style'=>'color:red;')); 
-                                                }
                                          ?>
+			<div class="edbrAdmin">
+					<?php if(isset($_SESSION['loggedin']))
+								{
+									echo $this->Html->link('Editar', 'edit/'.h($genre['Genre']['id']),array('class'=>'editar')); 
+									echo " - ";
+									echo $this->Form->postLink(__('Borrar'), array('action' => 'delete', $genre['Genre']['id']), array('class'=>'borrar'), __('Confirme que desea borrar "%s"', $genre['Genre']['name'])); 
+					  }
+					?>
+			</div>
 		 </li>	
      <li class="clear">&nbsp;</li>
    </ul>

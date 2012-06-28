@@ -1,3 +1,9 @@
+<?php
+if(!isset($_SESSION)) {
+     session_start();
+}
+
+?>
 <div id="content">
 <div class="box">
    <div class="border-right">
@@ -39,7 +45,15 @@
 					?>		
 				<p><?php echo substr(h($writer['Writer']['bio']), 0, 140) . "..."; ?></p>
 				<div class="wrapper">
-					<?php echo $this->Html->link('Leer mas', 'view/'.h($writer['Writer']['id'])); ?>
+					<?php echo $this->Html->link('Leer mas', 'view/'.h($writer['Writer']['id']));                          
+									if(isset($_SESSION['loggedin']))
+                                                {
+                                                    echo " - ";
+                                                    echo $this->Html->link('Editar', 'edit/'.h($writer['Writer']['id']),array('style'=>'color:red;')); 
+                                                    echo " - ";
+                                                    echo $this->Form->postLink(__('Borrar'), array('action' => 'delete', $writer['Writer']['id']), array('style'=>'color:red;'), __('Confirme que desea borrar "%s"', $writer['Writer']['name'])); 
+                                      }
+                    ?>                                        
 				</div>
 			 </li>	
 	<?php } ?>

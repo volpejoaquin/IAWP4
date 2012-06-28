@@ -40,7 +40,7 @@ session_start();
 												)
 											) 
 					?>		
-				<div class="wrapper">
+				<div class="wrapperr">
 					<?php echo $this->Html->link('Ver mas', 'view/'.h($genre['Genre']['id'])); ?>
                                         <?php 
                                                 if(isset($_SESSION['loggedin']))
