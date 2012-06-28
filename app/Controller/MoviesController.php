@@ -77,11 +77,15 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 			if ($this->Movie->save($this->request->data)) {
 				$this->Session->setFlash(__('Se agregó la pelicula!'));
 				
+				//Foto default
 				$id = $this->Movie->id;
 				 
 				$path = dirname(__DIR__);
 				copy($path.'\webroot\img\movies\movie0.jpg', $path.'\webroot\img\movies\movie'.++$id.'.jpg');
 			
+				
+				
+				//Redireccion a la pelicula
 				$this->redirect(array('action' => 'view',--$id));
 			} else {
 				$this->Session->setFlash(__('No pudo agregarse la pelicula. Por favor intente nuevamente.'));
@@ -111,7 +115,25 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 			if ($this->Movie->save($this->request->data)) {
 				
 				//Propiedad reflexiva 
-				var_dump($this->request->data);
+				//Id pelicula a relacionar
+				var_dump(sizeof($this->request->data["RMovie"]["RMovie"]));
+				$cant = sizeof($this->request->data["RMovie"]["RMovie"]);
+				
+				for ($i = 0; $i < $cant; $i++) {
+					$idRMovie = $this->request->data["RMovie"]["RMovie"][$i];
+					
+					//Pelicula a relacionar
+					$RMovieAnt = $this->Movie->read(null, $idRMovie);
+
+					//Guardo id de peliculas a relacionar
+					$RMovie["Movie"]["id"] = $RMovieAnt["Movie"]["id"];
+				
+					if (sizeof($RMovieAnt["RMovie"]) == 0) {
+						$RMovie["RMovie"]["RMovie"]  = array($id);
+					}
+					
+					$this->Movie->save($RMovie);
+				}
 				
 				$this->Session->setFlash(__('Se guardaron los cambios!'));
 				$this->redirect(array('action' => 'view',$id));
@@ -129,6 +151,7 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 
 		$this->set(compact('actors', 'directors', 'genres', 'writers','rMovies'));
 	}
+	
 
 /**
  * delete method
