@@ -1,9 +1,25 @@
-﻿<div id="header">
+<?php
+     if(!isset($_SESSION)) {
+     session_start();
+}
+?>
+
+<div id="header">
 	<div class="row-1">
 		<div class="fleft"><a href="/IAWP4">Cinema <span>World</span></a></div>
 		<ul>
-			<li><a href="/IAWP4"><?php echo $this->Html->image('icon1-act.gif', array('title' => 'Inicio'))?></a></li>
-			<li><a href="/IAWP4/admin"><?php echo $this->Html->image('admin-logo.png', array('title' => 'Admin'))?></a></li>
+			<li><a href="/IAWP4"><?php echo $this->Html->image('icon1-act.gif', array('title' => 'Inicio'));?></a></li>
+			<li><a href="/IAWP4/admin"><?php 
+                                                        if(isset($_SESSION['loggedin']))
+                                                        {
+                                                        echo $this->Html->image('admin-logo2.png', array('title' => 'Admin'));
+                                                        }
+                                                        else
+                                                        {
+                                                        echo $this->Html->image('admin-logo.png', array('title' => 'Admin'));
+                                                        }
+                                                        
+                                                        ?></a></li>
 			<li >
 				<form action="/IAWP4/movies/search" id="SearchViewsForm" method="post" accept-charset="utf-8">
 					<div class="buscar">

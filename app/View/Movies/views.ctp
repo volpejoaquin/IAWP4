@@ -81,7 +81,7 @@ if(!isset($_SESSION)) {
                                                     echo $this->Html->link('Editar', 'edit/'.h($movie['Movie']['id']),array('style'=>'color:red;')); 
                                                     echo " - ";
                                                     echo $this->Form->postLink(__('Borrar'), array('action' => 'delete', $movie['Movie']['id']), array('style'=>'color:red;'), __('Confirme que desea borrar "%s"', $movie['Movie']['name'])); 
-                                      }
+                                                }
                                          ?>
 
 				</div>

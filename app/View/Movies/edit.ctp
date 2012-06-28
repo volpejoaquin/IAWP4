@@ -51,13 +51,8 @@
 	</ul>
 </div>
 
-<<<<<<< HEAD
-
-=======
-
 <?php
 
     }//Esta logueado
     
     ?>
->>>>>>> branch 'master' of https://github.com/volpejoaquin/IAWP4.git
