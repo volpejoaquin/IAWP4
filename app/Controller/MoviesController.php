@@ -132,10 +132,12 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 						$RMovie["RMovie"]["RMovie"]  = array($id);
 					}
 					
+					//Guardo los cambios
 					$this->Movie->save($RMovie);
 				}
 				
 				$this->Session->setFlash(__('Se guardaron los cambios!'));
+				
 				$this->redirect(array('action' => 'view',$id));
 			} else {
 				$this->Session->setFlash(__('No se pudieron guardar los cambios. Intente nuevamente.'));
