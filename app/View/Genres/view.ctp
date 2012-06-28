@@ -20,15 +20,28 @@ if(!isset($_SESSION)) {
 			<div class="name">
 				<h3 id="name"><?php echo h($genre['Genre']['name']); ?><h3>
 			</div>
-			<?php echo $this->Html->image(
+			<div class='marcoImg'>
+					<?php echo $this->Html->image(
 											'genres/genre'.(h($genre['Genre']["id"])+1).'.png', 
 												array(
+													'class' => 'imgS',
 													'alt' => h($genre['Genre']['name']),
 													'title' => h($genre['Genre']['name']),
 													'url' => 'view/'.h($genre['Genre']['id'])
 												)
 											);
                                          ?>
+					<?php echo $this->Html->image(
+											'marcoPeli.png',
+											array(
+													'class' => 'imgF',
+													'alt' => h($genre['Genre']['name']),
+													'title' => h($genre['Genre']['name']),
+													'url' => 'view/'.h($genre['Genre']['id'])
+												)
+											) 
+					?>
+			</div>
 			<div class="edbrAdmin">
 					<?php if(isset($_SESSION['loggedin']))
 								{
@@ -65,15 +78,28 @@ if(!isset($_SESSION)) {
 							<div class="year">
 								<h>(<?php echo h($movie['year']); ?>) </h>
 							</div>
-								<?php echo $this->Html->image(
+								<div class='marcoImg'>
+										<?php echo $this->Html->image(
 														'movies/movie'.(h($movie["id"])+1).'.jpg', 
 															array(
+																'class' => 'imgS',
 																'alt' => h($movie['name']),
 																'title' => h($movie['name']),
 																'url' => '/movies/view/'.h($movie['id'])
 															)
 														) 
-								?>		
+										?>		
+										<?php echo $this->Html->image(
+																'marcoPeli.png',
+																array(
+																		'class' => 'imgF',
+																		'alt' => h($movie['name']),
+																		'title' => h($movie['name']),
+																		'url' => 'view/'.h($movie['id'])
+																	)
+																) 
+										?>
+								</div>
 							<p><?php echo substr(h($movie['info']), 0, 140) . "..."; ?></p>
 							<div class="wrapper">
 								<?php echo $this->Html->link('Leer mas', array('controller'=>'movies','action'=>'view',h($movie['id']))); ?>

@@ -34,15 +34,30 @@ if(!isset($_SESSION)) {
 				<div class="year">
 					<h>(<?php echo h($actor['Actor']['birthday']); ?>) </h>
 				</div>
-					<?php echo $this->Html->image(
+					
+					<div class='marcoImg'>
+						<?php echo $this->Html->image(
 											'actors/actor'.(h($actor['Actor']["id"])+1).'.jpg', 
 												array(
+													'class' => 'imgS',
 													'alt' => h($actor['Actor']['name']),
 													'title' => h($actor['Actor']['name']),
 													'url' => 'view/'.h($actor['Actor']['id'])
 												)
 											) 
-					?>		
+						?>
+						<?php echo $this->Html->image(
+												'marcoPeli.png',
+												array(
+														'class' => 'imgF',
+														'alt' => h($actor['Actor']['name']),
+														'title' => h($actor['Actor']['name']),
+														'url' => 'view/'.h($actor['Actor']['id'])
+													)
+												) 
+						?>
+						
+					</div>					
 				<p><?php echo substr(h($actor['Actor']['bio']), 0, 140) . "..."; ?></p>
 				<div class="wrapper">
 					<?php echo $this->Html->link('Leer mas', 'view/'.h($actor['Actor']['id']));                                                                              

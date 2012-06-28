@@ -31,15 +31,29 @@ session_start();
 				<div class='name'>
 					<h2><?php echo h($genre['Genre']['name']); ?></h2>
 				</div>
-					<?php echo $this->Html->image(
+					<div class='marcoImg'>
+						<?php echo $this->Html->image(
 											'genres/genre'.(h($genre["Genre"]["id"])+1).'.png', 
 												array(
+													'class' => 'imgS',
 													'alt' => h($genre['Genre']['name']),
 													'title' => h($genre['Genre']['name']),
 													'url' => 'view/'.h($genre['Genre']['id'])
 												)
 											) 
-					?>		
+						?>	
+						<?php echo $this->Html->image(
+												'marcoPeli.png',
+												array(
+														'class' => 'imgF',
+														'alt' => h($genre['Genre']['name']),
+														'title' => h($genre['Genre']['name']),
+														'url' => 'view/'.h($genre['Genre']['id'])
+													)
+												) 
+						?>
+						
+					</div>	
 				<div class="wrapperr">
 					<?php echo $this->Html->link('Ver mas', 'view/'.h($genre['Genre']['id'])); ?>
                                         <?php 

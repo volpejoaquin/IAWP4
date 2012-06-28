@@ -62,15 +62,29 @@ if(!isset($_SESSION)) {
 						}
 					?>
 				</div>
-					<?php echo $this->Html->image(
-											'movies/movie'.(h($movie["Movie"]["id"])+1).'.jpg', 
+					<div class='marcoImg'>
+						<?php echo $this->Html->image(
+												'movies/movie'.(h($movie["Movie"]["id"])+1).'.jpg', 
+													array(
+														'class' => 'imgS',
+														'alt' => h($movie['Movie']['name']),
+														'title' => h($movie['Movie']['name']),
+														'url' => 'view/'.h($movie['Movie']['id'])
+													)
+												) 
+						?>
+						<?php echo $this->Html->image(
+												'marcoPeli.png',
 												array(
-													'alt' => h($movie['Movie']['name']),
-													'title' => h($movie['Movie']['name']),
-													'url' => 'view/'.h($movie['Movie']['id'])
-												)
-											) 
-					?>		
+														'class' => 'imgF',
+														'alt' => h($movie['Movie']['name']),
+														'title' => h($movie['Movie']['name']),
+														'url' => 'view/'.h($movie['Movie']['id'])
+													)
+												) 
+						?>
+						
+					</div>
 				<p><?php echo substr(h($movie['Movie']['info']), 0, 140) . "..."; ?></p>
 				<div class="wrapper">
 					<?php echo $this->Html->link('Leer mas ', 'view/'.h($movie['Movie']['id'])); ?>
