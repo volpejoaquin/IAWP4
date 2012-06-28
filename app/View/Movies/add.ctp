@@ -5,7 +5,7 @@
     
     if(!isset($_SESSION['loggedin']))
     {
-        echo "<script language='Javascript'>location.href='/IAWP4/admin'</script>";
+      echo "<script language='Javascript'>location.href='/IAWP4/admin'</script>";
     }
     else
     {

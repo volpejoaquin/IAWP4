@@ -77,12 +77,18 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 			if ($this->Movie->save($this->request->data)) {
 				$this->Session->setFlash(__('Se agregó la pelicula!'));
 				
-
-				//Foto default
+				
 				$id = $this->Movie->id;
-				 
+					 
 				$path = dirname(__DIR__);
-				copy($path.'\webroot\img\movies\movie0.jpg', $path.'\webroot\img\movies\movie'.++$id.'.jpg');
+				
+				
+				if ($this->request->data["Movie"]["img"] == "") {
+					//Foto default
+					copy($path.'\webroot\img\movies\movie0.jpg', $path.'\webroot\img\movies\movie'.++$id.'.jpg');
+				} else {
+					copy($this->request->data["Movie"]["img"], $path.'\webroot\img\movies\movie'.++$id.'.jpg');
+				}
 			
 				
 				//Redireccion a la pelicula

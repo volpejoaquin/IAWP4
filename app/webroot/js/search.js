@@ -31,6 +31,7 @@ $(document).ready(function(){
 		});
 		
 		function formatearDatos(data) {
+		
 			var resul = new Array();
 			
 			var movies = $.map( data.movies, function( item ) {
@@ -78,6 +79,7 @@ $(document).ready(function(){
 
 			resul = resul.concat( writers );
 			
+			
 			var genres = $.map( data.genres, function( item ) {
 							return {
 								label: item.Genre.name+" - (Genero)",
@@ -86,7 +88,8 @@ $(document).ready(function(){
 								type: 'genres'
 							}
 						});
-
+						
+			
 			resul = resul.concat( genres );
 			
 			return resul;

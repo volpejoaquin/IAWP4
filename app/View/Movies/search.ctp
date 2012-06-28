@@ -151,7 +151,7 @@ if(!isset($_SESSION)) {
 															'class' => 'imgF',
 															'alt' => h($actor['Actor']['name']),
 															'title' => h($actor['Actor']['name']),
-															'url' => 'view/'.h($actor['Actor']['id'])
+															'url' => '/actors/view/'.h($actor['Actor']['id'])
 														)
 													) 
 							?>
@@ -213,7 +213,7 @@ if(!isset($_SESSION)) {
 														'class' => 'imgF',
 														'alt' => h($director['Director']['name']),
 														'title' => h($director['Director']['name']),
-														'url' => 'view/'.h($director['Director']['id'])
+														'url' => '/directors/view/'.h($director['Director']['id'])
 													)
 												) 
 						?>
@@ -275,7 +275,7 @@ if(!isset($_SESSION)) {
 														'class' => 'imgF',
 														'alt' => h($writer['Writer']['name']),
 														'title' => h($writer['Writer']['name']),
-														'url' => 'view/'.h($writer['Writer']['id'])
+														'url' => '/writers/view/'.h($writer['Writer']['id'])
 													)
 												) 
 						?>
@@ -335,7 +335,7 @@ if(!isset($_SESSION)) {
 														'class' => 'imgF',
 														'alt' => h($genre['Genre']['name']),
 														'title' => h($genre['Genre']['name']),
-														'url' => 'view/'.h($genre['Genre']['id'])
+														'url' => '/genres/view/'.h($genre['Genre']['id'])
 													)
 												) 
 						?>
