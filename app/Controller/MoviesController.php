@@ -85,7 +85,9 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 		$genres = $this->Movie->Genre->find('list');
 		$writers = $this->Movie->Writer->find('list');
 
-		$this->set(compact('actors', 'directors', 'genres', 'writers'));
+		$rMovies = $this->Movie->RMovie->find('list');
+
+		$this->set(compact('actors', 'directors', 'genres', 'writers','rMovies'));
 	}
 
 /**
@@ -113,8 +115,9 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 		$directors = $this->Movie->Director->find('list');
 		$genres = $this->Movie->Genre->find('list');
 		$writers = $this->Movie->Writer->find('list');
+		$rMovies = $this->Movie->RMovie->find('list');
 
-		$this->set(compact('actors', 'directors', 'genres', 'writers'));
+		$this->set(compact('actors', 'directors', 'genres', 'writers','rMovies'));
 	}
 
 /**
