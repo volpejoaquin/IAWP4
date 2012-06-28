@@ -21,6 +21,7 @@
 		echo $this->Html->script('cufon-replace'); 
 		echo $this->Html->script('Gill_Sans_400.font'); 
 		echo $this->Html->script('script'); 
+		echo $this->Html->script('search'); 
 		echo $this->Html->script('webservice'); 
 		echo $this->Html->script('rating');
 		echo $this->Html->script('jquery-ui.min'); 

@@ -36,7 +36,7 @@ $(document).ready(function(){
 				});
 			},
 			minLength: 1,
-                        select: function( event, ui ) {
+                    select: function( event, ui ) {
 				                                
                                 $.ajax({
 					url: "http://api.rottentomatoes.com/api/public/v1.0/movies/"+ui.item.id+".json?apikey="+API_KEY,   

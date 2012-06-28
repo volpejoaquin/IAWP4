@@ -1055,3 +1055,241 @@
 2012-06-28 11:33:55 Error: [MissingControllerException] Controller class ImgController could not be found.
 #0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-06-28 11:47:08 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 11:48:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 11:53:38 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Movies\search_j_s_o_n.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 11:54:10 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Movies\searchjson.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 11:54:29 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Movies\searchjson.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 11:57:29 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Movies\searchjson.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 11:57:40 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Movies\search_j_s_o_n.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 11:57:43 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Movies\searchjson.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 11:57:51 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Movies\searchjson.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 11:58:06 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Movies\searchjson.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 12:00:45 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Movies\searchjson.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 12:02:55 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Movies\searchjson.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 12:06:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 12:06:47 Error: [MissingControllerException] Controller class [objectObject]Controller could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 12:07:29 Error: [MissingControllerException] Controller class [objectObject]Controller could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 12:08:22 Error: [MissingControllerException] Controller class [objectObject]Controller could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 12:09:05 Error: [MissingControllerException] Controller class [objectObject]Controller could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 12:09:21 Error: [MissingControllerException] Controller class [objectObject]Controller could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 12:10:05 Error: [MissingControllerException] Controller class [objectObject]Controller could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 12:10:29 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Movies\searchjson.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 12:10:47 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Movies\searchjson.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 12:11:00 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Movies\searchjson.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 12:11:02 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Movies\searchjson.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 12:11:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 12:11:30 Error: [MissingControllerException] Controller class [objectObject]Controller could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 12:11:43 Error: [MissingControllerException] Controller class [objectObject]Controller could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 12:12:07 Error: [MissingControllerException] Controller class [objectObject]Controller could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 12:12:31 Error: [MissingControllerException] Controller class [objectObject]Controller could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 12:12:43 Error: [MissingControllerException] Controller class [objectObject]Controller could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 12:12:44 Error: [MissingControllerException] Controller class [objectObject]Controller could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 12:12:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 12:12:47 Error: [MissingControllerException] Controller class [objectObject]Controller could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 12:13:12 Error: [MissingControllerException] Controller class [objectObject]Controller could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 12:16:16 Error: [MissingControllerException] Controller class [objectObject]Controller could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 12:16:21 Error: [MissingControllerException] Controller class [objectObject]Controller could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 12:17:01 Error: [MissingViewException] View file "C:\wamp\www\IAWP4\app\View\Movies\searchjson.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 12:21:47 Error: [MissingLayoutException] Layout file "C:\wamp\www\IAWP4\app\View\Layouts\json.ctp" is missing.
+#0 C:\wamp\www\IAWP4\lib\Cake\View\View.php(503): View->_getLayoutFileName('json')
+#1 C:\wamp\www\IAWP4\lib\Cake\View\View.php(473): View->renderLayout('', 'json')
+#2 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#4 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-06-28 12:26:57 Error: [PDOException] SQLSTATE[HY000]: General error: 1 near "LIMIT": syntax error
+#0 C:\wamp\www\IAWP4\lib\Cake\Model\Datasource\DboSource.php(435): PDO->prepare('SELECT "Movie"....', Array)
+#1 C:\wamp\www\IAWP4\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT "Movie"....', Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT "Movie"....', Array, Array)
+#3 C:\wamp\www\IAWP4\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT "Movie"....', false)
+#4 C:\wamp\www\IAWP4\lib\Cake\Model\Model.php(2698): DboSource->read(Object(Movie), Array)
+#5 C:\wamp\www\IAWP4\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#6 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate('Movie', Array, Array)
+#7 C:\wamp\www\IAWP4\app\Controller\MoviesController.php(221): Controller->paginate('Movie', Array)
+#8 [internal function]: MoviesController->searchjson('men', '1', '5')
+#9 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#10 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-06-28 12:36:22 Error: [NotFoundException] Pelicula no existente
+#0 [internal function]: MoviesController->view('ui.item.id')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 12:36:33 Error: [NotFoundException] Pelicula no existente
+#0 [internal function]: MoviesController->view('movies', 'searchjson', 'men', '1', '5')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 12:36:47 Error: [NotFoundException] Pelicula no existente
+#0 [internal function]: MoviesController->view('movies', 'searchjson', 'men', '1', '5')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 12:37:10 Error: [NotFoundException] Pelicula no existente
+#0 [internal function]: MoviesController->view('movies', 'view', '9')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 12:37:19 Error: [NotFoundException] Pelicula no existente
+#0 [internal function]: MoviesController->view('movies', 'view', '8')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 12:37:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 13:03:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 13:10:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 13:50:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
