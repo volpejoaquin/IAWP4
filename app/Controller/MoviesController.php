@@ -77,6 +77,7 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 			if ($this->Movie->save($this->request->data)) {
 				$this->Session->setFlash(__('Se agregó la pelicula!'));
 				
+
 				//Foto default
 				$id = $this->Movie->id;
 				 
@@ -86,6 +87,7 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 				
 				//Redireccion a la pelicula
 				$this->redirect(array('action' => 'view',--$id));
+
 			} else {
 				$this->Session->setFlash(__('No pudo agregarse la pelicula. Por favor intente nuevamente.'));
 			}
@@ -114,6 +116,7 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 			if ($this->Movie->save($this->request->data)) {
 				
 				//Propiedad reflexiva 
+
 				//Id pelicula a relacionar
 				var_dump(sizeof($this->request->data["RMovie"]["RMovie"]));
 				$cant = sizeof($this->request->data["RMovie"]["RMovie"]);
@@ -136,6 +139,7 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 				}
 				
 				$this->Session->setFlash(__('Se guardaron los cambios!'));
+
 
 				$this->redirect(array('action' => 'view',$id));
 			} else {
@@ -268,6 +272,7 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 		}
 	}
 	
+		
 	public function rating($id = 0,$rat = 0) {
 		$this->Movie->id = $id;
 
