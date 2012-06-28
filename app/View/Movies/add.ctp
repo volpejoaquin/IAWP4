@@ -16,13 +16,13 @@
 <?php 
 
 
-            echo "<form id='searchForm' action='' method='post'> 
+            echo "<form id='searchForm' action='' method='post'>
+                <legend class='movieSearchLegend'>Ingrese un nombre de pel&iacute;cula para buscar y autocompletar informaci&oacute;n (Se abrir&aacute; una nueva ventana)</legend>
                 <input id='movieSearch' class='ui-autocomplete-input' autocomplete='off' role='textbox' aria-autocomplete='list' aria-haspopup='true'>
-                </input>";
+                 </input>";
                 
                 echo $this->Html->image('rottenT_logo.png', array('alt'=>'RottenTomatoes Info', 'id'=>'rotten'));//, 'onClick'=>'javascript: rottenClick();'));
-                
-                     
+                                   
  
 echo "</form>";
 ?>
@@ -36,6 +36,7 @@ echo "</form>";
         echo $this->Form->input('year');
 		echo $this->Form->input('info');
 		echo $this->Form->input('duration');
+                echo $this->Form->input('img');
 		echo $this->Form->input('avg_rating');
 		echo $this->Form->input('avg_cant');
 		echo $this->Form->input('tags');
@@ -46,22 +47,16 @@ echo "</form>";
 		echo $this->Form->input('RMovie');
 	?>
 	</fieldset>
-<?php echo $this->Form->end(__('Submit'));?>
+<?php echo $this->Form->end(__('Enviar'));?>
 </div>
 <div class="actions">
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>
-
-		<li><?php echo $this->Html->link(__('List Movies'), array('action' => 'index'));?></li>
-		<li><?php echo $this->Html->link(__('List Actors'), array('controller' => 'actors', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Actor'), array('controller' => 'actors', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Directors'), array('controller' => 'directors', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Director'), array('controller' => 'directors', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Genres'), array('controller' => 'genres', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Genre'), array('controller' => 'genres', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Writers'), array('controller' => 'writers', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Writer'), array('controller' => 'writers', 'action' => 'add')); ?> </li>
-	</ul>
+                <li> <?php echo $this->Html->link(__('Nuevo Actor'), array('controller' => 'actors', 'action' => 'add'));?> </li>
+                <li> <?php echo $this->Html->link(__('Nuevo Director'), array('controller' => 'directors', 'action' => 'add')); ?> </li>
+                <li> <?php echo $this->Html->link(__('Nuevo Género'), array('controller' => 'genres', 'action' => 'add')); ?> </li>
+                <li> <?php echo $this->Html->link(__('Nuevo Escritor'), array('controller' => 'writers', 'action' => 'add')); ?> </li>
+          </ul>
 </div>
 
 

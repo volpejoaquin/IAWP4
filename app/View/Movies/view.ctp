@@ -42,7 +42,16 @@ if(!isset($_SESSION)) {
 													'title' => h($movie['Movie']['name']),
 													'url' => 'view/'.h($movie['Movie']['id'])
 												)
-											) 
+											);
+                                        if(isset($_SESSION['loggedin']))
+                                                {
+                                                    echo " - ";
+                                                    echo $this->Html->link('Editar', 'edit/'.h($movie['Movie']['id']),array('style'=>'color:red;')); 
+                                                    echo " - ";
+                                                    echo $this->Form->postLink(__('Borrar'), array('action' => 'delete', $movie['Movie']['id']), array('style'=>'color:red;'), __('Confirme que desea borrar "%s"', $movie['Movie']['name'])); 
+                                                }
+                                                                                        
+                                
 					?>
 					
 			</div>
