@@ -47,7 +47,7 @@ if(!isset($_SESSION)) {
 								{
 									echo $this->Html->link('Editar', 'edit/'.h($genre['Genre']['id']),array('class'=>'editar')); 
 									echo " - ";
-									echo $this->Form->postLink(__('Borrar'), array('action' => 'delete', $genre['Genre']['id']), array('class'=>'borrar'), __('Confirme que desea borrar "%s"', $genre['Genre']['name'])); 
+									echo $this->Form->postLink(__('Borrar'), array('action' => 'delete', $genre['Genre']['id']), array('style'=>'color:red;'), __('Confirme que desea borrar "%s"', $genre['Genre']['name'])); 
 					  }
 					?>
 			</div>

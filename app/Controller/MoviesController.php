@@ -84,7 +84,6 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 				copy($path.'\webroot\img\movies\movie0.jpg', $path.'\webroot\img\movies\movie'.++$id.'.jpg');
 			
 				
-				
 				//Redireccion a la pelicula
 				$this->redirect(array('action' => 'view',--$id));
 			} else {

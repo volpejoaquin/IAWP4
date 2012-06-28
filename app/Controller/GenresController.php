@@ -42,8 +42,15 @@ var $paginate = array('Genre' => array('limit' => 3,'page' => 1));
 		if ($this->request->is('post')) {
 			$this->Genre->create();
 			if ($this->Genre->save($this->request->data)) {
+				
+				$id = $this->Genre->id;
+				 
+				var_dump($id);
+				$path = dirname(__DIR__);
+				copy($path.'\webroot\img\genres\genre0.jpg', $path.'\webroot\img\genres\genre'.++$id.'.jpg');
+			
 				$this->Session->setFlash(__('The genre has been saved'));
-				$this->redirect(array('action' => 'index'));
+				//$this->redirect(array('action' => 'index'));
 			} else {
 				$this->Session->setFlash(__('The genre could not be saved. Please, try again.'));
 			}

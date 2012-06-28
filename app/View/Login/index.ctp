@@ -2,6 +2,7 @@
 
 session_start(); // This starts the session which is like a cookie, but it isn't saved on your hdd and is much more secure.
 
+
 if(isset($_SESSION['loggedin']))
 {
     //Redireccion al /admin

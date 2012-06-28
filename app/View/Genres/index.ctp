@@ -62,7 +62,7 @@ session_start();
                                                     echo " - ";
                                                     echo $this->Html->link('Editar', 'edit/'.h($genre['Genre']['id']),array('style'=>'color:red;')); 
                                                     echo " - ";
-                                                    echo $this->Html->link('Borrar', array('controller'=>'genres','method'=>'post','action'=>'delete','id'=>$genre['Genre']['id']),array('style'=>'color:red;')); 
+													echo $this->Form->postLink(__('Borrar'), array('action' => 'delete', $genre['Genre']['id']), array('style'=>'color:red;'), __('Confirme que desea borrar "%s"', $genre['Genre']['name'])); 
                                                 }
                                          ?>
 				</div>
