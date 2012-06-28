@@ -42,6 +42,13 @@ var $paginate = array('Director' => array('limit' => 3,'page' => 1));
 		if ($this->request->is('post')) {
 			$this->Director->create();
 			if ($this->Director->save($this->request->data)) {
+			
+				//Foto default
+				$id = $this->Director->id;
+				 
+				$path = dirname(__DIR__);
+				copy($path.'\webroot\img\directors\director0.jpg', $path.'\webroot\img\directors\director'.++$id.'.jpg');
+				
 				$this->Session->setFlash(__('The director has been saved'));
 				$this->redirect(array('action' => 'index'));
 			} else {

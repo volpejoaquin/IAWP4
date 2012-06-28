@@ -28,7 +28,7 @@ else
                  echo "<script language='Javascript'> location.href = '/IAWP4/admin';</script>";
                 
                 // Para agregar si sale con delay.. 
-               // echo("<span class='loginInfo'>Login correcto!</span> <br/> <span class='loginInfo'> Redireccionando...</span"); // Kill the script here so it doesn't show the login form after you are logged in!
+				echo("<span class='loginInfo'>Login correcto!</span> <br/> <span class='loginInfo'> Redireccionando...</span"); // Kill the script here so it doesn't show the login form after you are logged in!
                 
            }	
            

@@ -1,6 +1,7 @@
-
+	
 <?php
 	session_start(); // NEVER forget this!
+
 	if(!isset($_SESSION['loggedin']))
 	{
 		echo "<span class='loginInfo'>Para acceder la p&aacute;gina de administraci&oacute;n debe <a href='/IAWP4/login'>loguearse</a>.</span>";

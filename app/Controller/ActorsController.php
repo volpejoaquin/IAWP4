@@ -42,6 +42,12 @@ var $paginate = array('Actor' => array('limit' => 3,'page' => 1));
 		if ($this->request->is('post')) {
 			$this->Actor->create();
 			if ($this->Actor->save($this->request->data)) {
+				
+				$id = $this->Actor->id;
+				 
+				$path = dirname(__DIR__);
+				copy($path.'\webroot\img\actors\actor0.jpg', $path.'\webroot\img\actors\actor'.++$id.'.jpg');
+			
 				$this->Session->setFlash(__('The actor has been saved'));
 				$this->redirect(array('action' => 'index'));
 			} else {

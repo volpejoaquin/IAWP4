@@ -42,6 +42,12 @@ var $paginate = array('Writer' => array('limit' => 3,'page' => 1));
 		if ($this->request->is('post')) {
 			$this->Writer->create();
 			if ($this->Writer->save($this->request->data)) {
+				
+				$id = $this->Writer->id;
+				 
+				$path = dirname(__DIR__);
+				copy($path.'\webroot\img\writers\writer0.jpg', $path.'\webroot\img\writers\writer'.++$id.'.jpg');
+			
 				$this->Session->setFlash(__('The writer has been saved'));
 				$this->redirect(array('action' => 'index'));
 			} else {
