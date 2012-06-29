@@ -21,9 +21,3 @@
 			<li> <?php echo $this->Html->link(__('Nuevo Escritor'), array('controller' => 'writers', 'action' => 'add')); ?> </li>
 		</ul>
 </div>
-
-<?php
-
-    }
-    
-    ?>
