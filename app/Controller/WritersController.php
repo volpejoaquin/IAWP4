@@ -65,7 +65,7 @@ var $paginate = array('Writer' => array('limit' => 3,'page' => 1));
 				}
 			}
 			$movies = $this->Writer->Movie->find('list');
-			$this->set(compact('movies'));.
+			$this->set(compact('movies'));
 		}
 	}
 

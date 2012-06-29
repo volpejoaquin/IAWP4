@@ -131,9 +131,7 @@ $(document).ready(function(){
                                               title = title.replace("?","");
                                               title = title.replace("\"","");
                                               title = title.replace("/","");
-                                              //alert(title);
                                               var taggs=explode(' ',title);
-                                              alert(taggs);
                                               var stringTags="";
                                               for(i=0;i<taggs.length;i++)                                              
                                               {

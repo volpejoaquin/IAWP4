@@ -39,7 +39,17 @@ var $paginate = array('Actor' => array('limit' => 3,'page' => 1));
  * @return void
  */
 	public function add() {
-		if ($this->request->is('post')) {
+		if(!isset($_SESSION)) {
+			session_start();
+		}
+	
+		if(!isset($_SESSION['loggedin']))
+		{
+			$this->redirect(array('controller' => 'login','action' => 'index'));
+		}
+		else
+		{	
+                    if ($this->request->is('post')) {
 			$this->Actor->create();
 			if ($this->Actor->save($this->request->data)) {
 				
@@ -56,7 +66,9 @@ var $paginate = array('Actor' => array('limit' => 3,'page' => 1));
 		}
 		$movies = $this->Actor->Movie->find('list');
 		$this->set(compact('movies'));
-	}
+	
+                }
+        }
 
 /**
  * edit method
@@ -65,7 +77,17 @@ var $paginate = array('Actor' => array('limit' => 3,'page' => 1));
  * @return void
  */
 	public function edit($id = null) {
-		$this->Actor->id = $id;
+		if(!isset($_SESSION)) {
+			session_start();
+		}
+	
+		if(!isset($_SESSION['loggedin']))
+		{
+			$this->redirect(array('controller' => 'login','action' => 'index'));
+		}
+		else
+		{
+                $this->Actor->id = $id;
 		if (!$this->Actor->exists()) {
 			throw new NotFoundException(__('Invalid actor'));
 		}
@@ -81,6 +103,7 @@ var $paginate = array('Actor' => array('limit' => 3,'page' => 1));
 		}
 		$movies = $this->Actor->Movie->find('list');
 		$this->set(compact('movies'));
+                }
 	}
 
 /**
