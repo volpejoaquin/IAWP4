@@ -512,6 +512,12 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 	color:#d72a18;
 }
 
+.error {
+	margin-top:20px;
+	margin-left:5px;
+	color:#d72a18;
+}
+
 
 /* movies/add*/
 #movieSearch{

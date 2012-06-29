@@ -1,4 +1,7 @@
-<?php
+﻿<?php
+
+session_start();
+
 App::uses('AppController', 'Controller');
 /**
  * Login Controller
@@ -6,26 +9,6 @@ App::uses('AppController', 'Controller');
  * 
  */
 class LoginController extends AppController {
-var $helpers = array('Html','Form'); 
-
- /*
-var $components  = array('Auth');
-var $helpers = array('Auth');
-
-function beforeFilter(){ 
-    //Set Authentication System
-    $this->initAuth();
-} 
-    
-/**
- * Setup Authentication Component
-*/
-/*
-protected function initAuth(){
-   $this->Auth->sessionKey = 'SomeRandomStringValue';
-   $this->set('authSessionKey', $this->Auth->sessionKey);
-} 
-*/
 
 
 /**
@@ -34,8 +17,13 @@ protected function initAuth(){
  * @return void
  */
 	public function index() {
-		
-	}
+	 
+            if(isset($_SESSION['loggedin']))
+            {
+                //Redireccion al /admin
+                $this->redirect(array('controller' => 'admin','action' => 'index'));
+            } 
+    }
 
             
 /**
@@ -50,17 +38,37 @@ protected function initAuth(){
 /**
  * 
  */
-	public function login() {
-		
-	}
+    public function login()
+        {
+           if($this->request->is('post'))
+                    {
+                        $name = $this->request->data["Movie"]["username"]; 
+                        $pass = $this->request->data["Movie"]["password"]; 
+                        if($name !== "admin" || $pass!== "admin")
+                        {
+                            $_SESSION['error'] = "Usuario o contraseña invalido.";
+							$this->redirect(array('action' => 'index'));
+                        }
+                        else {
+                                //Setea las variables de sesion
+                                $_SESSION['loggedin'] = "YES"; // Set it so the user is logged in!
+                                $_SESSION['name'] = $name; // Make it so the username can be called by $_SESSION['name']
+                               
+                                //Redireccion al /admin/index 
+                                $this->redirect(array('controller' => 'admin','action' => 'index'));
+                             }	
+
+                    } 
+        }
         
 /**
 * 
 */
-	public function logout()
-	{
-		
-	}
+        public function logout()
+        {
+            session_destroy();
+            $this->redirect(array('action' => 'index'));
+        }
         
 }
 ?>
