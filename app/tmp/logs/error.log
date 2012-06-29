@@ -59,3 +59,31 @@
 #1 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
 #2 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2012-06-29 18:43:39 Error: [NotFoundException] Pelicula no existente
+#0 [internal function]: MoviesController->view(',IAWP4,img,rati...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-29 18:43:40 Error: [NotFoundException] Pelicula no existente
+#0 [internal function]: MoviesController->view(',IAWP4,img,rati...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-29 18:43:40 Error: [NotFoundException] Pelicula no existente
+#0 [internal function]: MoviesController->view(',IAWP4,img,rati...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-29 18:43:41 Error: [NotFoundException] Pelicula no existente
+#0 [internal function]: MoviesController->view(',IAWP4,img,rati...')
+#1 C:\wamp\www\IAWP4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#2 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\IAWP4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MoviesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\IAWP4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

@@ -2,7 +2,6 @@ $(document).ready(function(){
 	ratingA =  $('[class=ratingNum]').html();
 	rating = 0.0;
 
-	
 	$('[id^=rat]').mouseover(function(data) {
 	
 	  if ($(this).attr("id")[4] != undefined) {
@@ -14,12 +13,17 @@ $(document).ready(function(){
 	  
 	  prev = $('#rat'+r);
 	  while (prev.attr("id") != undefined) {
-		prev.attr("src","/IAWP4/img/rating-chico.png");
+		var src = prev.attr("src").split("/");
+		src[3] = "rating-chico.png";
+		prev.attr("src",src.join("/"));
 		r -= 1;
 		prev = $('#rat'+r);
 	  }
 	  
-	  $(this).attr("src","/IAWP4/img/rating-chico.png");
+		var src =  $(this).attr("src").split("/");
+		src[3] = "rating-chico.png";
+		$(this).attr("src",src.join("/"));
+	  
 	  
 	  if ($(this).attr("id")[4] != undefined) {
 		r = 10;
@@ -27,9 +31,12 @@ $(document).ready(function(){
 		r = $(this).attr("id")[3];
 	  }
 	  r++;
+	  
 	  next = $('#rat'+r);
 	  while (next.attr("id") != undefined) {
-		next.attr("src","/IAWP4/img/rating-chico-osc.png");
+		var src = next.attr("src").split("/");
+		src[3] = "rating-chico-osc.png";
+		next.attr("src",src.join("/"));
 		r++;
 		next = $('#rat'+r);
 	  }
@@ -45,23 +52,25 @@ $(document).ready(function(){
 	  i=0;
 	  next = $('#rat1');
 	  while (i <= ratingA) {
-		next.attr("src","/IAWP4/img/rating-chico.png");
+		var src = next.attr("src").split("/");
+		src[3] = "rating-chico.png";
+		next.attr("src",src.join("/"));
 		i++;
 		next = $('#rat'+i);		
 	  }
 	  
 	  if (ratingA - i != -1) {
-			next.attr("src","/IAWP4/img/rating-chico-medio.png");
-			//cant = $i;
+			var src = next.attr("src").split("/");
+			src[3] = "rating-chico-medio.png";
+			next.attr("src",src.join("/"));
 			i++;	
 			next = $('#rat'+i);			
 	   } 
-		
-	  
-	  
-	  
+
 	   while (i <= 10) {
-		next.attr("src","/IAWP4/img/rating-chico-osc.png");
+		var src = next.attr("src").split("/");
+		src[3] = "rating-chico-osc.png";
+		next.attr("src",src.join("/"));
 		i++;
 		next = $('#rat'+i);		
 	  }
