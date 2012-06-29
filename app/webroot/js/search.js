@@ -1,9 +1,8 @@
 
 if (window.location.hostname == "localhost") {
 	var urlBase = "/"+window.location.href.split( '/' )[3]+"/";
-
 } else {
-	var urlBase = window.location.host +"/"+ window.location.href.split( '/' )[3]+"/";
+	var urlBase = "http://"+window.location.host +"/"+ window.location.href.split( '/' )[3]+"/";
 }
 $(document).ready(function(){
 
@@ -21,8 +20,7 @@ $(document).ready(function(){
 			},
 			minLength: 1,
 			select: function( event, ui ) {
-				window.location.href = '/IAWP4/'+ui.item.type+'/view/'+ui.item.id;
-				
+				window.location.href = urlBase+ui.item.type+'/view/'+ui.item.id;
 			},
 
 			open: function() {

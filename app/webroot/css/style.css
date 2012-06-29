@@ -14,6 +14,10 @@ ul, ol {list-style:none}
 #footer {background:url(images/footer-tail.gif) repeat-x left top #bfbfbf;color:#1d1d1d;font-size:.86em;line-height:1.667em;text-align:center}
 /* ALIGMENT */
 .fleft {float:left}
+.fleft a:nth-child(2) {
+	color:#d72a18 !Important;
+}
+
 .fright {float:right}
 .col-1, .col-2, .col-3 {float:left}
 .clear {clear:both}

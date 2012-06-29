@@ -9,17 +9,17 @@
 		<div class="fleft"><?php echo $this->Html->link('Cinema World', '/'); ?></div>
 		<ul>
 			<li><?php echo $this->Html->image('icon1-act.gif', array('title' => 'Inicio', 'url' => '/'));?></li>
-			<li><a href="/IAWP4/admin"><?php 
-                                                        if(isset($_SESSION['loggedin']))
-                                                        {
-                                                        echo $this->Html->image('admin-logo2.png', array('title' => 'Admin'));
-                                                        }
-                                                        else
-                                                        {
-                                                        echo $this->Html->image('admin-logo.png', array('title' => 'Admin'));
-                                                        }
+			<li><?php 
+					if(isset($_SESSION['loggedin']))
+					{
+					echo $this->Html->image('admin-logo2.png', array('title' => 'Admin', 'url' => '/admin'));
+					}
+					else
+					{
+					echo $this->Html->image('admin-logo.png', array('title' => 'Admin', 'url' => '/admin'));
+					}
                                                         
-                                                        ?></a></li>
+                ?></li>
 			<li >
 				<?php echo $this->Form->create('Search', array('url' => '/movies/search', 'class' => 'buscar'));?>
 					<?php
