@@ -1,8 +1,9 @@
-	
 <?php
+
 if(!isset($_SESSION)){
 	session_start();
 } 
+
     $nombre= $_SESSION['name'];?>
 <div class='center'>
 	<div class='admin' id='welcomeAdmin'>

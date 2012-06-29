@@ -32,7 +32,7 @@
 	</div>
 	<div class="row-2">
 		<ul>
-			<li ><?php echo $this->Html->link('Peliculas', '/movies/views/sort:id/direction:asc', array( 'class' => 'desactive', 'id' => 'views')); ?></li>
+			<li ><?php echo $this->Html->link('Peliculas', '/movies/views', array( 'class' => 'desactive', 'id' => 'views')); ?></li>
 			<li ><?php echo $this->Html->link('Generos', '/genres', array( 'class' => 'desactive', 'id' => 'genres')); ?></li>
 			<li ><?php echo $this->Html->link('Actores', '/actors', array( 'class' => 'desactive', 'id' => 'actors')); ?></li>
 			<li ><?php echo $this->Html->link('Directores', '/directors', array( 'class' => 'desactive', 'id' => 'directors')); ?></li>
