@@ -16,7 +16,7 @@ echo "</form>";
     
 <?php echo $this->Form->create('Movie');?>
 	<fieldset>
-		<legend><?php echo __('Add Movie'); ?></legend>
+		<legend><?php echo __('Agregar Película'); ?></legend>
 	<?php
                         
         echo $this->Form->input('name');
@@ -37,7 +37,7 @@ echo "</form>";
 <?php echo $this->Form->end(__('Enviar'));?>
 </div>
 <div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
+	<h3><?php echo __('Otras Acciones'); ?></h3>
 	<ul>
                 <li> <?php echo $this->Html->link(__('Nuevo Actor'), array('controller' => 'actors', 'action' => 'add'));?> </li>
                 <li> <?php echo $this->Html->link(__('Nuevo Director'), array('controller' => 'directors', 'action' => 'add')); ?> </li>
