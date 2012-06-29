@@ -1,5 +1,6 @@
 <?php
 
+
     $nombre= $_SESSION['name'];?>
 <div class='center'>
 	<div class='admin' id='welcomeAdmin'>
@@ -9,7 +10,7 @@
 
 			
 	<div class='actions'>
-		<h3> <?php echo __('Actions'); ?> </h3>
+		<h3> <?php echo __('Acciones:'); ?> </h3>
 		<ul>  
 			<li> <?php echo $this->Html->link(__('Nueva Película'), array('controller' => 'movies', 'action' => 'add'));?> </li>
 			<li> <?php echo $this->Html->link(__('Nuevo Actor'), array('controller' => 'actors', 'action' => 'add'));?> </li>
