@@ -64,7 +64,7 @@
 	<div class="tail-bottom">
 		<div id="main">
 			<div class="clear">
-				<?php include 'header/header.html'; ?>
+				<?php include 'header/header.php'; ?>
 			</div>
 
 			<div class="content">

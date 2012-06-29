@@ -1,14 +1,17 @@
 
+if (window.location.hostname == "localhost") {
+	var urlBase = "/"+window.location.href.split( '/' )[3]+"/";
+
+} else {
+	var urlBase = window.location.host +"/"+ window.location.href.split( '/' )[3]+"/";
+}
 $(document).ready(function(){
-	$("#SearchSearch").click(function(){
-		
-	});
 
 
 	 $("#SearchSearch").autocomplete({
 			source: function( request, response ) {
 				$.ajax({
-					url: '/IAWP4/movies/searchjson/'+request.term+'/1/5',   
+					url: urlBase+'movies/searchjson/'+request.term+'/1/5',   
 					type: 'GET',
 					dataType: 'json',
 					success: function( data ) {

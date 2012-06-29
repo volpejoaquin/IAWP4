@@ -340,27 +340,32 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 	background:url(images/buscar.png) 0px 0px no-repeat; 
 	width:297px; 
 	height:35px;
-	margin-top:-8px;
+	margin-top:-4px;
 	padding:0px 5px 5px 10px;
 	cursor:pointer;
 }
-.buscar .search { 
+.buscar  div label {
+	display:none;
+}
+.buscar div .search { 
 	float:left; 
 	background:transparent!important; 
 	border:none!important; 
-	width:270px; 
+	width:260px; 
 	color:#000; 
-	padding-top:-20px;
+	margin-top:-5px !Important;
 	line-height:24px;
 	font-size:10px;
 	height:26px;
 }
 
-.buscar .submit {
-	margin-top:-28px;
+.buscar .submit input {
+	margin-top:-40px;
+	margin-right:-8px !Important;
 	float:right;
 	width:12px;
 	background:transparent!important; 
+	background-image:none!important; 
 	border:none;
 	cursor:pointer;
 }

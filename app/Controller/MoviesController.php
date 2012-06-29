@@ -210,7 +210,7 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 	
 	public function search() {
 		if ($this->request->is('post')) {
-			$datas = explode(" ",$this->request->data['Movie']['search']);
+			$datas = explode(" ",$this->request->data['Search']['search']);
 		} else {
 			$datas = array("");
 		}
