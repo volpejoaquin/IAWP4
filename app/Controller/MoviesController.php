@@ -93,31 +93,47 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 					$id = $this->Movie->id;
 						 
 					$path = dirname(__DIR__);
+					$idImgMovie = $id;
 					if ($this->request->data["Movie"]["img"] == "") {
 						//Foto default
-						copy($path.'\webroot\img\movies\movie0.jpg', $path.'\webroot\img\movies\movie'.++$id.'.jpg');
+						copy($path.'\webroot\img\movies\movie0.jpg', $path.'\webroot\img\movies\movie'.++$idImgMovie.'.jpg');
 					} else {
-						copy($this->request->data["Movie"]["img"], $path.'\webroot\img\movies\movie'.++$id.'.jpg');
+						copy($this->request->data["Movie"]["img"], $path.'\webroot\img\movies\movie'.++$idImgMovie.'.jpg');
 					}
-					--$id;
 					
 					//Id pelicula a relacionar
 					$cant = sizeof($this->request->data["RMovie"]["RMovie"]);
-
+					var_dump($this->request->data["RMovie"]["RMovie"]);
+					echo "<br>";
 					if ($this->request->data["RMovie"]["RMovie"] != "" ) {
 						for ($i = 0; $i < $cant; $i++) {
 							
 							$idRMovie = $this->request->data["RMovie"]["RMovie"][$i];
-							
+							var_dump($idRMovie);
+							echo "<br>";
 							//Pelicula a relacionar
 							$RMovieAnt = $this->Movie->read(null, $idRMovie);
-
+							var_dump($RMovieAnt["Movie"]);
+							echo "<br>";
+							
+							
 							//Guardo id de peliculas a relacionar
 							$RMovie["Movie"]["id"] = $RMovieAnt["Movie"]["id"];
-						
+							var_dump($RMovieAnt["Movie"]["id"]);
+							echo "<br>";
+							
+							
+							echo "RMovie anterior";
+							var_dump($RMovieAnt["RMovie"]);
+							echo "<br>";
 							if (sizeof($RMovieAnt["RMovie"]) == 0) {
 								$RMovie["RMovie"]["RMovie"]  = array($id);
+							} else {
+								$RMovie["RMovie"]["RMovie"]  =  array_merge($RMovieAnt["RMovie"],array($id));
 							}
+							echo "RMovie nuevo";
+							var_dump($RMovie["RMovie"]["RMovie"]);
+							
 
 							//Guardo los cambios
 							$this->Movie->save($RMovie);
@@ -184,6 +200,8 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 						
 							if (sizeof($RMovieAnt["RMovie"]) == 0) {
 								$RMovie["RMovie"]["RMovie"]  = array($id);
+							} else {
+								$RMovie["RMovie"]["RMovie"]  =  array_merge($RMovieAnt["RMovie"],array($id));
 							}
 							
 							//Guardo los cambios
