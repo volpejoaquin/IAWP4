@@ -39,23 +39,34 @@ var $paginate = array('Writer' => array('limit' => 3,'page' => 1));
  * @return void
  */
 	public function add() {
-		if ($this->request->is('post')) {
-			$this->Writer->create();
-			if ($this->Writer->save($this->request->data)) {
-				
-				$id = $this->Writer->id;
-				 
-				$path = dirname(__DIR__);
-				copy($path.'\webroot\img\writers\writer0.jpg', $path.'\webroot\img\writers\writer'.++$id.'.jpg');
-			
-				$this->Session->setFlash(__('The writer has been saved'));
-				$this->redirect(array('action' => 'index'));
-			} else {
-				$this->Session->setFlash(__('The writer could not be saved. Please, try again.'));
-			}
+		if(!isset($_SESSION)) {
+			session_start();
 		}
-		$movies = $this->Writer->Movie->find('list');
-		$this->set(compact('movies'));
+	
+		if(!isset($_SESSION['loggedin']))
+		{
+			$this->redirect(array('controller' => 'login','action' => 'index'));
+		}
+		else
+		{
+			if ($this->request->is('post')) {
+				$this->Writer->create();
+				if ($this->Writer->save($this->request->data)) {
+					
+					$id = $this->Writer->id;
+					 
+					$path = dirname(__DIR__);
+					copy($path.'\webroot\img\writers\writer0.jpg', $path.'\webroot\img\writers\writer'.++$id.'.jpg');
+				
+					$this->Session->setFlash(__('The writer has been saved'));
+					$this->redirect(array('action' => 'index'));
+				} else {
+					$this->Session->setFlash(__('The writer could not be saved. Please, try again.'));
+				}
+			}
+			$movies = $this->Writer->Movie->find('list');
+			$this->set(compact('movies'));.
+		}
 	}
 
 /**
@@ -65,22 +76,33 @@ var $paginate = array('Writer' => array('limit' => 3,'page' => 1));
  * @return void
  */
 	public function edit($id = null) {
-		$this->Writer->id = $id;
-		if (!$this->Writer->exists()) {
-			throw new NotFoundException(__('Invalid writer'));
+		if(!isset($_SESSION)) {
+			session_start();
 		}
-		if ($this->request->is('post') || $this->request->is('put')) {
-			if ($this->Writer->save($this->request->data)) {
-				$this->Session->setFlash(__('The writer has been saved'));
-				$this->redirect(array('action' => 'index'));
-			} else {
-				$this->Session->setFlash(__('The writer could not be saved. Please, try again.'));
+	
+		if(!isset($_SESSION['loggedin']))
+		{
+			$this->redirect(array('controller' => 'login','action' => 'index'));
+		}
+		else
+		{
+			$this->Writer->id = $id;
+			if (!$this->Writer->exists()) {
+				throw new NotFoundException(__('Invalid writer'));
 			}
-		} else {
-			$this->request->data = $this->Writer->read(null, $id);
+			if ($this->request->is('post') || $this->request->is('put')) {
+				if ($this->Writer->save($this->request->data)) {
+					$this->Session->setFlash(__('The writer has been saved'));
+					$this->redirect(array('action' => 'index'));
+				} else {
+					$this->Session->setFlash(__('The writer could not be saved. Please, try again.'));
+				}
+			} else {
+				$this->request->data = $this->Writer->read(null, $id);
+			}
+			$movies = $this->Writer->Movie->find('list');
+			$this->set(compact('movies'));
 		}
-		$movies = $this->Writer->Movie->find('list');
-		$this->set(compact('movies'));
 	}
 
 /**

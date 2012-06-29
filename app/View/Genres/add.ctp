@@ -1,14 +1,3 @@
-<?php
-    session_start();
-    
-    if(!$_SESSION['loggedin'])
-    {
-       echo "<script language='Javascript'>location.href='/IAWP4/admin'</script>";
-    }
-    else
-    {
-
-?>
 <div class="genres form">
 <?php echo $this->Form->create('Genre');?>
 	<fieldset>
@@ -29,8 +18,3 @@
 		<li><?php echo $this->Html->link(__('New Movie'), array('controller' => 'movies', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
-
-<?php
-
-    }
-    ?>

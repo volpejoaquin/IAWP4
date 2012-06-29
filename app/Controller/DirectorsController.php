@@ -39,24 +39,35 @@ var $paginate = array('Director' => array('limit' => 3,'page' => 1));
  * @return void
  */
 	public function add() {
-		if ($this->request->is('post')) {
-			$this->Director->create();
-			if ($this->Director->save($this->request->data)) {
-			
-				//Foto default
-				$id = $this->Director->id;
-				 
-				$path = dirname(__DIR__);
-				copy($path.'\webroot\img\directors\director0.jpg', $path.'\webroot\img\directors\director'.++$id.'.jpg');
-				
-				$this->Session->setFlash(__('The director has been saved'));
-				$this->redirect(array('action' => 'index'));
-			} else {
-				$this->Session->setFlash(__('The director could not be saved. Please, try again.'));
-			}
+		if(!isset($_SESSION)) {
+			session_start();
 		}
-		$movies = $this->Director->Movie->find('list');
-		$this->set(compact('movies'));
+	
+		if(!isset($_SESSION['loggedin']))
+		{
+			$this->redirect(array('controller' => 'login','action' => 'index'));
+		}
+		else
+		{		
+			if ($this->request->is('post')) {
+				$this->Director->create();
+				if ($this->Director->save($this->request->data)) {
+				
+					//Foto default
+					$id = $this->Director->id;
+					 
+					$path = dirname(__DIR__);
+					copy($path.'\webroot\img\directors\director0.jpg', $path.'\webroot\img\directors\director'.++$id.'.jpg');
+					
+					$this->Session->setFlash(__('The director has been saved'));
+					$this->redirect(array('action' => 'index'));
+				} else {
+					$this->Session->setFlash(__('The director could not be saved. Please, try again.'));
+				}
+			}
+			$movies = $this->Director->Movie->find('list');
+			$this->set(compact('movies'));
+		}
 	}
 
 /**
@@ -66,22 +77,33 @@ var $paginate = array('Director' => array('limit' => 3,'page' => 1));
  * @return void
  */
 	public function edit($id = null) {
-		$this->Director->id = $id;
-		if (!$this->Director->exists()) {
-			throw new NotFoundException(__('Invalid director'));
+		if(!isset($_SESSION)) {
+			session_start();
 		}
-		if ($this->request->is('post') || $this->request->is('put')) {
-			if ($this->Director->save($this->request->data)) {
-				$this->Session->setFlash(__('The director has been saved'));
-				$this->redirect(array('action' => 'index'));
-			} else {
-				$this->Session->setFlash(__('The director could not be saved. Please, try again.'));
+	
+		if(!isset($_SESSION['loggedin']))
+		{
+			$this->redirect(array('controller' => 'login','action' => 'index'));
+		}
+		else
+		{
+			$this->Director->id = $id;
+			if (!$this->Director->exists()) {
+				throw new NotFoundException(__('Invalid director'));
 			}
-		} else {
-			$this->request->data = $this->Director->read(null, $id);
+			if ($this->request->is('post') || $this->request->is('put')) {
+				if ($this->Director->save($this->request->data)) {
+					$this->Session->setFlash(__('The director has been saved'));
+					$this->redirect(array('action' => 'index'));
+				} else {
+					$this->Session->setFlash(__('The director could not be saved. Please, try again.'));
+				}
+			} else {
+				$this->request->data = $this->Director->read(null, $id);
+			}
+			$movies = $this->Director->Movie->find('list');
+			$this->set(compact('movies'));
 		}
-		$movies = $this->Director->Movie->find('list');
-		$this->set(compact('movies'));
 	}
 
 /**

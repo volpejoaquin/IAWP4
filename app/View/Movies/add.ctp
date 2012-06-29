@@ -1,17 +1,3 @@
-<?php
-     if(!isset($_SESSION)) {
-     session_start();
-}
-    
-    if(!isset($_SESSION['loggedin']))
-    {
-      echo "<script language='Javascript'>location.href='/IAWP4/admin'</script>";
-    }
-    else
-    {
-
-?>
-
 <div class="movies form">
 <?php 
 
@@ -59,9 +45,3 @@ echo "</form>";
                 <li> <?php echo $this->Html->link(__('Nuevo Escritor'), array('controller' => 'writers', 'action' => 'add')); ?> </li>
           </ul>
 </div>
-
-
-<?php
-
-    }//end "Esta loguado"
-    ?>

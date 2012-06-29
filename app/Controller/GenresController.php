@@ -39,23 +39,34 @@ var $paginate = array('Genre' => array('limit' => 3,'page' => 1));
  * @return void
  */
 	public function add() {
-		if ($this->request->is('post')) {
-			$this->Genre->create();
-			if ($this->Genre->save($this->request->data)) {
-				
-				$id = $this->Genre->id;
-				
-				$path = dirname(__DIR__);
-				copy($path.'\webroot\img\genres\genre0.png', $path.'\webroot\img\genres\genre'.++$id.'.png');
-			
-				$this->Session->setFlash(__('The genre has been saved'));
-				$this->redirect(array('action' => 'index'));
-			} else {
-				$this->Session->setFlash(__('The genre could not be saved. Please, try again.'));
-			}
+		if(!isset($_SESSION)) {
+			session_start();
 		}
-		$movies = $this->Genre->Movie->find('list');
-		$this->set(compact('movies'));
+	
+		if(!isset($_SESSION['loggedin']))
+		{
+			$this->redirect(array('controller' => 'login','action' => 'index'));
+		}
+		else
+		{
+			if ($this->request->is('post')) {
+				$this->Genre->create();
+				if ($this->Genre->save($this->request->data)) {
+					
+					$id = $this->Genre->id;
+					
+					$path = dirname(__DIR__);
+					copy($path.'\webroot\img\genres\genre0.png', $path.'\webroot\img\genres\genre'.++$id.'.png');
+				
+					$this->Session->setFlash(__('The genre has been saved'));
+					$this->redirect(array('action' => 'index'));
+				} else {
+					$this->Session->setFlash(__('The genre could not be saved. Please, try again.'));
+				}
+			}
+			$movies = $this->Genre->Movie->find('list');
+			$this->set(compact('movies'));
+		}
 	}
 
 /**
@@ -65,22 +76,33 @@ var $paginate = array('Genre' => array('limit' => 3,'page' => 1));
  * @return void
  */
 	public function edit($id = null) {
-		$this->Genre->id = $id;
-		if (!$this->Genre->exists()) {
-			throw new NotFoundException(__('Invalid genre'));
+		if(!isset($_SESSION)) {
+			session_start();
 		}
-		if ($this->request->is('post') || $this->request->is('put')) {
-			if ($this->Genre->save($this->request->data)) {
-				$this->Session->setFlash(__('The genre has been saved'));
-				$this->redirect(array('action' => 'index'));
-			} else {
-				$this->Session->setFlash(__('The genre could not be saved. Please, try again.'));
+	
+		if(!isset($_SESSION['loggedin']))
+		{
+			$this->redirect(array('controller' => 'login','action' => 'index'));
+		}
+		else
+		{
+			$this->Genre->id = $id;
+			if (!$this->Genre->exists()) {
+				throw new NotFoundException(__('Invalid genre'));
 			}
-		} else {
-			$this->request->data = $this->Genre->read(null, $id);
+			if ($this->request->is('post') || $this->request->is('put')) {
+				if ($this->Genre->save($this->request->data)) {
+					$this->Session->setFlash(__('The genre has been saved'));
+					$this->redirect(array('action' => 'index'));
+				} else {
+					$this->Session->setFlash(__('The genre could not be saved. Please, try again.'));
+				}
+			} else {
+				$this->request->data = $this->Genre->read(null, $id);
+			}
+			$movies = $this->Genre->Movie->find('list');
+			$this->set(compact('movies'));
 		}
-		$movies = $this->Genre->Movie->find('list');
-		$this->set(compact('movies'));
 	}
 
 /**
