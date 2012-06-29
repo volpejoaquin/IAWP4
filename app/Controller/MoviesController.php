@@ -171,22 +171,24 @@ var $uses = array('Movie', 'Actor', 'Director', 'Writer', 'Genres');
 					//Id pelicula a relacionar
 					$cant = sizeof($this->request->data["RMovie"]["RMovie"]);
 					
-					for ($i = 0; $i < $cant; $i++) {
-						$idRMovie = $this->request->data["RMovie"]["RMovie"][$i];
-						var_dump($idRMovie);
-						
-						//Pelicula a relacionar
-						$RMovieAnt = $this->Movie->read(null, $idRMovie);
+					if ($this->request->data["RMovie"]["RMovie"] != "" ) {
+						for ($i = 0; $i < $cant; $i++) {
+							$idRMovie = $this->request->data["RMovie"]["RMovie"][$i];
+							var_dump($idRMovie);
+							
+							//Pelicula a relacionar
+							$RMovieAnt = $this->Movie->read(null, $idRMovie);
 
-						//Guardo id de peliculas a relacionar
-						$RMovie["Movie"]["id"] = $RMovieAnt["Movie"]["id"];
-					
-						if (sizeof($RMovieAnt["RMovie"]) == 0) {
-							$RMovie["RMovie"]["RMovie"]  = array($id);
-						}
+							//Guardo id de peliculas a relacionar
+							$RMovie["Movie"]["id"] = $RMovieAnt["Movie"]["id"];
 						
-						//Guardo los cambios
-						$this->Movie->save($RMovie);
+							if (sizeof($RMovieAnt["RMovie"]) == 0) {
+								$RMovie["RMovie"]["RMovie"]  = array($id);
+							}
+							
+							//Guardo los cambios
+							$this->Movie->save($RMovie);
+						}
 					}
 					
 					$this->Session->setFlash(__('Se guardaron los cambios!'));
