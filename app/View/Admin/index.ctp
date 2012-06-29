@@ -1,6 +1,4 @@
-	
 <?php
-	session_start(); // NEVER forget this!
 
     $nombre= $_SESSION['name'];?>
 <div class='center'>
