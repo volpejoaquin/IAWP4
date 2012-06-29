@@ -6,6 +6,7 @@ App::uses('AppController', 'Controller');
  * 
  */
 class LoginController extends AppController {
+var $helpers = array('Html','Form'); 
 
  /*
 var $components  = array('Auth');
@@ -49,19 +50,17 @@ protected function initAuth(){
 /**
  * 
  */
-        public function login()
-        {
-            
-            
-        }
+	public function login() {
+		
+	}
         
 /**
 * 
 */
-        public function logout()
-        {
-            
-        }
+	public function logout()
+	{
+		
+	}
         
 }
 ?>

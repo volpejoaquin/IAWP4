@@ -151,6 +151,17 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 	margin-right:140px;
 }
 
+#logoutAdmin  {
+	text-align:right;
+}
+
+#logoutAdmin .adminLogout {
+	color:red !Important;
+	text-decoration:none;
+	padding-left:40px;
+	background:url(images/admin-logo.png) 0px 1px no-repeat;
+}
+
 
 .geners .marcoImg {
 	position:relative;
