@@ -1,6 +1,8 @@
 ﻿<?php
 
-session_start();
+if(!isset($_SESSION)){
+	session_start();
+} 
 
 App::uses('AppController', 'Controller');
 /**
@@ -17,7 +19,6 @@ class LoginController extends AppController {
  * @return void
  */
 	public function index() {
-	 
             if(isset($_SESSION['loggedin']))
             {
                 //Redireccion al /admin
@@ -25,16 +26,6 @@ class LoginController extends AppController {
             } 
     }
 
-            
-/**
- * view method
- *
- * @param string $id
- * @return void
- */
-	public function view($id = null) {
-		
-	}
 /**
  * 
  */

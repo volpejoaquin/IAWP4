@@ -1,4 +1,10 @@
 <?php
+
+if(!isset($_SESSION)){
+	session_start();
+} 
+
+
 App::uses('AppController', 'Controller');
 /**
  * Admin Controller
@@ -33,27 +39,11 @@ protected function initAuth(){
  * @return void
  */
 	public function index() {
-		
-	}
-
-/**
- * edit method
- *
- * @param string $id
- * @return void
- */
-	public function edit() {
-	
-	}
-
-/**
- * delete method
- *
- * @param string $id
- * @return void
- */
-	public function delete() {
-	
+		if(!isset($_SESSION['loggedin']))
+		{
+			//Redireccion al /admin
+			$this->redirect(array('controller' => 'login','action' => 'index'));
+		} 
 	}
 }
 ?>
